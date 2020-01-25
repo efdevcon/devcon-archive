@@ -1,0 +1,8 @@
+.archives {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.archiveContainer {
+  scroll-snap-align: center;
+}

@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background: lightgray;
+  color: white;
+  font-size: .8rem;
+}
+
+.copyright {
+  padding-left: 24px;
+}
+
+.link {
+  margin-left: auto;
+  padding-right: 24px;
+}
+
+.footer-link {
+  color: white;
+}

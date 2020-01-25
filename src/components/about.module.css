@@ -1,0 +1,24 @@
+.devconAbout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background: rgb(183,182,182);
+  background: linear-gradient(180deg, rgba(183,182,182,1) 0%);
+  color: white;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  margin-bottom: 12px;
+}
+
+.container {
+  padding: 16px;
+}
+
+.aboutHeader {
+
+}
+
+.aboutText {
+  max-width: 45ch;
+}

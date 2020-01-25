@@ -1,37 +1,28 @@
 import React from "react";
 
+import "../index.css";
+
+/* Components */
+import About from "../components/about";
+import Archives from "../components/archives";
+import Devcon6 from "../components/devcon6";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import Hero from "../components/hero";
+
 const Index = () => (
   <div className="home">
-    { /* Hero Component */}
-    <div className="hero">
-      {/* Navbar Component */}
-      <div>Navbar here</div>
-      <div>Devcon Icon here</div>
-      <h1>Devcon</h1>
-      <p>Annual conference for all Ethereum developers, researchers, thinkers, and makers</p>
-      { /* Call to Action/Anchor Tag Component */ }
-      <p className="call-to-action">Read More</p>
-    </div>
-   
-    { /* Devcon 6 Component */}
-    <div className="devcon-6-bar">
-      <h4>Devcon 6: October 2020. More info coming soon.</h4>
-    </div>
+    <Header />
 
-    { /* Devcon Archive Component */ }
-    <div className="devcon-archive">Devcon Archive</div>
+    <Hero /> 
+    
+    <Devcon6 />
+    
+    <Archives />
 
-    { /* Devcon About Component */}
-    <div className="devcon-about">
-      <h3>What is Devcon?</h3>
-      <p>Lorem ipsum...</p>
-    </div>
+    <About />
 
-    { /* Devcon Footer Component */}
-    <div className="footer">
-      <div className="copyright"> (c) Ethereum Foundation, 2020</div>
-      <div className="link"><a href="https://devcon.org">Devcon</a></div>
-    </div>
+    <Footer />
   </div>
 );
 

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 24px;
+  position: sticky;
+  top: 0;
+  margin-left: auto;
+  background: lightgray;
+  z-index: 2;
+}
+
+.headerLink {
+  padding-left: 20px;
+  color: gray;
+  text-decoration: none;
+}

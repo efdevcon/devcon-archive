@@ -1,0 +1,28 @@
+.archive {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  scroll-snap-align: center;
+  scroll-margin-top: 1em;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.archive:nth-child(odd) {
+  background: lightgray;
+}
+
+.archive:nth-child(even) {
+  background: gray;
+}
+
+.archiveCol {
+  padding: 16px;
+}
+
+.archiveText {
+  max-width: 65ch;
+  padding-top: 12px;
+  font-weight: 200;
+}

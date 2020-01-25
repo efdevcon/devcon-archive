@@ -1,0 +1,10 @@
+/*
+ * This is for global CSS values only.
+ * All class selected elements should be defined by CSS modules
+ */
+
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  line-height: 1.2;
+}

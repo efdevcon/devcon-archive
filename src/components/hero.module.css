@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightgray;
+  height: 75vh;
+}
+
+.heroText {
+  max-width: 40ch;
+  font-weight: 200;
+  text-align: center;
+}
+
+.callToAction {
+  font-weight: 600;
+}
+
+.callToActionLink {
+  color: black;
+}
+
+.callToActionLink:visited {
+  color: black;
+}
