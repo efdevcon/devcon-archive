@@ -4,6 +4,7 @@ import React from "react";
 import "../index.css";
 
 /* Components */
+import DetailsAbout from "./details_about";
 import Footer from "./footer";
 import Header from "./header";
 import Navbar from "./navbar";
@@ -16,7 +17,7 @@ const Details = (props) => (
     <div>Details Hero Component</div>
     {/* TODO remove hard encoding */}
     <Navbar devcon="devcon-0" />
-    <div>Details About Component</div>
+    <DetailsAbout />
     <div>Featured Videos Component</div>
     <div>Featured Supporters Component</div>
     <Footer />

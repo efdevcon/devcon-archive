@@ -13,7 +13,7 @@ nav {
 }
 
 .navitem {
-  padding-top: 8px;
+  padding: 8px;
   margin-left: 24px;
 }
 
@@ -23,11 +23,11 @@ nav {
   font-weight: 400;
 }
 
-.navlink:hover {
+.navitem:hover > .navlink {
   font-weight: 600;
 }
 
 .navitem:hover {
   border-bottom: 8px solid white;
-  margin-bottom: -8px;
+  margin-bottom: -8px; /* Negative margins allow us to create the effect of an underline bar at the bottom of the navbar */
 }

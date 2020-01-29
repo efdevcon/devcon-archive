@@ -1,0 +1,16 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutColumn {
+  margin: 24px;
+}
+
+.aboutText {
+  max-width: 60ch;
+  color: gray;
+}
