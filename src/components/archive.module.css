@@ -26,3 +26,12 @@
   padding-top: 12px;
   font-weight: 200;
 }
+
+.archiveLink {
+  color: black;
+  text-decoration: none;
+}
+
+.archiveLink:hover {
+  text-decoration: underline black;
+}
