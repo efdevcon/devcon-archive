@@ -6,6 +6,7 @@ import "../index.css";
 /* Components */
 import DetailsAbout from "./details_about";
 import FeaturedVideo from "./featured_video";
+import FeaturedSupporters from "./featured_supporters";
 import Footer from "./footer";
 import Header from "./header";
 import Navbar from "./navbar";
@@ -20,7 +21,7 @@ const Details = (props) => (
     <Navbar devcon="devcon-0" />
     <DetailsAbout />
     <FeaturedVideo />
-    <div>Featured Supporters Component</div>
+    <FeaturedSupporters />
     <Footer />
   </div>
 );
