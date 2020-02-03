@@ -4,8 +4,8 @@ import React from "react";
 import "../index.css";
 
 /* Components */
+import ArchiveHero from "./archive_hero";
 import DetailsAbout from "./details_about";
-import DetailsHero from "./details_hero";
 import FeaturedVideo from "./featured_video";
 import FeaturedSupporters from "./featured_supporters";
 import Footer from "./footer";
@@ -17,7 +17,7 @@ const Details = (props) => (
     
     <Header />
     {/* TODO remove hard encoding */}
-    <DetailsHero
+    <ArchiveHero
       number="1"
       location="London, United Kingdom"
       date="Nov 9 - 13, 2015"
