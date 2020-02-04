@@ -18,7 +18,7 @@ const Details = (props) => (
     <Header />
     {/* TODO remove hard encoding */}
     <ArchiveHero
-      number="1"
+      number="0"
       location="London, United Kingdom"
       date="Nov 9 - 13, 2015"
     />

@@ -15,7 +15,7 @@ const Videos = () => (
   <div>
     <Header />
     <ArchiveHero
-      numer="0"
+      number="0"
       location="London, United Kingdom"
       date="Nov 9 - 13, 2015"
     />
@@ -24,7 +24,7 @@ const Videos = () => (
         All | Main Stage | Second Stage | Breakout Rooms
       </div>
     </main>
-    <Navbar devcon="0" />
+    <Navbar devcon="devcon-0" />
     <Footer />
   </div>
 );

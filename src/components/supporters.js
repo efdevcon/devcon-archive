@@ -18,7 +18,7 @@ const Supporters = () => (
       location="London, United Kingdom"
       date="Nov 9 - 13, 2015"
     />
-    <Navbar devcon="0" />
+    <Navbar devcon="devcon-0" />
     <Footer />
   </div>
 );
