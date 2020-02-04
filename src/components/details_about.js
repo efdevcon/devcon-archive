@@ -8,31 +8,34 @@ const DetailsAbout = props => (
   <div className={css.about}>
     <div className={css.aboutColumn}>TODO: Image goes here</div>
     <div className={css.aboutColumn}>
-      <h2>First Devcon, ever!</h2>
+      <h2>Devcon Header Text</h2>
       <p className={css.aboutText}>
-        {/* Text courtesy of placehodler.shapelabs.co */}
-        ERC721 token standard allowed many mainnet because ERC20 token standard
-        detected few robust proof of work, yet when Monero data mining the
-        peer-to-peer block height during lots of blockchain, Cardano chose many
-        non-fungible token during many decentralised autonomous organisation.
-        Nexo is wary of few trusted ICO of some crypto because Basic Attention
-        Token limited some reinvested exchange, however, Waves forgot lots of
-        over the counter behind some gas because Mt. Gox stacks many provably
-        fair deterministic wallet until a SHA 256! Ether launched some smart
-        contract! When Nexo specialises in many wash trade, they proves some
-        constant proof of stake, for IPO broadcast the provably fair transaction
-        fee. Ravencoin launched lots of peer-to-peer trustless when Ontology
-        forgot lots of astroturfing in many REKT, therefore, Ravencoin built
-        lots of considerable SHA 256 because Stellar waited lots of airdrop.
-        Nexo halving some trusted cold wallet after a faucet.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Pulvinar elementum
+        integer enim neque volutpat ac tincidunt vitae. Est ante in nibh mauris
+        cursus mattis molestie. Egestas congue quisque egestas diam. Vestibulum
+        rhoncus est pellentesque elit ullamcorper dignissim cras. Et tortor at
+        risus viverra adipiscing at. Nec feugiat nisl pretium fusce id velit ut.
+        Nulla at volutpat diam ut venenatis tellus in metus. Ultrices eros in
+        cursus turpis massa tincidunt dui ut ornare. Vitae purus faucibus ornare
+        suspendisse sed nisi lacus. Aliquam id diam maecenas ultricies mi eget
+        mauris pharetra. Cras pulvinar mattis nunc sed blandit libero. Sed id
+        semper risus in hendrerit gravida. Consectetur a erat nam at lectus
+        urna. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas
+        purus. Tincidunt tortor aliquam nulla facilisi cras. Tincidunt lobortis
+        feugiat vivamus at augue. Turpis nunc eget lorem dolor sed. Id venenatis
+        a condimentum vitae sapien pellentesque habitant.
       </p>
 
       <p className={css.aboutText}>
-        When Ripple built a flippening for many flippening, Bitcoin Cash forgot
-        lots of instant circulating supply, yet OmiseGo limited few burned
-        volume during few digital signature! Nexo based on few trustless.
-        Someone formed the instant proof of stake, for OmiseGo threw away the
-        soft fork since blockchain cut off some quick all-time-low!
+        Volutpat est velit egestas dui id ornare arcu odio. Proin libero nunc
+        consequat interdum varius sit amet mattis vulputate. Lorem ipsum dolor
+        sit amet consectetur adipiscing elit ut aliquam. Velit laoreet id donec
+        ultrices tincidunt arcu non sodales neque. Volutpat consequat mauris
+        nunc congue nisi vitae suscipit tellus mauris. Interdum consectetur
+        libero id faucibus. Luctus accumsan tortor posuere ac ut consequat.
+        Cursus in hac habitasse platea. Et netus et malesuada fames ac turpis
+        egestas. Odio tempor orci dapibus ultrices.
       </p>
     </div>
   </div>
