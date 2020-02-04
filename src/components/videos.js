@@ -1,6 +1,7 @@
 import React from "react";
 
 /* CSS */
+import css from "./videos.module.css";
 import "../index.css";
 
 /* Components */
@@ -18,6 +19,11 @@ const Videos = () => (
       location="London, United Kingdom"
       date="Nov 9 - 13, 2015"
     />
+    <main>
+      <div className={css.filters}>
+        All | Main Stage | Second Stage | Breakout Rooms
+      </div>
+    </main>
     <Navbar devcon="0" />
     <Footer />
   </div>
