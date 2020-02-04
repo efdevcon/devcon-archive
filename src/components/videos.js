@@ -11,20 +11,20 @@ import Header from "./header";
 import Navbar from "./navbar";
 
 
-const Videos = () => (
+const Videos = (props) => (
   <div>
     <Header />
     <ArchiveHero
-      number="0"
-      location="London, United Kingdom"
-      date="Nov 9 - 13, 2015"
+      number={props.number}
+      location={props.location}
+      date={props.date}
     />
     <main>
       <div className={css.filters}>
         All | Main Stage | Second Stage | Breakout Rooms
       </div>
     </main>
-    <Navbar devcon="devcon-0" />
+    <Navbar devcon={`devcon-${props.number}`} />
     <Footer />
   </div>
 );

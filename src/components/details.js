@@ -16,13 +16,12 @@ const Details = (props) => (
   <div>
     
     <Header />
-    {/* TODO remove hard encoding */}
     <ArchiveHero
-      number="0"
-      location="London, United Kingdom"
-      date="Nov 9 - 13, 2015"
+      number={props.number}
+      location={props.location}
+      date={props.date}
     />
-    <Navbar devcon="devcon-0" />
+    <Navbar devcon={`devcon-${props.number}`} />
     <DetailsAbout />
     <FeaturedVideo />
     <FeaturedSupporters />
