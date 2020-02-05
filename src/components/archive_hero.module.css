@@ -1,0 +1,8 @@
+.archiveHero {
+  height: 30vh;
+  background: lightgray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

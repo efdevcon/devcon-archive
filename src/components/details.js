@@ -4,7 +4,10 @@ import React from "react";
 import "../index.css";
 
 /* Components */
+import ArchiveHero from "./archive_hero";
 import DetailsAbout from "./details_about";
+import FeaturedVideo from "./featured_video";
+import FeaturedSupporters from "./featured_supporters";
 import Footer from "./footer";
 import Header from "./header";
 import Navbar from "./navbar";
@@ -13,13 +16,15 @@ const Details = (props) => (
   <div>
     
     <Header />
-
-    <div>Details Hero Component</div>
-    {/* TODO remove hard encoding */}
-    <Navbar devcon="devcon-0" />
+    <ArchiveHero
+      number={props.number}
+      location={props.location}
+      date={props.date}
+    />
+    <Navbar devcon={`devcon-${props.number}`} />
     <DetailsAbout />
-    <div>Featured Videos Component</div>
-    <div>Featured Supporters Component</div>
+    <FeaturedVideo />
+    <FeaturedSupporters />
     <Footer />
   </div>
 );
