@@ -10,8 +10,7 @@ import Footer from "./footer";
 import Header from "./header";
 import Navbar from "./navbar";
 
-
-const Videos = (props) => (
+const Videos = props => (
   <div>
     <Header />
     <ArchiveHero

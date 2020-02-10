@@ -12,9 +12,8 @@ import Footer from "./footer";
 import Header from "./header";
 import Navbar from "./navbar";
 
-const Details = (props) => (
+const Details = props => (
   <div>
-    
     <Header />
     <ArchiveHero
       number={props.number}

@@ -7,7 +7,7 @@ import "../index.css";
 /* Components */
 import Logo from "./logo";
 
-const ArchiveHero = (props) => (
+const ArchiveHero = props => (
   <div className={css.archiveHero}>
     <Logo />
     <div>

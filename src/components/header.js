@@ -5,8 +5,14 @@ import "../index.css";
 
 const Header = () => (
   <header className={css.header}>
-    <Link className={css.headerLink} to="/">Archive</Link>
-    <div><a className={css.headerLink} href="https://blog.ethereum.org">Blog</a></div> 
+    <Link className={css.headerLink} to="/">
+      Archive
+    </Link>
+    <div>
+      <a className={css.headerLink} href="https://blog.ethereum.org">
+        Blog
+      </a>
+    </div>
   </header>
 );
 
