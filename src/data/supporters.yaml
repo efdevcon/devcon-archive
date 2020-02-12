@@ -1,0 +1,37 @@
+---
+- devcon: Devcon0
+  - tier: Supporters
+    supporters:
+      -
+        name: test
+        logo: ./sample.png
+      -
+        name: test2
+        logo: ./sample.png
+- devcon: Devcon1
+  - tier: Supporters
+    supporters:
+      -
+        name: test
+        logo: ./sample.png
+      -
+        name: test2
+        logo: ./sample.png
+- devcon: Devcon2
+  - tier: S Tier
+    supporters:
+      -
+        name: S Tier Supporter 1
+        logo: ./sample.png
+      -
+        name: S Tier Supporter 2
+        logo: ./sample.png
+  - tier: Tier 1
+    supporters:
+      -
+        name: Tier 1 Supporter 1
+        logo: ./sample.png
+      -
+        name: Tier 1 Supporter 2
+        logo: ./sample.png
+...
