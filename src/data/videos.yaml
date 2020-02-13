@@ -1,5 +1,5 @@
 ﻿-
-    devcon: Devcon0
+    devcon: devcon-0
     data:
         -
             talk: null
@@ -102,7 +102,7 @@
             room: 'Main Room'
             type: Talk
 -
-    devcon: Devcon1
+    devcon: devcon-1
     data:
         -
             talk: null
@@ -885,7 +885,7 @@
             room: 'Main Stage'
             type: Talk
 -
-    devcon: Devcon2
+    devcon: devcon-2
     data:
         -
             talk: null
@@ -1608,7 +1608,7 @@
             room: 'Main Stage'
             type: Talk
 -
-    devcon: Devcon3
+    devcon: devcon-3
     data:
         -
             talk: null
@@ -2731,7 +2731,7 @@
             room: 'Breakout Hall'
             type: Talk
 -
-    devcon: Devcon4
+    devcon: devcon-4
     data:
         -
             talk: null
@@ -4234,7 +4234,7 @@
             room: 'Ultra Violet'
             type: Talk
 -
-    devcon: Devcon5
+    devcon: devcon-5
     data:
         -
             talk: null
