@@ -10,7 +10,6 @@ import ArchiveHero from "./archive_hero";
 import Footer from "./footer";
 import Header from "./header";
 import Navbar from "./navbar";
-import VideoCard from "./video_card";
 
 const Videos = props => {
   const data = useStaticQuery(graphql`
@@ -43,19 +42,25 @@ const Videos = props => {
         <div className={css.filters}>
           All | Main Stage | Second Stage | Breakout Rooms
         </div>
-        <div>
+        <div className={css.videos}>
           {data.allVideosYaml.edges.map((edge, index) => (
-            <div key={index}>
-              <ul>
-                {edge.node.devcon === `devcon-${props.number}` &&
-                  edge.node.data.map(video => (
-                    <VideoCard
+            <div className={css.videosGrid} key={index}>
+              {edge.node.devcon === `devcon-${props.number}` &&
+                edge.node.data.map(video => (
+                  <div className={css.videoCard}>
+                    <iframe
+                      frameborder="0"
                       src={video.url}
                       title={video.title}
-                      speakers={video.speakers}
+                      allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowfullscreen
                     />
-                  ))}
-              </ul>
+                    <p className={css.title}>{video.title}</p>
+                    <p className={css.speakers}>By {video.speakers}</p>
+                  </div>
+                ))}
             </div>
           ))}
         </div>
