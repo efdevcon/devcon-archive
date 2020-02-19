@@ -10,8 +10,7 @@ import Footer from "./footer";
 import Header from "./header";
 import Navbar from "./navbar";
 
-const Supporters = (props) => {
- 
+const Supporters = props => {
   return (
     <div>
       <Header />
@@ -27,7 +26,7 @@ const Supporters = (props) => {
       </main>
       <Footer />
     </div>
-  )
+  );
 };
 
 export default Supporters;

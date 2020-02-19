@@ -26,7 +26,7 @@ const Logo = () => {
         alt="Ethereum Logo"
       />
     </div>
-  )
+  );
 };
 
 export default Logo;

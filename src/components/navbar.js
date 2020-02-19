@@ -8,7 +8,6 @@ import "../index.css";
 const Navbar = props => (
   <nav>
     <ul className={css.navbar}>
-
       <li className={css.navitem}>
         <Link className={css.navlink} to={`${props.devcon}/details`}>
           Details
@@ -26,7 +25,6 @@ const Navbar = props => (
           Supporters
         </Link>
       </li>
-
     </ul>
   </nav>
 );

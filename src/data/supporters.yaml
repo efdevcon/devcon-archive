@@ -1,0 +1,1221 @@
+---
+- devcon: devcon-1
+  tiers:
+    - tier: supporters
+      supporters:
+        - name: Consensys
+          url: null
+          logo: null
+        - name: Microsoft
+          url: null
+          logo: null
+        - name: Augur
+          url: null
+          logo: null
+        - name: Blockchain Labs
+          url: null
+          logo: null
+        - name: Aron Capital Management Co., Ltd.
+          url: null
+          logo: null
+        - name: Vig Rate Digital Solutions ?
+          url: null
+          logo: null
+        - name: ThoughtWorks
+          url: null
+          logo: null
+        - name: Slock.it
+          url: null
+          logo: null
+- devcon: devcon-2
+  tiers:
+    - tier: Premier
+      supporters:
+        - name: Microsoft
+          url: "https://azure.microsoft.com/en-us/solutions/blockchain/"
+          logo: null
+    - tier: Platinum
+      supporters:
+        - name: Dinar Dirham
+          url: "https://www.dinardirham.com/"
+          logo: null
+        - name: Wanxiang Blockchain Labs
+          url: "https://blockchainlabs.com"
+          logo: null
+    - tier: Gold
+      supporters:
+        - name: Banco Santander
+          url: "http://www.santander.com/csgs/Satellite/CFWCSancomQP01/es_ES/Corporativo.html?leng=en_GB"
+          logo: null
+        - name: Synereo
+          url: "https://www.synereo.com"
+          logo: null
+        - name: Consensys
+          url: "https://consensys.net"
+          logo: null
+        - name: "<ether.camp>"
+          url: "https://hack.ether.camp/#/home"
+          logo: null
+    - tier: Community
+      supporters:
+        - name: BlackPine
+          url: "http://bppe.com/"
+          logo: null
+        - name: Melonport
+          url: "http://melonport.com"
+          logo: null
+        - name: Omise
+          url: "https://www.omise.co"
+          logo: null
+        - name: Smart Contract Japan
+          url: "https://smartcontract.jp"
+          logo: null
+        - name: Cryptape
+          url: "http://cryptape.com"
+          logo: null
+        - name: B9lab
+          url: "https://academy.b9lab.com"
+          logo: null
+        - name: Oraclize
+          url: "http://oraclize.it"
+          logo: null
+        - name: LinkTime
+          url: "http://www.linktimetech.com"
+          logo: null
+        - name: Coin Center
+          url: "http://coincenter.org"
+          logo: null
+        - name: "Cognizant.com"
+          url: "https://www.cognizant.com"
+          logo: null
+        - name: "vDice.io"
+          url: "https://www.vdice.io"
+          logo: null
+        - name: Blockmatics
+          url: "http://blockmatics.tech"
+          logo: null
+        - name: MyEtherWallet
+          url: "https://www.myetherwallet.com"
+          logo: null
+        - name: Ethfans
+          url: "http://ethfans.org"
+          logo: null
+        - name: ConsenLabs
+          url: "http://consenlabs.com"
+          logo: null
+- devcon: devcon-3
+  tiers:
+    - tier: Universal
+      supporters:
+        - name: Status
+          url: "https://status.im"
+          logo: null
+    - tier: Galactic
+      supporters:
+        - name: Microsoft
+          url: "https://microsoft.com/blockchain"
+          logo: null
+    - tier: Global
+      supporters:
+        - name: "Bitcoin.com"
+          url: "https://www.bitcoin.com"
+          logo: null
+        - name: Omisego
+          url: "https://omg.omise.co"
+          logo: null
+        - name: Wanxiang Blockchain Labs
+          url: "https://www.blockchainlabs.org"
+          logo: null
+        - name: Santiment
+          url: "https://santiment.net"
+          logo: null
+        - name: Funfair
+          url: "https://funfair.io"
+          logo: null
+    - tier: Ecosystem
+      supporters:
+        - name: JAAK
+          url: "https://jaak.io"
+          logo: null
+        - name: ShapeShift
+          url: "https://shapeshift.io"
+          logo: null
+        - name: iExec
+          url: "http://iex.ec"
+          logo: null
+        - name: Polychain Capital
+          url: "http://polychain.capital"
+          logo: null
+        - name: Aragon
+          url: "https://aragon.one"
+          logo: null
+        - name: openANX
+          url: "https://www.openanx.org"
+          logo: null
+        - name: Cosmos
+          url: "https://cosmos.network"
+          logo: null
+        - name: streamr
+          url: "https://www.streamr.com"
+          logo: null
+        - name: Santander
+          url: "http://www.santander.com/csgs/Satellite/CFWCSancomQP01/es_ES/Corporativo.html?leng=en_GB"
+          logo: null
+        - name: Zcash
+          url: "https://z.cash"
+          logo: null
+        - name: Smart Contract
+          url: "http://smartcontract.jp"
+          logo: null
+        - name: Golem
+          url: "https://golem.network"
+          logo: null
+        - name: imToken
+          url: "https://token.im"
+          logo: null
+        - name: Enterprise Ethereum Alliance
+          url: "https://entethalliance.org"
+          logo: null
+        - name: Hyperledger
+          url: "https://www.hyperledger.org"
+          logo: null
+    - tier: Community
+      supporters:
+        - name: AMIS
+          url: http://am.is
+          logo: null
+        - name: Booklocal
+          url: "http://booklocal.in"
+          logo: null
+        - name: FEDEX Institute
+          url: "http://www.memphis.edu/fedex"
+          logo: null
+        - name: PACTUM
+          url: "http://pactum.io"
+          logo: null
+        - name: Friend
+          url: "https://friendup.cloud"
+          logo: null
+        - name: Etherisc
+          url: "https://etherisc.com"
+          logo: null
+        - name: tokenhouse
+          url: "http://tokenhouse.io"
+          logo: null
+        - name: Melonport
+          url: "https://melonport.com"
+          logo: null
+        - name: Akasha
+          url: "https://akasha.world"
+          logo: null
+        - name: DappHub
+          url: "http://dapphub.com"
+          logo: null
+        - name: Ledgys
+          url: "https://ledgys.io"
+          logo: null
+        - name: Decentraland
+          url: "https://decentraland.org"
+          logo: null
+        - name: Block8
+          url: "https://block8.io"
+          logo: null
+        - name: Zeppelin Solutions
+          url: "https://zeppelin.solutions"
+          logo: null
+        - name: Asseth
+          url: "http://www.asseth.fr"
+          logo: null
+        - name: Nuco
+          url: "https://nuco.io"
+          logo: null
+        - name: CRYPTIV
+          url: "https://cryptiv.com"
+          logo: null
+        - name: Linktimetech
+          url: "http://www.linktimetech.com"
+          logo: null
+        - name: Blockskye
+          url: "https://blockskye.com"
+          logo: null
+        - name: Giveth
+          url: "http://giveth.io"
+          logo: null
+        - name: Crypto Valley
+          url: "https://cryptovalley.swiss"
+          logo: null
+        - name: Paratii
+          url: "http://paratii.video"
+          logo: null
+        - name: Contribute
+          url: "http://contribute.network"
+          logo: null
+        - name: CoinFabrik
+          url: "https://www.coinfabrik.com"
+          logo: null
+        - name: letzgro
+          url: "http://letzgro.net"
+          logo: null
+        - name: LOCALETHEREUM
+          url: "http://localethereum.com"
+          logo: null
+        - name: CryptoFR
+          url: "https://slack.cryptofr.com"
+          logo: null
+        - name: Opera Incubator
+          url: "http://operaincubator.com"
+          logo: null
+        - name: "Blk.io"
+          url: "https://blk.io"
+          logo: null
+        - name: "Smith + Crown"
+          url: "https://www.smithandcrown.com"
+          logo: null
+        - name: Coin Center
+          url: "https://coincenter.org"
+          logo: null
+        - name: Eth Fans
+          url: "http://ethfans.org"
+          logo: null
+        - name: Codeando Mexico
+          url: "http://www.codeandomexico.org"
+          logo: null
+        - name: "RIAT - Laboratory for Future Crypto Economics"
+          url: "https://riat.ac.at"
+          logo: null
+- devcon: devcon-4
+  tiers:
+    - tier: Serenity
+      supporters:
+        - name: "AdEx"
+          url: "https://www.adex.network"
+          logo:
+            standard: "images/supporters/serenity/adex/adex.png"
+            hiRes: "images/supporters/serenity/adex/adex@2x.png"
+        - name: "Blockasset Ventures"
+          url: "https://blockasset.ventures"
+          logo:
+            standard: "images/supporters/serenity/blockasset-ventures/blockasset-ventures.png"
+            hiRes: "images/supporters/serenity/blockasset-ventures/blockasset-ventures@2x.png"
+        - name: "Blockchains"
+          url: "https://blockchains.com"
+          logo:
+            standard: "images/supporters/serenity/blockchains/blockchains.png"
+            hiRes: "images/supporters/serenity/blockchains/blockchains@2x.png"
+        - name: "Blockfolio"
+          url: "https://blockfolio.com"
+          logo:
+            standard: "images/supporters/serenity/blockfolio/blockfolio.png"
+            hiRes: "images/supporters/serenity/blockfolio/blockfolio@2x.png"
+        - name: "Colony"
+          url: "https://colony.io"
+          logo:
+            standard: "images/supporters/serenity/colony/colony.png"
+            hiRes: "images/supporters/serenity/colony/colony@2x.png"
+        - name: "Consensys"
+          url: "https://new.consensys.net/"
+          logo:
+            standard: "images/supporters/serenity/consensys/consensys.png"
+            hiRes: "images/supporters/serenity/consensys/consensys@2x.png"
+        - name: "OmiseGo"
+          url: "http://omisego.network"
+          logo:
+            standard: "images/supporters/serenity/omisego/omisego.png"
+            hiRes: "images/supporters/serenity/omisego/omisego@2x.png"
+        - name: "Sparkpool"
+          url: "https://eth.sparkpool.com"
+          logo:
+            standard: "images/supporters/serenity/sparkpool/sparkpool.png"
+            hiRes: "images/supporters/serenity/sparkpool/sparkpool@2x.png"
+        - name: "Status"
+          url: "https://status.im"
+          logo:
+            standard: "images/supporters/serenity/status/status.png"
+            hiRes: "images/supporters/serenity/status/status@2x.png"
+    - tier: Metropolis
+      supporters:
+        - name: "imToken"
+          url: "https://token.im"
+          logo:
+            standard: "images/supporters/metropolis/imtoken/imtoken.png"
+            hiRes: "images/supporters/metropolis/imtoken/imtoken@2x.png"
+        - name: "Kyber Network"
+          url: "https://kyber.network"
+          logo:
+            standard: "images/supporters/metropolis/kyber/kyber.png"
+            hiRes: "images/supporters/metropolis/kyber/kyber@2x.png"
+
+        - name: "Santiment"
+          url: "https://santiment.net"
+          logo:
+            standard: "images/supporters/metropolis/santiment/santiment.png"
+            hiRes: "images/supporters/metropolis/santiment/santiment@2x.png"
+
+        - name: "Shapeshift"
+          url: "https://shapeshift.io"
+          logo:
+            standard: "images/supporters/metropolis/shapeshift/shapeshift.png"
+            hiRes: "images/supporters/metropolis/shapeshift/shapeshift@2x.png"
+
+        - name: "Celer"
+          url: "https://www.celer.network"
+          logo:
+            standard: "images/supporters/metropolis/celer/celer.png"
+            hiRes: "images/supporters/metropolis/celer/celer@2x.png"
+    - tier: Homestead
+      supporters:
+        - name: "Ernst and Young"
+          url: "https://www.ey.com/en_gl"
+          logo:
+            standard: "images/supporters/homestead/ey/ey.png"
+            hiRes: "images/supporters/homestead/ey/ey@2x.png"
+        - name: "FunFair"
+          url: "https://funfair.io"
+          logo:
+            standard: "images/supporters/homestead/funfair/funfair.png"
+            hiRes: "images/supporters/homestead/funfair/funfair@2x.png"
+
+        - name: "Golem"
+          url: "https://golem.network"
+          logo:
+            standard: "images/supporters/homestead/golem/golem.png"
+            hiRes: "images/supporters/homestead/golem/golem@2x.png"
+
+        - name: "MyEtherWallet"
+          url: "https://myetherwallet.com"
+          logo:
+            standard: "images/supporters/homestead/mew/mew.png"
+            hiRes: "images/supporters/homestead/mew/mew@2x.png"
+
+        - name: "Microsoft"
+          url: "https://www.microsoft.com"
+          logo:
+            standard: "images/supporters/homestead/microsoft/microsoft.png"
+            hiRes: "images/supporters/homestead/microsoft/microsoft@2x.png"
+
+        - name: "Singular DTV"
+          url: "https://singulardtv.com"
+          logo:
+            standard: "images/supporters/homestead/sdtv/sdtv.png"
+            hiRes: "images/supporters/homestead/sdtv/sdtv@2x.png"
+
+        - name: "Wanxiang Group"
+          url: "http://www.blockchainlabs.org/index_en.html"
+          logo:
+            standard: "images/supporters/homestead/wanxiang/wanxiang.png"
+            hiRes: "images/supporters/homestead/wanxiang/wanxiang@2x.png"
+
+    - tier: Frontier
+      supporters:
+        - name: "Cosmos"
+          url: "https://cosmos.network"
+          logo:
+            standard: "images/supporters/frontier/cosmos/cosmos.png"
+            hiRes: "images/supporters/frontier/cosmos/cosmos@2x.png"
+
+        - name: "DEx.top"
+          url: "https://dex.top"
+          logo:
+            standard: "images/supporters/frontier/dex-top/dextop.png"
+            hiRes: "images/supporters/frontier/dex-top/dextop@2x.png"
+
+        - name: "Ethereum Community Fund"
+          url: "https://ecf.network"
+          logo:
+            standard: "images/supporters/frontier/ecf/ecf.png"
+            hiRes: "images/supporters/frontier/ecf/ecf@2x.png"
+
+        - name: "Energy Web Foundation"
+          url: "https://energyweb.org"
+          logo:
+            standard: "images/supporters/frontier/energy-web-foundation/energy-web-foundation.png"
+            hiRes: "images/supporters/frontier/energy-web-foundation/energy-web-foundation@2x.png"
+
+        - name: "Global Brain"
+          url: "https://globalbrains.com/en/"
+          logo:
+            standard: "images/supporters/frontier/global-brain/globalbrain.png"
+            hiRes: "images/supporters/frontier/global-brain/globalbrain@2x.png"
+
+        - name: "Harbor"
+          url: "https://harbor.com"
+          logo:
+            standard: "images/supporters/frontier/harbor/harbor.png"
+            hiRes: "images/supporters/frontier/harbor/harbor@2x.png"
+
+        - name: "iExec"
+          url: "https://iex.ec"
+          logo:
+            standard: "images/supporters/frontier/iexec/iexec.png"
+            hiRes: "images/supporters/frontier/iexec/iexec@2x.png"
+
+        - name: "Indorse"
+          url: "https://indorse.io"
+          logo:
+            standard: "images/supporters/frontier/indorse/indorse.png"
+            hiRes: "images/supporters/frontier/indorse/indorse@2x.png"
+
+        - name: "Maker DAO"
+          url: "https://makerdao.com"
+          logo:
+            standard: "images/supporters/frontier/makerdao/makerdao.png"
+            hiRes: "images/supporters/frontier/makerdao/makerdao@2x.png"
+
+        - name: "NuCypher"
+          url: "https://www.nucypher.com"
+          logo:
+            standard: "images/supporters/frontier/nucypher/nucypher.png"
+            hiRes: "images/supporters/frontier/nucypher/nucypher@2x.png"
+
+        - name: "Santander"
+          url: "https://www.santanderbank.com"
+          logo:
+            standard: "images/supporters/frontier/santander/santander.png"
+            hiRes: "images/supporters/frontier/santander/santander@2x.png"
+
+        - name: "Totle"
+          url: "https://www.totle.com"
+          logo:
+            standard: "images/supporters/frontier/totle/totle.png"
+            hiRes: "images/supporters/frontier/totle/totle@2x.png"
+
+        - name: "Winding Tree"
+          url: "https://windingtree.com"
+          logo:
+            standard: "images/supporters/frontier/windingtree/windingtree.png"
+            hiRes: "images/supporters/frontier/windingtree/windingtree@2x.png"
+
+        - name: "Zeppelin"
+          url: "https://zeppelin.solutions"
+          logo:
+            standard: "images/supporters/frontier/zeppelin/zeppelin-color.png"
+            hiRes: "images/supporters/frontier/zeppelin/zeppelin-color@2x.png"
+
+    - tier: Scholarship
+      supporters:
+        - name: "Crypto.com"
+          url: "https://crypto.com/en/index.html"
+          logo:
+            standard: "images/supporters/scholarships-grants/crypto-dot-com/crypto-dot-com.png"
+            hiRes: "images/supporters/scholarships-grants/crypto-dot-com/crypto-dot-com@2x.png"
+
+        - name: "Mainframe"
+          url: "https://mainframe.com"
+          logo:
+            standard: "images/supporters/scholarships-grants/mainframe/mainframe.png"
+            hiRes: "images/supporters/scholarships-grants/mainframe/mainframe@2x.png"
+
+        - name: "Orbs"
+          url: "https://orbs.com"
+          logo:
+            standard: "images/supporters/scholarships-grants/orbs/orbs.png"
+            hiRes: "images/supporters/scholarships-grants/orbs/orbs@2x.png"
+
+        - name: "Paradigm"
+          url: "https://paradigm.xyz"
+          logo:
+            standard: "images/supporters/scholarships-grants/paradigm/paradigm.png"
+            hiRes: "images/supporters/scholarships-grants/paradigm/paradigm@2x.png"
+
+        - name: "Quorum"
+          url: "https://www.jpmorgan.com/global/Quorum"
+          logo:
+            standard: "images/supporters/scholarships-grants/quorum/quorum.png"
+            hiRes: "images/supporters/scholarships-grants/quorum/quorum@2x.png"
+
+        - name: "Rockaway Capital"
+          url: "https://www.rockawaycapital.com/en/"
+          logo:
+            standard: "images/supporters/scholarships-grants/rockaway/rockaway.png"
+            hiRes: "images/supporters/scholarships-grants/rockaway/rockaway@2x.png"
+
+        - name: "Starbase"
+          url: "https://starbase.co"
+          logo:
+            standard: "images/supporters/scholarships-grants/starbase/starbase.png"
+            hiRes: "images/supporters/scholarships-grants/starbase/starbase@2x.png"
+
+    - tier: Olympic
+      supporters:
+        - name: "Aventus"
+          url: "https://aventus.io"
+          logo:
+            standard: "images/supporters/olympic/aventus/aventus.png"
+            hiRes: "images/supporters/olympic/aventus/aventus@2x.png"
+
+        - name: "B9 Labs"
+          url: "https://b9lab.com"
+          logo:
+            standard: "images/supporters/olympic/b9-labs/b9.png"
+            hiRes: "images/supporters/olympic/b9-labs/b9@2x.png"
+
+        - name: "Bee Token"
+          url: "https://www.beetoken.com"
+          logo:
+            standard: "images/supporters/olympic/bee/bee.png"
+            hiRes: "images/supporters/olympic/bee/bee@2x.png"
+
+        - name: "blk.io"
+          url: "https://blk.io"
+          logo:
+            standard: "images/supporters/olympic/blk-io/blk-io.png"
+            hiRes: "images/supporters/olympic/blk-io/blk-io@2x.png"
+
+        - name: "Chronologic"
+          url: "https://chronologic.network"
+          logo:
+            standard: "images/supporters/olympic/chronologic/chronologic.png"
+            hiRes: "images/supporters/olympic/chronologic/chronologic@2x.png"
+
+        - name: "CoinFabrik"
+          url: "https://www.coinfabrik.com"
+          logo:
+            standard: "images/supporters/olympic/coinfabrik/coinfabrik.png"
+            hiRes: "images/supporters/olympic/coinfabrik/coinfabrik@2x.png"
+
+        - name: "Cryptium Labs"
+          url: "https://cryptium.ch"
+          logo:
+            standard: "images/supporters/olympic/cryptium-labs/cryptium.png"
+            hiRes: "images/supporters/olympic/cryptium-labs/cryptium@2x.png"
+
+        - name: "Enterprise Ethereum Alliance"
+          url: "https://entethalliance.org"
+          logo:
+            standard: "images/supporters/olympic/eea/eea.png"
+            hiRes: "images/supporters/olympic/eea/eea@2x.png"
+
+        - name: "Eth Events"
+          url: "https://eth.events"
+          logo:
+            standard: "images/supporters/olympic/eth-events/ethevents.png"
+            hiRes: "images/supporters/olympic/eth-events/ethevents@2x.png"
+
+        - name: "Etherisc"
+          url: "https://etherisc.com"
+          logo:
+            standard: "images/supporters/olympic/etherisc/etherisc.png"
+            hiRes: "images/supporters/olympic/etherisc/etherisc@2x.png"
+
+        - name: "Festy"
+          url: "https://www.festy.ie"
+          logo:
+            standard: "images/supporters/olympic/festy/festy.png"
+            hiRes: "images/supporters/olympic/festy/festy@2x.png"
+
+        - name: "Fluence Labs"
+          url: "https://fluence.one"
+          logo:
+            standard: "images/supporters/olympic/fluence-labs/fluence-labs.png"
+            hiRes: "images/supporters/olympic/fluence-labs/fluence-labs@2x.png"
+
+        - name: "Giveth"
+          url: "https://giveth.io"
+          logo:
+            standard: "images/supporters/olympic/giveth/giveth.png"
+            hiRes: "images/supporters/olympic/giveth/giveth@2x.png"
+
+        - name: "Joyso"
+          url: "https://joyso.io"
+          logo:
+            standard: "images/supporters/olympic/joyso/joyso.png"
+            hiRes: "images/supporters/olympic/joyso/joyso@2x.png"
+
+        - name: "Multichain Asset Managers Association"
+          url: "https://mama.global"
+          logo:
+            standard: "images/supporters/olympic/mama/mama.png"
+            hiRes: "images/supporters/olympic/mama/mama@2x.png"
+
+        - name: "Melonport"
+          url: "https://melonport.com"
+          logo:
+            standard: "images/supporters/olympic/melonport/melonport.png"
+            hiRes: "images/supporters/olympic/melonport/melonport@2x.png"
+
+        - name: "Midas"
+          url: "https://midas.social"
+          logo:
+            standard: "images/supporters/olympic/midas/midas.png"
+            hiRes: "images/supporters/olympic/midas/midas@2x.png"
+
+        - name: "Nanome"
+          url: "https://nanome.ai"
+          logo:
+            standard: "images/supporters/olympic/nanome/nanome.png"
+            hiRes: "images/supporters/olympic/nanome/nanome@2x.png"
+
+        - name: "Next Big Thing"
+          url: "http://www.nextbigthing.ag"
+          logo:
+            standard: "images/supporters/olympic/next-bigthing/next_big_thing.png"
+            hiRes: "images/supporters/olympic/next-bigthing/next_big_thing@2x.png"
+
+        - name: "Pegasys"
+          url: "https://pegasys.tech"
+          logo:
+            standard: "images/supporters/olympic/pegasys/pegasys.png"
+            hiRes: "images/supporters/olympic/pegasys/pegasys@2x.png"
+
+        - name: "Propy Inc"
+          url: "https://propy.com"
+          logo:
+            standard: "images/supporters/olympic/propy-inc/propy_inc.png"
+            hiRes: "images/supporters/olympic/propy-inc/propy_inc@2x.png"
+
+        - name: "RTrade Technologies"
+          url: "https://www.rtradetechnologies.com/en/"
+          logo:
+            standard: "images/supporters/olympic/rtrade/rtrade.png"
+            hiRes: "images/supporters/olympic/rtrade/rtrade@2x.png"
+
+        - name: "Runtime Verification"
+          url: "https://runtimeverification.com"
+          logo:
+            standard: "images/supporters/olympic/runtime-verification/runtime-verification.png"
+            hiRes: "images/supporters/olympic/runtime-verification/runtime-verification@2x.png"
+
+        - name: "Trustlines"
+          url: "https://trustlines.network"
+          logo:
+            standard: "images/supporters/olympic/trustlines/trustlines.png"
+            hiRes: "images/supporters/olympic/trustlines/trustlines@2x.png"
+
+        - name: "Wolk"
+          url: "https://wolk.com"
+          logo:
+            standard: "images/supporters/olympic/wolk/wolk.png"
+            hiRes: "images/supporters/olympic/wolk/wolk@2x.png"
+
+        - name: "Zinc"
+          url: "https://zinc.work"
+          logo:
+            standard: "images/supporters/olympic/zinc/zinc.png"
+            hiRes: "images/supporters/olympic/zinc/zinc@2x.png"
+
+        - name: "Asseth"
+          url: "https://www.asseth.fr"
+          logo:
+            standard: "images/supporters/olympic/asseth/asseth.png"
+            hiRes: "images/supporters/olympic/asseth/asseth@2x.png"
+- devcon: devcon-5
+  tiers:
+    - tier: Serenity
+      supporters:
+        - name: "Consensys"
+          url: "https://consensys.net/"
+          logo:
+          standard: "images/sponsors/serenity/consensys.png"
+          hiRes: "images/sponsors/serenity/consensys@2x.png"
+
+        - name: "Tezos Foundation"
+          url: "https://tezos.foundation/"
+          logo:
+          standard: "images/sponsors/serenity/tezos-foundation.png"
+          hiRes: "images/sponsors/serenity/tezos-foundation@2x.png"
+
+        - name: "Casper Labs"
+          url: "https://casperlabs.io"
+          logo:
+          standard: "images/sponsors/serenity/casper-labs.png"
+          hiRes: "images/sponsors/serenity/casper-labs@2x.png"
+
+    - tier: Phase 3+
+      supporters:
+        - name: "Coinbase"
+          href: "https://www.coinbase.com"
+          image:
+            standard: "images/sponsors/phase3/coinbase.png"
+            hiRes: "images/sponsors/phase3/coinbase@2x.png"
+
+        - name: "ETC Labs"
+          href: "https://etclabs.org"
+          image:
+            standard: "images/sponsors/phase3/etc-labs.png"
+            hiRes: "images/sponsors/phase3/etc-labs@2x.png"
+
+        - name: "Runtime Verification"
+          href: "https://runtimeverification.com/"
+          image:
+            standard: "images/sponsors/phase3/runtime-verification.png"
+            hiRes: "images/sponsors/phase3/runtime-verification@2x.png"
+
+    - tier: Phase 2 
+      supporters:
+        - name: "Monolith"
+          href: "https://monolith.xyz/"
+          image:
+            standard: "images/sponsors/phase2/monolith.png"
+            hiRes: "images/sponsors/phase2/monolith@2x.png"
+
+        - name: "Solana Labs"
+          href: "https://solana.com/"
+          image:
+            standard: "images/sponsors/phase2/solana.png"
+            hiRes: "images/sponsors/phase2/solana@2x.png"
+
+        - name: "Wanxiang Blockchain Labs"
+          href: "http://www.blockchainlabs.org/index_en.html"
+          image:
+            standard: "images/sponsors/phase2/wbl.png"
+            hiRes: "images/sponsors/phase2/wbl@2x.png"
+
+        - name: "Sparkpool"
+          href: "https://sparkpool.com/"
+          image:
+            standard: "images/sponsors/phase2/sparkpool.png"
+            hiRes: "images/sponsors/phase2/sparkpool@2x.png"
+
+        - name: "Skale Labs"
+          href: "https://skalelabs.com/"
+          image:
+            standard: "images/sponsors/phase2/skale.png"
+            hiRes: "images/sponsors/phase2/skale@2x.png"
+
+        - name: "Microsoft"
+          href: "https://microsoft.com"
+          image:
+            standard: "images/sponsors/phase2/microsoft.png"
+            hiRes: "images/sponsors/phase2/microsoft@2x.png"
+
+        - name: "Ernst and Young"
+          href: "https://www.ey.com/en_gl"
+          image:
+            standard: "images/sponsors/phase2/ey.png"
+            hiRes: "images/sponsors/phase2/ey@2x.png"
+
+        - name: "Witnet Foundation"
+          href: "https://witnet.io/"
+          image:
+            standard: "images/sponsors/phase2/witnet.png"
+            hiRes: "images/sponsors/phase2/witnet@2x.png"
+
+        - name: "Bifrost"
+          href: "https://thebifrost.io/"
+          image:
+            standard: "images/sponsors/phase2/bifrost.png"
+            hiRes: "images/sponsors/phase2/bifrost@2x.png"
+
+        - name: "Golem Factory"
+          href: "https://golem.network/"
+          image:
+            standard: "images/sponsors/phase2/golem.png"
+            hiRes: "images/sponsors/phase2/golem@2x.png"
+
+        - name: "IOV"
+          href: "https://iov.one"
+          image:
+            standard: "images/sponsors/phase2/iov.png"
+            hiRes: "images/sponsors/phase2/iov@2x.png"
+
+    - tier: Phase 1
+      supporters:
+        - name: "NRI"
+          href: "https://nri.co.jp"
+          image:
+            standard: "images/sponsors/scholarship-node/nri.png"
+            hiRes: "images/sponsors/scholarship-node/nri@2x.png"
+
+        - name: "Aave"
+          href: "https://aave.com"
+          image:
+            standard: "images/sponsors/phase1/aave.png"
+            hiRes: "images/sponsors/phase1/aave@2x.png"
+
+        - name: "AdEx"
+          href: "https://www.adex.network"
+          image:
+            standard: "images/sponsors/phase1/adex.png"
+            hiRes: "images/sponsors/phase1/adex@2x.png"
+
+        - name: "Bitfish / F2Pool"
+          href: "https://www.f2pool.com/"
+          image:
+            standard: "images/sponsors/phase1/f2pool.png"
+            hiRes: "images/sponsors/phase1/f2pool@2x.png"
+
+        - name: "Celer Network"
+          href: "https://www.celer.network"
+          image:
+            standard: "images/sponsors/phase1/celer.png"
+            hiRes: "images/sponsors/phase1/celer@2x.png"
+
+        - name: "Chainalysis"
+          href: "https://www.chainalysis.com"
+          image:
+            standard: "images/sponsors/phase1/chainalysis.png"
+            hiRes: "images/sponsors/phase1/chainalysis@2x.png"
+
+        - name: "Chainlink"
+          href: "https://chain.link/"
+          image:
+            standard: "images/sponsors/phase1/chainlink.png"
+            hiRes: "images/sponsors/phase1/chainlink@2x.png"
+
+        - name: "Crypto.com"
+          href: "https://crypto.com/"
+          image:
+            standard: "images/sponsors/phase1/cryptodotcom.png"
+            hiRes: "images/sponsors/phase1/cryptodotcom@2x.png"
+
+        - name: "EEA"
+          href: "https://entethalliance.org/"
+          image:
+            standard: "images/sponsors/phase1/eea.png"
+            hiRes: "images/sponsors/phase1/eea@2x.png"
+
+        - name: "Global Brain"
+          href: "https://globalbrains.com/"
+          image:
+            standard: "images/sponsors/phase1/globalbrain.png"
+            hiRes: "images/sponsors/phase1/globalbrain@2x.png"
+
+        - name: "Hyperledger"
+          href: "https://www.hyperledger.org/"
+          image:
+            standard: "images/sponsors/phase1/hyperledger.png"
+            hiRes: "images/sponsors/phase1/hyperledger@2x.png"
+
+        - name: "iEx.ec"
+          href: "https://iex.ec/"
+          image:
+            standard: "images/sponsors/phase1/iexec.png"
+            hiRes: "images/sponsors/phase1/iexec@2x.png"
+
+        - name: "Lunascape"
+          href: "https://www.lunascape.tv"
+          image:
+            standard: "images/sponsors/phase1/lunascape.png"
+            hiRes: "images/sponsors/phase1/lunascape@2x.png"
+
+        - name: "MakerDAO"
+          href: "https://makerdao.com/en/"
+          image:
+            standard: "images/sponsors/phase1/makerdao.png"
+            hiRes: "images/sponsors/phase1/makerdao@2x.png"
+
+        - name: "Matic Network"
+          href: "https://matic.network/"
+          image:
+            standard: "images/sponsors/phase1/matic.png"
+            hiRes: "images/sponsors/phase1/matic@2x.png"
+
+        - name: "Oasis Labs"
+          href: "https://www.oasislabs.com/"
+          image:
+            standard: "images/sponsors/phase1/oasislabs.png"
+            hiRes: "images/sponsors/phase1/oasislabs@2x.png"
+
+        - name: "Offchain Labs"
+          href: "https://offchainlabs.com"
+          image:
+            standard: "images/sponsors/phase1/offchain.png"
+            hiRes: "images/sponsors/phase1/offchain@2x.png"
+
+        - name: "OmiseGO"
+          href: "https://omisego.co"
+          image:
+            standard: "images/sponsors/phase1/omisego.png"
+            hiRes: "images/sponsors/phase1/omisego@2x.png"
+
+        - name: "Quorum"
+          href: "https://www.goquorum.com"
+          image:
+            standard: "images/sponsors/phase1/quorum.png"
+            hiRes: "images/sponsors/phase1/quorum@2x.png"
+
+        - name: "Banco Santander"
+          href: "http://santander.com"
+          image:
+            standard: "images/sponsors/phase1/santander.png"
+            hiRes: "images/sponsors/phase1/santander@2x.png"
+
+        - name: "Santiment"
+          href: "https://santiment.net/"
+          image:
+            standard: "images/sponsors/phase1/santiment.png"
+            hiRes: "images/sponsors/phase1/santiment@2x.png"
+
+        - name: "Taxa Network"
+          href: "https://taxa.network"
+          image:
+            standard: "images/sponsors/phase1/taxa-network.png"
+            hiRes: "images/sponsors/phase1/taxa-network@2x.png"
+
+        - name: "Wireline"
+          href: "https://www.wireline.io/"
+          image:
+            standard: "images/sponsors/phase1/wireline.png"
+            hiRes: "images/sponsors/phase1/wireline@2x.png"
+
+        - name: "Storj"
+          href: "https://storj.io"
+          image:
+            standard: "images/sponsors/phase1/storj.png"
+            hiRes: "images/sponsors/phase1/storj@2x.png"
+
+    - tier: Foundational Scholarship 
+      supporters:
+        - name: "DCG"
+          url: "https://dcg.co"
+          logo:
+            standard: "images/sponsors/scholarship-1x/dcg.png"
+            hiRes: "images/sponsors/scholarship-1x/dcg@2x.png"
+
+        - name: "MyEtherWallet"
+          url: "https://myetherwallet.com"
+          logo:
+            standard: "images/sponsors/scholarship-1x/mew.png"
+            hiRes: "images/sponsors/scholarship-1x/mew@2x.png"
+
+        - name: "ConsenSys Academy"
+          url: "https://consensys.net/academy/"
+          logo:
+            standard: "images/sponsors/scholarship-1x/consensys-academy.png"
+            hiRes: "images/sponsors/scholarship-1x/consensys-academy@2x.png"
+
+    - tier: Node Scholarship
+      supporters:
+        - name: "Argonavis"
+          url: "http://argonavis.io"
+          logo:
+            standard: "images/sponsors/scholarship-node/argonavis.png"
+            hiRes: "images/sponsors/scholarship-node/argonavis@2x.png"
+
+        - name: "Bitmain"
+          url: "https://www.bitmain.com"
+          logo:
+            standard: "images/sponsors/scholarship-node/bitmain.png"
+            hiRes: "images/sponsors/scholarship-node/bitmain@2x.png"
+
+        - name: "NRI"
+          url: "https://nri.co.jp"
+          logo:
+            standard: "images/sponsors/scholarship-node/nri.png"
+            hiRes: "images/sponsors/scholarship-node/nri@2x.png"
+
+        - name: "MyCrypto"
+          url: "https://mycrypto.com"
+          logo:
+            standard: "images/sponsors/scholarship-node/mycrypto.png"
+            hiRes: "images/sponsors/scholarship-node/mycrypto@2x.png"
+
+        - name: "OmiseGO"
+          url: "https://omisego.co/"
+          logo:
+            standard: "images/sponsors/scholarship-node/omisego.png"
+            hiRes: "images/sponsors/scholarship-node/omisego@2x.png"
+
+        - name: "Portis"
+          url: "https://portis.io"
+          logo:
+            standard: "images/sponsors/scholarship-node/portis.png"
+            hiRes: "images/sponsors/scholarship-node/portis@2x.png"
+
+    - tier: Equity Scholarship
+      supporters:
+        - name: "1kx"
+          url: "https://1kx.network"
+          logo:
+            standard: "images/sponsors/scholarship-equity/1kx.png"
+            hiRes: "images/sponsors/scholarship-equity/1kx@2x.png"
+
+        - name: "Orchid"
+          url: "https://www.orchid.com"
+          logo:
+            standard: "images/sponsors/scholarship-equity/orchid.png"
+            hiRes: "images/sponsors/scholarship-equity/orchid@2x.png"
+
+        - name: "Protocol.ai"
+          url: "https://protocol.ai"
+          logo:
+            standard: "images/sponsors/scholarship-equity/protocol-labs.png"
+            hiRes: "images/sponsors/scholarship-equity/protocol-labs@2x.png"
+
+        - name: "Storj"
+          url: "https://storj.io"
+          logo:
+            standard: "images/sponsors/scholarship-equity/storj.png"
+            hiRes: "images/sponsors/scholarship-equity/storj@2x.png"
+
+    - tier: Phase 0
+      supporters:
+        - name: "Akasha"
+          href: "https://akasha.org/"
+          image:
+            standard: "images/sponsors/phase0/akasha.png"
+            hiRes: "images/sponsors/phase0/akasha@2x.png"
+
+        - name: "Alis"
+          href: "https://alis.to"
+          image:
+            standard: "images/sponsors/phase0/alis.png"
+            hiRes: "images/sponsors/phase0/alis@2x.png"
+
+        - name: "AlphaWallet"
+          href: "https://alphawallet.com/"
+          image:
+            standard: "images/sponsors/phase0/alphawallet.png"
+            hiRes: "images/sponsors/phase0/alphawallet@2x.png"
+
+        - name: "bit factory"
+          href: "https://bitfactory.jp/"
+          image:
+            standard: "images/sponsors/phase0/bitfactory.png"
+            hiRes: "images/sponsors/phase0/bitfactory@2x.png"
+
+        - name: "blocknative"
+          href: "https://www.blocknative.com"
+          image:
+            standard: "images/sponsors/phase0/blocknative.png"
+            hiRes: "images/sponsors/phase0/blocknative@2x.png"
+
+        - name: "blockpunk"
+          href: "https://blockpunk.net"
+          image:
+            standard: "images/sponsors/phase0/blockpunk.png"
+            hiRes: "images/sponsors/phase0/blockpunk@2x.png"
+
+        - name: "BUIDL"
+          href: "https://www.buidl.jp/"
+          image:
+            standard: "images/sponsors/phase0/buidl.png"
+            hiRes: "images/sponsors/phase0/buidl@2x.png"
+
+        - name: "Cryptium Labs"
+          href: "https://cryptium.ch"
+          image:
+            standard: "images/sponsors/phase0/cryptium-labs.png"
+            hiRes: "images/sponsors/phase0/cryptium-labs@2x.png"
+
+        - name: "Cryptoeconomics Lab"
+          href: "https://medium.com/cryptoeconomics-lab"
+          image:
+            standard: "images/sponsors/phase0/cel.png"
+            hiRes: "images/sponsors/phase0/cel@2x.png"
+
+        - name: "DAppNode"
+          href: "https://dappnode.io/"
+          image:
+            standard: "images/sponsors/phase0/dappnode.png"
+            hiRes: "images/sponsors/phase0/dappnode@2x.png"
+
+        - name: "double jump.tokyo"
+          href: "https://www.doublejump.tokyo"
+          image:
+            standard: "images/sponsors/phase0/double-jump.png"
+            hiRes: "images/sponsors/phase0/double-jump@2x.png"
+
+        - name: "Eth.Events"
+          href: "https://eth.events/"
+          image:
+            standard: "images/sponsors/phase0/ethevents.png"
+            hiRes: "images/sponsors/phase0/ethevents@2x.png"
+
+        - name: "Ethereum France"
+          href: "https://www.ethereum-france.com"
+          image:
+            standard: "images/sponsors/phase0/ethereum-france.png"
+            hiRes: "images/sponsors/phase0/ethereum-france@2x.png"
+
+        - name: "etherisc"
+          href: "https://etherisc.com"
+          image:
+            standard: "images/sponsors/phase0/etherisc.png"
+            hiRes: "images/sponsors/phase0/etherisc@2x.png"
+
+        - name: "Giveth"
+          href: "https://giveth.io"
+          image:
+            standard: "images/sponsors/phase0/giveth.png"
+            hiRes: "images/sponsors/phase0/giveth@2x.png"
+
+        - name: "iden3"
+          href: "https://iden3.io/"
+          image:
+            standard: "images/sponsors/phase0/iden3.png"
+            hiRes: "images/sponsors/phase0/iden3@2x.png"
+
+        - name: "LayerX"
+          href: "https://layerx.co.jp/"
+          image:
+            standard: "images/sponsors/phase0/layerx.png"
+            hiRes: "images/sponsors/phase0/layerx@2x.png"
+
+        - name: "LUKSO"
+          href: "https://www.lukso.network/"
+          image:
+            standard: "images/sponsors/phase0/lukso.png"
+            hiRes: "images/sponsors/phase0/lukso@2x.png"
+
+        - name: "Avantgarde Finance"
+          href: "https://avantgarde.finance"
+          image:
+            standard: "images/sponsors/phase0/avantgarde-finance.png"
+            hiRes: "images/sponsors/phase0/avantgarde-finance@2x.png"
+
+        - name: "Nanome"
+          href: "https://nanome.ai/"
+          image:
+            standard: "images/sponsors/phase0/nanome.png"
+            hiRes: "images/sponsors/phase0/nanome@2x.png"
+
+        - name: "OB1"
+          href: "https://ob1.io"
+          image:
+            standard: "images/sponsors/phase0/ob1.png"
+            hiRes: "images/sponsors/phase0/ob1@2x.png"
+
+        - name: "Randlabs"
+          href: "https://randlabs.io/"
+          image:
+            standard: "images/sponsors/phase0/randlabs.png"
+            hiRes: "images/sponsors/phase0/randlabs@2x.png"
+
+        - name: "Rotkehlchen"
+          href: "https://rotkehlchen.io/"
+          image:
+            standard: "images/sponsors/phase0/rotkehlchen.png"
+            hiRes: "images/sponsors/phase0/rotkehlchen@2x.png"
+
+        - name: "Superblocks"
+          href: "https://superblocks.com/"
+          image:
+            standard: "images/sponsors/phase0/superblocks.png"
+            hiRes: "images/sponsors/phase0/superblocks@2x.png"
+
+        - name: "Tokamak Network"
+          href: "https://tokamak.network/"
+          image:
+            standard: "images/sponsors/phase0/tokamaknetwork.png"
+            hiRes: "images/sponsors/phase0/tokamaknetwork@2x.png"
+
+        - name: "trustlines"
+          href: "https://trustlines.network"
+          image:
+            standard: "images/sponsors/phase0/trustlines.png"
+            hiRes: "images/sponsors/phase0/trustlines@2x.png"
+
+        - name: "Web3 Labs"
+          href: "https://www.web3labs.com"
+          image:
+            standard: "images/sponsors/phase0/web3-labs.png"
+            hiRes: "images/sponsors/phase0/web3-labs@2x.png"
+
+        - name: "Wolk"
+          href: "https://wolk.com"
+          image:
+            standard: "images/sponsors/phase0/wolk.png"
+            hiRes: "images/sponsors/phase0/wolk@2x.png"
+
+        - name: "Zerion"
+          href: "https://zerion.io"
+          image:
+            standard: "images/sponsors/phase0/zerion.png"
+            hiRes: "images/sponsors/phase0/zerion@2x.png"
+
+        - name: "BitCart"
+          href: "https://bitcart.io"
+          image:
+            standard: "images/sponsors/phase0/bitcart.png"
+            hiRes: "images/sponsors/phase0/bitcart@2x.png"
