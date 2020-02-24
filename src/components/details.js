@@ -27,26 +27,26 @@ const Details = props => {
     }
   `);
 
-  const devconText = (devcon) => {
-    if (devcon === 'devcon-0') {
+  const devconText = devcon => {
+    if (devcon === "devcon-0") {
       return data.dataYaml.devcon0;
     }
-    if (devcon === 'devcon-1') {
+    if (devcon === "devcon-1") {
       return data.dataYaml.devcon1;
     }
-    if (devcon === 'devcon-2') {
+    if (devcon === "devcon-2") {
       return data.dataYaml.devcon2;
     }
-    if (devcon === 'devcon-3') {
+    if (devcon === "devcon-3") {
       return data.dataYaml.devcon3;
     }
-    if (devcon === 'devcon-4') {
+    if (devcon === "devcon-4") {
       return data.dataYaml.devcon4;
     }
-    if (devcon === 'devcon-5') {
+    if (devcon === "devcon-5") {
       return data.dataYaml.devcon5;
     } else {
-      return '';
+      return "";
     }
   };
 
@@ -59,12 +59,12 @@ const Details = props => {
         date={props.date}
       />
       <Navbar devcon={`devcon-${props.number}`} />
-      <DetailsAbout text={devconText(`devcon-${props.number}`)}/>
+      <DetailsAbout text={devconText(`devcon-${props.number}`)} />
       <FeaturedVideo />
       <FeaturedSupporters />
       <Footer />
     </div>
-  )
+  );
 };
 
 export default Details;
