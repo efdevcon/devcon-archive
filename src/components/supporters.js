@@ -21,7 +21,7 @@ const Supporters = props => {
       />
       <Navbar devcon={`devcon-${props.number}`} />
       <main>
-        <h3>{props.support1}</h3>
+        <h3 className={css.support}>{props.support1}</h3>
         <div className={props.logos}></div>
       </main>
       <Footer />
