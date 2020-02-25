@@ -1,4 +1,5 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
 /* CSS */
 import css from "./supporters.module.css";
@@ -11,6 +12,25 @@ import Header from "./header";
 import Navbar from "./navbar";
 
 const Supporters = props => {
+  /* TODO replace query when S3 image hosting is up*/
+  const data = useStaticQuery(graphql`
+    query {
+      allSupportersYaml {
+        edges {
+          node {
+            devcon
+            tiers {
+              tier
+              supporters {
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
+
   return (
     <div>
       <Header />
@@ -21,8 +41,21 @@ const Supporters = props => {
       />
       <Navbar devcon={`devcon-${props.number}`} />
       <main>
-        <h3 className={css.support}>{props.support1}</h3>
-        <div className={props.logos}></div>
+        {data.allSupportersYaml.edges.map((edge, index) => (
+          <div key={index}>
+            {edge.node.devcon === `devcon-${props.number}` &&
+              edge.node.tiers.map(supporterTier => (
+                <div>
+                  <h2 className={css.tier}>{supporterTier.tier}</h2>
+                  <div className={css.supporters}>
+                    {supporterTier.supporters.map(supporter => (
+                      <p className={css.logo}>{supporter.name}</p>
+                    ))}
+                  </div>
+                </div>
+              ))}
+          </div>
+        ))}
       </main>
       <Footer />
     </div>
