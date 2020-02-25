@@ -1,0 +1,17 @@
+.tier {
+  text-align: center;
+}
+
+.supporters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.logo {
+  margin: 8px;
+}
