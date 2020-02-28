@@ -20,7 +20,7 @@ const Index = () => (
 
     <Archives />
 
-    <About />
+    {/* <About /> */}
 
     <Footer />
   </div>
