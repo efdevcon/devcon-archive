@@ -9,7 +9,7 @@ import "../index.css";
 const Logo = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "ethereum-icon-black.png" }) {
+      file(relativePath: { eq: "ethereum-diamond.png" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid

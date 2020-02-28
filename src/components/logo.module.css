@@ -3,5 +3,6 @@
 }
 
 .logo {
-  min-width: 200px;
+  min-width: 80px;
+  margin: auto 2em;
 }
