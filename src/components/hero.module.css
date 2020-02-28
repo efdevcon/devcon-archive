@@ -5,7 +5,12 @@
   align-items: center;
   background: lightgray;
   height: 75vh;
+
+  background-position: center;
+  background-size: cover;
 }
+
+
 
 .heroText {
   max-width: 40ch;
