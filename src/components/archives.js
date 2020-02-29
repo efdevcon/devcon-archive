@@ -47,31 +47,10 @@ const Archives = () => {
   return (
     <div className={css.archives}>
       <Archive
-        number="0"
-        location="Berlin, Germany"
-        date="Nov 24 - 28, 2014"
-        text={devconText("devcon-0")}
-      />
-
-      <Archive
-        number="1"
-        location="London, United Kingdom"
-        date="Nov 9 - 13, 2015"
-        text={devconText("devcon-1")}
-      />
-
-      <Archive
-        number="2"
-        location="Shanghai, China"
-        date="Sep 19 - 21, 2016"
-        text={devconText("devcon-2")}
-      />
-
-      <Archive
-        number="3"
-        location="Cancún, Mexico"
-        date="Nov 1 - 4, 2017"
-        text={devconText("devcon-3")}
+        number="5"
+        location="Osaka, Japan"
+        date="Oct 8 - 11, 2019"
+        text={devconText("devcon-5")}
       />
 
       <Archive
@@ -82,10 +61,31 @@ const Archives = () => {
       />
 
       <Archive
-        number="5"
-        location="Osaka, Japan"
-        date="Oct 8 - 11, 2019"
-        text={devconText("devcon-5")}
+        number="3"
+        location="Cancún, Mexico"
+        date="Nov 1 - 4, 2017"
+        text={devconText("devcon-3")}
+      />
+
+      <Archive
+        number="2"
+        location="Shanghai, China"
+        date="Sep 19 - 21, 2016"
+        text={devconText("devcon-2")}
+      />
+
+      <Archive
+        number="1"
+        location="London, United Kingdom"
+        date="Nov 9 - 13, 2015"
+        text={devconText("devcon-1")}
+      />
+
+      <Archive
+        number="0"
+        location="Berlin, Germany"
+        date="Nov 24 - 28, 2014"
+        text={devconText("devcon-0")}
       />
     </div>
   );
