@@ -3,7 +3,7 @@ import React from "react";
 import "../index.css";
 
 /* Components */
-import About from "../components/about";
+/* import About from "../components/about"; */
 import Archives from "../components/archives";
 import Devcon6 from "../components/devcon6";
 import Footer from "../components/footer";
