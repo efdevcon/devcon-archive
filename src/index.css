@@ -8,3 +8,21 @@ body {
   font-family: sans-serif;
   line-height: 1.2;
 }
+
+:root {
+  /* TODO update DC6 values when you get the correct values */
+  --dc6-bg-color: #76BAFF;
+  --dc6-hl-color: #76BAFF;
+  --dc5-bg-color: #85E3F4;
+  --dc5-hl-color: #38ADC3;
+  --dc4-bg-color: #B3F5EB;
+  --dc4-hl-color: #0ACCAE;
+  --dc3-bg-color: #D6FAC5;
+  --dc3-hl-color: #50BA1F;
+  --dc2-bg-color: #FCEDC5;
+  --dc2-hl-color: #E8AA04;
+  --dc1-bg-color: #F7C1B1;
+  --dc1-hl-color: #F54814;
+  --dc0-bg-color: #FDCEDD;
+  --dc0-hl-color: #FD3673;
+}
