@@ -1,3 +1,5 @@
+@import '../index.css';
+
 .archive {
   display: flex;
   flex-direction: row;
@@ -9,12 +11,34 @@
   flex-wrap: wrap;
 }
 
-.archive:nth-child(odd) {
-  background: lightgray;
+/* Devcon 5 */
+.archive:nth-child(1) {
+  background: var(--dc5-bg-color);
 }
 
-.archive:nth-child(even) {
-  background: gray;
+/* Devcon 4 */
+.archive:nth-child(2) {
+  background: var(--dc4-bg-color);
+}
+
+/* Devcon 3 */
+.archive:nth-child(3) {
+  background: var(--dc3-bg-color);
+}
+
+/* Devcon 2 */
+.archive:nth-child(4) {
+  background: var(--dc2-bg-color);
+}
+
+/* Devcon 1 */
+.archive:nth-child(5) {
+  background: var(--dc1-bg-color);
+}
+
+/* Devcon 0 */
+.archive:nth-child(6) {
+  background: var(--dc0-bg-color);
 }
 
 .archiveCol {
