@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 /* CSS */
-import css from "./devcon_videos.module.css";
+import css from "./videos.module.css";
 import "../index.css";
 
 /* Components */
