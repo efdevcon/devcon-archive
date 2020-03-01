@@ -1,10 +1,12 @@
+@import '../index.css';
+
 .footer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  background: lightgray;
-  color: white;
+  background: var(--dc2-bg-color);
+  color: var(--dc2-hl-color);
   font-size: .8rem;
 }
 
@@ -18,5 +20,5 @@
 }
 
 .footer-link {
-  color: white;
+  color: var(--dc2-hl-color);
 }
