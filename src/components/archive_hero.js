@@ -27,7 +27,10 @@ const ArchiveHero = props => {
   );
 
   return (
-        <BackgroundImage fluid={data.file.childImageSharp.fluid} className={css.archiveHero}>
+    <BackgroundImage
+      fluid={data.file.childImageSharp.fluid}
+      className={css.archiveHero}
+    >
       <Logo />
       <div>
         <h1>Devcon {props.number}</h1>
