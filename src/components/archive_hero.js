@@ -15,7 +15,7 @@ const ArchiveHero = props => {
   const data = useStaticQuery(
     graphql`
       query {
-        file(relativePath: { eq: "devcon0-background.png" }) {
+        file(relativePath: { eq: "devcon1-background.png" }) {
           childImageSharp {
             fluid(maxWidth: 1200) {
               ...GatsbyImageSharpFluid
@@ -27,10 +27,7 @@ const ArchiveHero = props => {
   );
 
   return (
-    <BackgroundImage
-      fluid={data.file.childImageSharp.fluid}
-      className={css.archiveHero}
-    >
+        <BackgroundImage fluid={data.file.childImageSharp.fluid} className={css.archiveHero}>
       <Logo />
       <div>
         <h1>Devcon {props.number}</h1>
