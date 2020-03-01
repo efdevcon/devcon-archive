@@ -1,5 +1,7 @@
+@import '../index.css';
+
 nav {
-  background: lightgray;
+  background: var(--dc0-bg-color);
 }
 
 .navbar {
@@ -8,7 +10,6 @@ nav {
   justify-content: center;
   align-items: center;
   list-style: none;
-  color: gray;
   padding: 8px;
 }
 
@@ -19,7 +20,7 @@ nav {
 
 .navlink {
   text-decoration: none;
-  color: black;
+  color: var(--dc0-hl-color);
   font-weight: 400;
 }
 

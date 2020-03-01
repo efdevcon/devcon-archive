@@ -45,6 +45,12 @@
   padding: 16px;
 }
 
+@media screen and (min-width: 1080px) {
+  .archiveCol {
+    min-width: 220px;
+  }
+}
+
 .archiveText {
   max-width: 65ch;
   padding-top: 12px;
