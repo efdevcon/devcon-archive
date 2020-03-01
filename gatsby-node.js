@@ -60,7 +60,8 @@ exports.createPages = ({ graphql, actions }) => {
 
     /* Devcon 0 */
     Array.from({ length: numPages0 }).forEach((_, i) => {
-      const previous = i === devcon0Videos.length - 1 ? null : devcon0Videos[i + 1];
+      const previous =
+        i === devcon0Videos.length - 1 ? null : devcon0Videos[i + 1];
       const next = i === 0 ? null : devcon0Videos[i - 1];
       createPage({
         path: i === 0 ? `/devcon-0/videos/` : `/devcon-0/videos/${i + 1}`,
@@ -83,7 +84,8 @@ exports.createPages = ({ graphql, actions }) => {
 
     /* Devcon 1 */
     Array.from({ length: numPages1 }).forEach((_, i) => {
-      const previous = i === devcon1Videos.length - 1 ? null : devcon1Videos[i + 1];
+      const previous =
+        i === devcon1Videos.length - 1 ? null : devcon1Videos[i + 1];
       const next = i === 0 ? null : devcon1Videos[i - 1];
       createPage({
         path: i === 0 ? `/devcon-1/videos/` : `/devcon-1/videos/${i + 1}`,
@@ -106,7 +108,8 @@ exports.createPages = ({ graphql, actions }) => {
 
     /* Devcon 2 */
     Array.from({ length: numPages2 }).forEach((_, i) => {
-      const previous = i === devcon2Videos.length - 1 ? null : devcon2Videos[i + 1];
+      const previous =
+        i === devcon2Videos.length - 1 ? null : devcon2Videos[i + 1];
       const next = i === 0 ? null : devcon2Videos[i - 1];
       createPage({
         path: i === 0 ? `/devcon-2/videos/` : `/devcon-2/videos/${i + 1}`,
@@ -129,7 +132,8 @@ exports.createPages = ({ graphql, actions }) => {
 
     /* Devcon 3 */
     Array.from({ length: numPages3 }).forEach((_, i) => {
-      const previous = i === devcon3Videos.length - 1 ? null : devcon3Videos[i + 1];
+      const previous =
+        i === devcon3Videos.length - 1 ? null : devcon3Videos[i + 1];
       const next = i === 0 ? null : devcon3Videos[i - 1];
       createPage({
         path: i === 0 ? `/devcon-3/videos/` : `/devcon-3/videos/${i + 1}`,
@@ -152,7 +156,8 @@ exports.createPages = ({ graphql, actions }) => {
 
     /* Devcon 4 */
     Array.from({ length: numPages4 }).forEach((_, i) => {
-      const previous = i === devcon4Videos.length - 1 ? null : devcon4Videos[i + 1];
+      const previous =
+        i === devcon4Videos.length - 1 ? null : devcon4Videos[i + 1];
       const next = i === 0 ? null : devcon4Videos[i - 1];
       createPage({
         path: i === 0 ? `/devcon-4/videos/` : `/devcon-4/videos/${i + 1}`,
@@ -175,7 +180,8 @@ exports.createPages = ({ graphql, actions }) => {
 
     /* Devcon 5 */
     Array.from({ length: numPages5 }).forEach((_, i) => {
-      const previous = i === devcon5Videos.length - 1 ? null : devcon5Videos[i + 1];
+      const previous =
+        i === devcon5Videos.length - 1 ? null : devcon5Videos[i + 1];
       const next = i === 0 ? null : devcon5Videos[i - 1];
       createPage({
         path: i === 0 ? `/devcon-5/videos/` : `/devcon-5/videos/${i + 1}`,
