@@ -8,7 +8,7 @@ import "../index.css";
 import ArchiveHero from "./archive_hero";
 import DetailsAbout from "./details_about";
 import FeaturedVideo from "./featured_video";
-import FeaturedSupporters from "./featured_supporters";
+/* import FeaturedSupporters from "./featured_supporters"; */
 import Footer from "./footer";
 import Header from "./header";
 import Navbar from "./navbar";
@@ -61,7 +61,7 @@ const Details = props => {
       <Navbar devcon={`devcon-${props.number}`} />
       <DetailsAbout text={devconText(`devcon-${props.number}`)} />
       <FeaturedVideo />
-      <FeaturedSupporters />
+      {/* <FeaturedSupporters /> */ }
       <Footer />
     </div>
   );
