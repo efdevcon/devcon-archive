@@ -35,11 +35,11 @@ const Videos = ({ pageContext }) => {
     <div>
       <Header />
       <ArchiveHero
-        number="placeholder"
-        location="placeholder"
-        date="placeholder"
+        number={pageContext.devconNum}
+        location={pageContext.location}
+        date={pageContext.conferenceDates}
       />
-      <Navbar devcon={`placeholder`} />
+      <Navbar devcon={`devcon-${pageContext.devconNum}`} />
       <main>
         {/* TODO Implement filters <div className={css.filters}>
           All | Main Stage | Second Stage | Breakout Rooms
