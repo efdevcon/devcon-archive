@@ -6,6 +6,9 @@
 
 .videos {
   margin: 64px;
+}
+
+.videoGrid {
   display: grid;
   grid-gap: 8px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -19,4 +22,15 @@
 .speakers {
   color: gray;
   max-width: 30ch;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageLink {
+  margin: 16px;
 }
