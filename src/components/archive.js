@@ -30,7 +30,6 @@ const Archive = props => (
         <Link className={css.archiveLink} to={`devcon-${props.number}/videos`}>
           Videos
         </Link>{" "}
-
         {/*
         <Link
           className={css.archiveLink}
