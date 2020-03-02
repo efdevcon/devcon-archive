@@ -60,8 +60,8 @@ const Details = props => {
       />
       <Navbar devcon={`devcon-${props.number}`} />
       <DetailsAbout text={devconText(`devcon-${props.number}`)} />
-      <FeaturedVideo />
-      {/* <FeaturedSupporters /> */ }
+      <FeaturedVideo devcon={`devcon-${props.number}`} />
+      {/* <FeaturedSupporters /> */}
       <Footer />
     </div>
   );
