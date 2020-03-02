@@ -20,3 +20,8 @@
 .header {
   color: var(--dc0-hl-color);
 }
+
+.detailsImage {
+  min-width: 300px;
+  max-width: 400px;
+}
