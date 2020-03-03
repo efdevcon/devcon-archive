@@ -9,7 +9,7 @@ import "../index.css";
 const DetailsAbout = props => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "devcon1-background.png"}) {
+      file(relativePath: { eq: "devcon1-background.png" }) {
         childImageSharp {
           fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
