@@ -6,11 +6,11 @@ import css from "./header.module.css";
 import "../index.css";
 
 /* Components */
-import Logo from "../components/logo-devcon";
+import HeaderLogo from "../components/header-logo-devcon";
 
 const Header = () => (
   <header className={css.header}>
-    <Logo />
+    <HeaderLogo />
     <Link className={css.headerLink} to="/">
       Archive
     </Link>

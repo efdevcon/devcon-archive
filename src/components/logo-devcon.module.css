@@ -1,7 +1,7 @@
 .logoContainer {
-  margin-right: auto;
+  padding: 24px;
 }
 
 .logo {
-  min-width: 80px;
+  min-width: 400px;
 }
