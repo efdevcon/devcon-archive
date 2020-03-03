@@ -11,6 +11,8 @@ nav {
   align-items: center;
   list-style: none;
   padding: 8px;
+  padding-top: 16px;
+  margin-top: -8px; /* Negative margin included here to remove white space from the top that is created while supporting underline bar trick */
 }
 
 .navitem {

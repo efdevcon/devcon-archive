@@ -12,34 +12,52 @@ const Archives = () => {
   const data = useStaticQuery(graphql`
     query {
       dataYaml {
-        devcon0
-        devcon1
-        devcon2
-        devcon3
-        devcon4
-        devcon5
+        devcon0 {
+          header
+          copy
+        }
+        devcon1 {
+          header
+          copy
+        }
+        devcon2 {
+          header
+          copy
+        }
+        devcon3 {
+          header
+          copy
+        }
+        devcon4 {
+          header
+          copy
+        }
+        devcon5 {
+          header
+          copy
+        }
       }
     }
   `);
 
   const devconText = devcon => {
     if (devcon === "devcon-0") {
-      return data.dataYaml.devcon0;
+      return data.dataYaml.devcon0.copy;
     }
     if (devcon === "devcon-1") {
-      return data.dataYaml.devcon1;
+      return data.dataYaml.devcon1.copy;
     }
     if (devcon === "devcon-2") {
-      return data.dataYaml.devcon2;
+      return data.dataYaml.devcon2.copy;
     }
     if (devcon === "devcon-3") {
-      return data.dataYaml.devcon3;
+      return data.dataYaml.devcon3.copy;
     }
     if (devcon === "devcon-4") {
-      return data.dataYaml.devcon4;
+      return data.dataYaml.devcon4.copy;
     }
     if (devcon === "devcon-5") {
-      return data.dataYaml.devcon5;
+      return data.dataYaml.devcon5.copy;
     } else {
       return "";
     }

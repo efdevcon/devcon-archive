@@ -1,3 +1,5 @@
+@import '../index.css';
+
 .about {
   display: flex;
   flex-direction: row;
@@ -13,4 +15,13 @@
 .aboutText {
   max-width: 60ch;
   color: gray;
+}
+
+.header {
+  color: var(--dc0-hl-color);
+}
+
+.detailsImage {
+  min-width: 300px;
+  max-width: 400px;
 }
