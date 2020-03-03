@@ -15,7 +15,7 @@ const Archive = props => (
     </div>
 
     <div className={css.archiveCol}>
-      <h1>Devcon {props.number}</h1>
+      <h1>{props.header}</h1>
       <h3>{props.location}</h3>
       <h4>{props.date}</h4>
     </div>
