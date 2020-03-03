@@ -6,7 +6,6 @@ import css from "./featured_video.module.css";
 import "../index.css";
 
 const FeaturedVideo = props => {
-
   return (
     <div className={css.featuredVideo}>
       <h2 className={css.header}>Featured Videos</h2>
