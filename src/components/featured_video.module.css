@@ -1,9 +1,11 @@
+@import "../index.css";
+
 .featuredVideo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: gray;
+  background: var(--dc2-bg-color);
 }
 
 .videos {
@@ -13,6 +15,16 @@
   align-items: center;
 }
 
+.header {
+  color: var(--dc0-hl-color);
+}
+
 .video {
   margin: 16px;
+}
+
+.videoLinks {
+  text-decoration: None;
+  color: var(--dc5-hl-color);
+  font-weight: 600;
 }
