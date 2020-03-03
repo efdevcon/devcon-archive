@@ -8,14 +8,16 @@ import "../index.css";
 /* Components */
 import Logo from "./logo";
 
-const Archive = props => (
-  <div className={css.archive}>
+const Archive = props => {
+  const backgroundClass = css[`dc${props.number}Background`]
+
+  return (<div className={`${css.archive} ${backgroundClass}`}>
     <div className={css.archiveCol}>
       <Logo />
     </div>
 
     <div className={css.archiveCol}>
-      <h1>Devcon {props.number}</h1>
+      <h1>{props.header}</h1>
       <h3>{props.location}</h3>
       <h4>{props.date}</h4>
     </div>
@@ -31,15 +33,16 @@ const Archive = props => (
           Videos
         </Link>{" "}
         {/*
-        <Link
-          className={css.archiveLink}
-          to={`devcon-${props.number}/supporters`}
-        >
-          Supporters
-        </Link> */}
-      </p>
+          <Link
+            className={css.archiveLink}
+            to={`devcon-${props.number}/supporters`}
+          >
+            Supporters
+          </Link> */}
+        </p>
+      </div>
     </div>
-  </div>
-);
+  );
+}
 
 export default Archive;

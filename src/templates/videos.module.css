@@ -5,23 +5,31 @@
 }
 
 .videos {
-  margin: 64px;
+  margin: 4%;
+}
+
+@media only screen and (min-width: 768px) {
+  .videos {
+    margin: 64px;
+  }
 }
 
 .videoGrid {
   display: grid;
-  grid-gap: 8px;
+  grid-gap: 24px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.videoGrid p {
+  margin: 0
 }
 
 .title {
   font-weight: 600;
-  max-width: 30ch;
 }
 
 .speakers {
   color: gray;
-  max-width: 30ch;
 }
 
 .pagination {
@@ -33,4 +41,20 @@
 
 .pageLink {
   margin: 16px;
+}
+
+.iframeContainer {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  margin-bottom: 1em;
+}
+ 
+.iframeContainer iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }

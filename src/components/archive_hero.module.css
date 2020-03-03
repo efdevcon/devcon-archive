@@ -7,4 +7,6 @@
   justify-content: center;
   color: white;
   text-shadow: 0 0 20px rgba(0,0,0,0.8);
+  background-position: center;
+  background-size: cover;
 }
