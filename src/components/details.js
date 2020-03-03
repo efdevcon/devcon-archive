@@ -19,73 +19,48 @@ const Details = props => {
       dataYaml {
         devcon0 {
           header
+          location
+          date
           copy
         }
         devcon1 {
           header
+          location
+          date
           copy
         }
         devcon2 {
           header
+          location
+          date
           copy
         }
         devcon3 {
           header
+          location
+          date
           copy
         }
         devcon4 {
           header
+          location
+          date
           copy
         }
         devcon5 {
           header
+          location
+          date
           copy
         }
       }
     }
   `);
 
-  const devconHeader = devcon => {
-    if (devcon === "devcon-0") {
-      return data.dataYaml.devcon0.header;
-    }
-    if (devcon === "devcon-1") {
-      return data.dataYaml.devcon1.header;
-    }
-    if (devcon === "devcon-2") {
-      return data.dataYaml.devcon2.header;
-    }
-    if (devcon === "devcon-3") {
-      return data.dataYaml.devcon3.header;
-    }
-    if (devcon === "devcon-4") {
-      return data.dataYaml.devcon4.header;
-    }
-    if (devcon === "devcon-5") {
-      return data.dataYaml.devcon5.header;
-    } else {
-      return "";
-    }
-  };
-
-  const devconText = devcon => {
-    if (devcon === "devcon-0") {
-      return data.dataYaml.devcon0.copy;
-    }
-    if (devcon === "devcon-1") {
-      return data.dataYaml.devcon1.copy;
-    }
-    if (devcon === "devcon-2") {
-      return data.dataYaml.devcon2.copy;
-    }
-    if (devcon === "devcon-3") {
-      return data.dataYaml.devcon3.copy;
-    }
-    if (devcon === "devcon-4") {
-      return data.dataYaml.devcon4.copy;
-    }
-    if (devcon === "devcon-5") {
-      return data.dataYaml.devcon5.copy;
+  const devconData = devcon => {
+    const devconKey = devcon.replace("-", "");
+    if (data.dataYaml[devconKey]) {
+      return data.dataYaml[devconKey];
     } else {
       return "";
     }
@@ -101,8 +76,8 @@ const Details = props => {
       />
       <Navbar devcon={`devcon-${props.number}`} />
       <DetailsAbout
-        header={devconHeader(`devcon-${props.number}`)}
-        text={devconText(`devcon-${props.number}`)}
+        header={devconData(`devcon-${props.number}`).header}
+        text={devconData(`devcon-${props.number}`).copy}
       />
       <FeaturedVideo devcon={`devcon-${props.number}`} />
       {/* <FeaturedSupporters /> */}

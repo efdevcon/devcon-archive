@@ -48,15 +48,17 @@ const Videos = ({ pageContext }) => {
           <div className={css.videoGrid}>
             {pagedData.map((video, index) => (
               <div className={css.videoCard} key={index}>
-                <iframe
-                  frameborder="0"
-                  src={video.url}
-                  title={video.title}
-                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                  webkitallowfullscreen="true"
-                  mozallowfullscreen="true"
-                  allowfullscreen
-                />
+                <div className={css.iframeContainer}>
+                  <iframe
+                    frameBorder="0"
+                    src={video.url}
+                    title={video.title}
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                    webkitallowfullscreen="true"
+                    mozallowfullscreen="true"
+                    allowFullScreen
+                  />
+                </div>
                 <p className={css.title}>{video.title}</p>
                 <p className={css.speakers}>By {video.speakers}</p>
               </div>

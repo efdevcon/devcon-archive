@@ -6,8 +6,12 @@ import css from "./navbar.module.css";
 import "../index.css";
 
 const Navbar = props => {
+  const number = props.devcon.slice(-1);
+  const backgroundClass = css[`dc${number}Background`];
+  const highlightClass = css[`dc${number}Highlight`];
+
   return (
-    <nav>
+    <nav className={`${backgroundClass} ${highlightClass}`}>
       <ul className={css.navbar}>
         <li className={css.navitem}>
           <Link className={css.navlink} to={`${props.devcon}/details`}>

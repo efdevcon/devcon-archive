@@ -14,50 +14,48 @@ const Archives = () => {
       dataYaml {
         devcon0 {
           header
+          location
+          date
           copy
         }
         devcon1 {
           header
+          location
+          date
           copy
         }
         devcon2 {
           header
+          location
+          date
           copy
         }
         devcon3 {
           header
+          location
+          date
           copy
         }
         devcon4 {
           header
+          location
+          date
           copy
         }
         devcon5 {
           header
+          location
+          date
           copy
         }
       }
     }
   `);
 
-  const devconText = devcon => {
-    if (devcon === "devcon-0") {
-      return data.dataYaml.devcon0.copy;
-    }
-    if (devcon === "devcon-1") {
-      return data.dataYaml.devcon1.copy;
-    }
-    if (devcon === "devcon-2") {
-      return data.dataYaml.devcon2.copy;
-    }
-    if (devcon === "devcon-3") {
-      return data.dataYaml.devcon3.copy;
-    }
-    if (devcon === "devcon-4") {
-      return data.dataYaml.devcon4.copy;
-    }
-    if (devcon === "devcon-5") {
-      return data.dataYaml.devcon5.copy;
+  const devconData = devcon => {
+    const devconKey = devcon.replace("-", "");
+    if (data.dataYaml[devconKey]) {
+      return data.dataYaml[devconKey];
     } else {
       return "";
     }
@@ -66,44 +64,50 @@ const Archives = () => {
     <div className={css.archives}>
       <Archive
         number="5"
-        location="Osaka, Japan"
-        date="Oct 8 - 11, 2019"
-        text={devconText("devcon-5")}
+        location={devconData("devcon-5").location}
+        date={devconData("devcon-5").date}
+        header={devconData("devcon-5").header}
+        text={devconData("devcon-5").copy}
       />
 
       <Archive
         number="4"
-        location="Prague, Czech Republic"
-        date="Oct 30 - Nov 2, 2018"
-        text={devconText("devcon-4")}
+        location={devconData("devcon-4").location}
+        date={devconData("devcon-4").date}
+        header={devconData("devcon-4").header}
+        text={devconData("devcon-4").copy}
       />
 
       <Archive
         number="3"
-        location="Cancún, Mexico"
-        date="Nov 1 - 4, 2017"
-        text={devconText("devcon-3")}
+        location={devconData("devcon-3").location}
+        date={devconData("devcon-3").date}
+        header={devconData("devcon-3").header}
+        text={devconData("devcon-3").copy}
       />
 
       <Archive
         number="2"
-        location="Shanghai, China"
-        date="Sep 19 - 21, 2016"
-        text={devconText("devcon-2")}
+        location={devconData("devcon-2").location}
+        date={devconData("devcon-2").date}
+        header={devconData("devcon-2").header}
+        text={devconData("devcon-2").copy}
       />
 
       <Archive
         number="1"
-        location="London, United Kingdom"
-        date="Nov 9 - 13, 2015"
-        text={devconText("devcon-1")}
+        location={devconData("devcon-1").location}
+        date={devconData("devcon-1").date}
+        header={devconData("devcon-1").header}
+        text={devconData("devcon-1").copy}
       />
 
       <Archive
         number="0"
-        location="Berlin, Germany"
-        date="Nov 24 - 28, 2014"
-        text={devconText("devcon-0")}
+        location={devconData("devcon-0").location}
+        date={devconData("devcon-0").date}
+        header={devconData("devcon-0").header}
+        text={devconData("devcon-0").copy}
       />
     </div>
   );
