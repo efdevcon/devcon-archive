@@ -58,12 +58,11 @@ const Details = props => {
   `);
 
   const devconData = devcon => {
-    const devconKey = devcon.replace('-', '')
+    const devconKey = devcon.replace("-", "");
     if (data.dataYaml[devconKey]) {
       return data.dataYaml[devconKey];
-    }
-    else {
-      return ""
+    } else {
+      return "";
     }
   };
 

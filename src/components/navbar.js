@@ -6,9 +6,9 @@ import css from "./navbar.module.css";
 import "../index.css";
 
 const Navbar = props => {
-  const number = props.devcon.slice(-1)
-  const backgroundClass = css[`dc${number}Background`]
-  const highlightClass = css[`dc${number}Highlight`]
+  const number = props.devcon.slice(-1);
+  const backgroundClass = css[`dc${number}Background`];
+  const highlightClass = css[`dc${number}Highlight`];
 
   return (
     <nav className={`${backgroundClass} ${highlightClass}`}>
