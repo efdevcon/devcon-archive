@@ -10,13 +10,11 @@
   background-size: cover;
 }
 
-
-
 .heroText {
   max-width: 40ch;
   font-weight: 200;
   text-align: center;
-  color: white;
+  color: black;
   text-shadow: 0 0 11px rgba(0,0,0,0.9);
   font-size: 1.3rem;
 }
