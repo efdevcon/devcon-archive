@@ -33,7 +33,7 @@ const Videos = ({ pageContext }) => {
 
   return (
     <div>
-      <Header />
+      <Header color="white" />
       <ArchiveHero
         number={pageContext.devconNum}
         location={pageContext.location}

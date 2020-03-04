@@ -5,22 +5,23 @@ import { Link } from "gatsby";
 import css from "./header.module.css";
 import "../index.css";
 
-/* Components */
-import HeaderLogo from "../components/header-logo-devcon";
-
-const Header = () => (
+const Header = props => (
   <header className={css.header}>
-    <Link className={css.headerLinkLogo} to="/">
-      <HeaderLogo />
-    </Link>
-    <div>
-      <a className={css.headerLink} href="https://devcon.org">
+    <div className={css.headerItem}>
+      <a
+        className={`${css.headerLink} ${
+          props.color === "white" ? css.colorWhite : css.colorBlack
+        }`}
+        href="https://devcon.org"
+      >
         Devcon.org
       </a>
     </div>
-    <div>
+    <div className={css.headerItem}>
       <a
-        className={css.headerLink}
+        className={`${css.headerLink} ${
+          props.color === "white" ? css.colorWhite : css.colorBlack
+        }`}
         href="https://blog.ethereum.org/category/devcon/"
       >
         Blog
