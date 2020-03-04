@@ -1,7 +1,7 @@
 @import "../index.css";
 
 .featuredVideo {
-  background: var(--dc2-bg-color);
+  background: #faf7ef;
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
