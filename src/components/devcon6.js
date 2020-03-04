@@ -3,7 +3,6 @@ import React from "react";
 /* CSS */
 import css from "./devcon6.module.css";
 import "../index.css";
-import "typeface-work-sans";
 
 const Devcon6 = () => (
   <div className={css.devcon}>

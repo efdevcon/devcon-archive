@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 /* CSS */
 import css from "./navbar.module.css";
 import "../index.css";
-import "typeface-work-sans";
 
 const Navbar = props => {
   const number = props.devcon.slice(-1);

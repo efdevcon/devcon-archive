@@ -5,7 +5,6 @@ import Img from "gatsby-image";
 /* CSS */
 import css from "./logo-devcon.module.css";
 import "../index.css";
-import "typeface-work-sans";
 
 const LogoDevcon = () => {
   const data = useStaticQuery(graphql`

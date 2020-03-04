@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from "gatsby";
 /* CSS */
 import css from "./archive_hero.module.css";
 import "../index.css";
-import "typeface-work-sans";
 
 /* HTML */
 import BackgroundImage from "gatsby-background-image";

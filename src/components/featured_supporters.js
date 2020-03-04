@@ -3,7 +3,6 @@ import React from "react";
 /* CSS */
 import css from "./featured_supporters.module.css";
 import "../index.css";
-import "typeface-work-sans";
 
 const FeaturedSupporters = () => (
   <div className={css.featuredSupporters}>

@@ -5,7 +5,6 @@ import Img from "gatsby-image";
 /* CSS */
 import css from "./details_about.module.css";
 import "../index.css";
-import "typeface-work-sans";
 
 const DetailsAbout = props => {
   const data = useStaticQuery(graphql`

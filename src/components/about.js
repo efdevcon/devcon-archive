@@ -3,7 +3,6 @@ import React from "react";
 /* CSS */
 import css from "./about.module.css";
 import "../index.css";
-import "typeface-work-sans";
 
 const About = () => (
   <div className={css.devconAbout} id="devcon-about">
