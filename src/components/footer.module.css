@@ -2,16 +2,26 @@
 
 .footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  background: var(--dc2-bg-color);
-  color: var(--dc2-hl-color);
-  font-size: .8rem;
+  justify-content: center;
+  background: #26293b;
+  color: white;
+  padding-top: 40px;
+}
+
+.topRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .copyright {
   padding-left: 24px;
+  font-size: 12px;
 }
 
 .link {
@@ -20,5 +30,14 @@
 }
 
 .footer-link {
-  color: var(--dc2-hl-color);
+  color: white;
+  text-decoration: none;
+}
+
+.divider {
+  margin-right: 16px;
+}
+
+.twitterIcon {
+  margin-left: 8px;
 }

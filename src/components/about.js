@@ -1,6 +1,7 @@
 import React from "react";
-import css from "./about.module.css";
 
+/* CSS */
+import css from "./about.module.css";
 import "../index.css";
 
 const About = () => (
