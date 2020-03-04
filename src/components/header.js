@@ -10,12 +10,19 @@ import HeaderLogo from "../components/header-logo-devcon";
 
 const Header = () => (
   <header className={css.header}>
-    <HeaderLogo />
-    <Link className={css.headerLink} to="/">
-      Archive
+    <Link className={css.headerLinkLogo} to="/">
+      <HeaderLogo />
     </Link>
     <div>
-      <a className={css.headerLink} href="https://blog.ethereum.org">
+      <a className={css.headerLink} href="https://devcon.org">
+        Devcon.org
+      </a>
+    </div>
+    <div>
+      <a
+        className={css.headerLink}
+        href="https://blog.ethereum.org/category/devcon/"
+      >
         Blog
       </a>
     </div>

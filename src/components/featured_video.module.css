@@ -1,18 +1,66 @@
+@import "../index.css";
+
 .featuredVideo {
+  background: var(--dc2-bg-color);
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  background: gray;
 }
 
-.videos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.header {
+  color: var(--dc0-hl-color);
 }
 
 .video {
   margin: 16px;
+}
+
+.videoGrid {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  margin: 4%;
+}
+
+.videoGrid p {
+  margin: 0;
+}
+
+.header {
+  align-self: center;  
+}
+
+.title {
+  font-weight: 600;
+}
+
+.speakers {
+  color: gray;
+}
+
+.videoLinks {
+  text-decoration: None;
+  color: var(--dc5-hl-color);
+  font-weight: 600;
+}
+
+.iframeContainer {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  margin-bottom: 1em;
+}
+ 
+.iframeContainer iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.videoLinksContainer {
+  align-self: center;
 }

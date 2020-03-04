@@ -79,7 +79,10 @@ const Details = props => {
         header={devconData(`devcon-${props.number}`).header}
         text={devconData(`devcon-${props.number}`).copy}
       />
-      <FeaturedVideo devcon={`devcon-${props.number}`} />
+      <FeaturedVideo
+        devconNum={props.number}
+        devcon={`devcon-${props.number}`}
+      />
       {/* <FeaturedSupporters /> */}
       <Footer />
     </div>
