@@ -1,9 +1,11 @@
 import React from "react";
 import Img from "gatsby-image";
 import { graphql, useStaticQuery } from "gatsby";
+
 /* CSS */
 import css from "./footer.module.css";
 import "../index.css";
+import "typeface-work-sans";
 
 const Footer = () => {
   const data = useStaticQuery(graphql`

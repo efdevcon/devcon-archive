@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 /* CSS */
 import css from "./archives.module.css";
 import "../index.css";
+import "typeface-work-sans";
 
 /* Components */
 import Archive from "./archive";

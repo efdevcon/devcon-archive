@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 /* CSS */
 import css from "./archive.module.css";
 import "../index.css";
+import "typeface-work-sans";
 
 /* Components */
 import Logo from "./logo";

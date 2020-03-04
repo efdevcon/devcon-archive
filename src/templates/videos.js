@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 /* CSS */
 import css from "./videos.module.css";
 import "../index.css";
+import "typeface-work-sans";
 
 /* Components */
 import ArchiveHero from "../components/archive_hero";

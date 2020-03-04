@@ -2,6 +2,7 @@ import React from "react";
 
 /* CSS */
 import "../../index.css";
+import "typeface-work-sans";
 
 /* Components */
 import Details from "../../components/details";

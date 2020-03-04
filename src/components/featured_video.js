@@ -4,6 +4,7 @@ import { Link, graphql, useStaticQuery } from "gatsby";
 /* CSS */
 import css from "./featured_video.module.css";
 import "../index.css";
+import "typeface-work-sans";
 
 const FeaturedVideo = props => {
   const data = useStaticQuery(graphql`

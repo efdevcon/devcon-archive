@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 /* CSS */
 import "../index.css";
+import "typeface-work-sans";
 
 /* Components */
 import ArchiveHero from "./archive_hero";

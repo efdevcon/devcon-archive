@@ -5,6 +5,7 @@ import Img from "gatsby-image";
 /* CSS */
 import css from "./logo.module.css";
 import "../index.css";
+import "typeface-work-sans";
 
 const Logo = () => {
   const data = useStaticQuery(graphql`

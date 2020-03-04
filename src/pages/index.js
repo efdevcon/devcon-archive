@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../index.css";
+import "typeface-work-sans";
 
 /* Components */
 /* import About from "../components/about"; */
