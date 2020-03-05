@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "gatsby";
 
 /* CSS */
 import css from "./archive.module.css";
 import "../index.css";
 
 /* Components */
+import Button from "./button";
 import Logo from "./logo";
 
 const Archive = props => {
@@ -25,20 +25,20 @@ const Archive = props => {
 
       <div className={css.archiveCol}>
         <p className={css.archiveText}>{props.text}</p>
-        <p>
-          <Link
-            className={css.archiveLink}
-            to={`devcon-${props.number}/details`}
+        <div className={css.buttonContainer}>
+          <Button
+            devconNum={props.number}
+            link={`./devcon-${props.number}/details`}
           >
             Details
-          </Link>{" "}
-          :{" "}
-          <Link
-            className={css.archiveLink}
-            to={`devcon-${props.number}/videos`}
+          </Button>
+
+          <Button
+            devconNum={props.number}
+            link={`./devcon-${props.number}/videos`}
           >
             Videos
-          </Link>{" "}
+          </Button>
           {/*
           <Link
             className={css.archiveLink}
@@ -46,7 +46,7 @@ const Archive = props => {
           >
             Supporters
           </Link> */}
-        </p>
+        </div>
       </div>
     </div>
   );

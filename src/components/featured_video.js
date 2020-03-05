@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 
 /* CSS */
 import css from "./featured_video.module.css";
@@ -52,13 +52,11 @@ const FeaturedVideo = props => {
         ))}
       </div>
 
-      <p className={css.videoLinksContainer}>
-        <Button
-          link={`/${props.devcon}/videos`}
-          text="Check Out More Videos »"
-          devconNum = {props.devconNum}
-        />
-      </p>
+      <div className={css.videoLinksContainer}>
+        <Button link={`/${props.devcon}/videos`} devconNum={props.devconNum}>
+          Check Out More Videos »
+        </Button>
+      </div>
     </div>
   );
 };

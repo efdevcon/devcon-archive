@@ -10,7 +10,7 @@ const Button = props => {
   return (
     <div className={`${css.button} ${backgroundClass}`}>
       <a className={css.link} href={props.link}>
-        {props.text}
+        {props.children}
       </a>
     </div>
   );
