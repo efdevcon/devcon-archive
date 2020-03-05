@@ -5,6 +5,9 @@ import { Link, graphql, useStaticQuery } from "gatsby";
 import css from "./featured_video.module.css";
 import "../index.css";
 
+/* Components */
+import Button from "./button";
+
 const FeaturedVideo = props => {
   const data = useStaticQuery(graphql`
     query {
@@ -50,9 +53,10 @@ const FeaturedVideo = props => {
       </div>
 
       <p className={css.videoLinksContainer}>
-        <Link className={css.videoLinks} to={`${props.devcon}/videos`}>
-          Check Out More Videos
-        </Link>
+        <Button
+          link={`/${props.devcon}/videos`}
+          text="Check Out More Videos »"
+        />
       </p>
     </div>
   );
