@@ -13,3 +13,27 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+.dc0 {
+  background-image: linear-gradient(to bottom, #fa739c, #fd3673);
+}
+
+.dc1 {
+  background-image: linear-gradient(to bottom, #f5714a, #f54814);
+}
+
+.dc2 {
+  background-image: linear-gradient(to bottom, #f2c241, #e8aa04);
+}
+
+.dc3 {
+  background-image: linear-gradient(to bottom, #7ddd51, #50ba1f);
+}
+
+.dc4 {
+  background-image: linear-gradient(to bottom, #38dec5, #0accae);
+}
+
+.dc5 {
+  background-image: linear-gradient(to bottom, #4bc3d9, #38adc3);
+}

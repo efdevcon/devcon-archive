@@ -56,6 +56,7 @@ const FeaturedVideo = props => {
         <Button
           link={`/${props.devcon}/videos`}
           text="Check Out More Videos »"
+          devconNum = {props.devconNum}
         />
       </p>
     </div>
