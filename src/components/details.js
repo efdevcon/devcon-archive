@@ -68,7 +68,7 @@ const Details = props => {
 
   return (
     <div>
-      <Header />
+      <Header color="white" />
       <ArchiveHero
         number={props.number}
         location={props.location}

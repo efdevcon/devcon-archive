@@ -9,12 +9,13 @@ import "../index.css";
 import BackgroundImage from "gatsby-background-image";
 
 /* Components */
+import Button from "./button";
 import LogoDevcon from "./logo-devcon";
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "archive-background.png" }) {
+      file(relativePath: { eq: "devcon_archive_hero_background.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
@@ -37,6 +38,7 @@ const Hero = () => {
         Annual conference for all Ethereum developers, researchers, thinkers,
         and makers
       </p>
+      <Button text="Devcon 6 Info »" />
       {/* <p className={css.callToAction}>
         <a className={css.callToActionLink} href="#devcon-about">
           Read More

@@ -4,31 +4,16 @@
   justify-content: center;
   align-items: center;
   background: lightgray;
-  height: 75vh;
-
+  height: 85vh;
   background-position: center;
   background-size: cover;
+  padding: 24px;
 }
-
-
 
 .heroText {
   max-width: 40ch;
-  font-weight: 200;
+  font-weight: normal;
   text-align: center;
-  color: white;
-  text-shadow: 0 0 11px rgba(0,0,0,0.9);
-  font-size: 1.3rem;
-}
-
-.callToAction {
-  font-weight: 600;
-}
-
-.callToActionLink {
-  color: black;
-}
-
-.callToActionLink:visited {
-  color: black;
+  color: #26293b;
+  font-size: 16px;
 }
