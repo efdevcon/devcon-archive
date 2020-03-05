@@ -89,7 +89,7 @@
       description: "Vlad Zamfir and Vitalik Buterin present their latest research on blockchain interoperability and scaling as part of DEVCON 0."
       speakers: "Vlad Zamfir, Vitalik Buterin"
       bios: N/A
-      url: "https://www.youtube.com/watch?v=fwEsXBDFk6c"
+      url: "https://www.youtube.com/embed/fwEsXBDFk6c"
       day: N/A
       room: "Main Room"
       type: Talk
@@ -114,7 +114,7 @@
       description: "In this first video from the ÐΞVCON ONE series, Vitalik Buterin, Jeffrey Wilcke, Alex van de Sande and Gavin Wood present the Ethereum roadmap."
       speakers: "Vitalik Buterin, Jeffrey Wilcke, Alex van de Sande, Gavin Wood"
       bios: N/A
-      url: "https://www.youtube.com/watch?v=BUARih8_f68"
+      url: "https://www.youtube.com/embed/BUARih8_f68"
       day: "Day 1"
       room: "Main Stage"
       type: Panel
