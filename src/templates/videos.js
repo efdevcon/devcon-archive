@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 /* CSS */
 import css from "./videos.module.css";
@@ -7,6 +6,7 @@ import "../index.css";
 
 /* Components */
 import ArchiveHero from "../components/archive_hero";
+import Button from "../components/button";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Navbar from "../components/navbar";
@@ -66,15 +66,15 @@ const Videos = ({ pageContext }) => {
           </div>
           <div className={css.pagination}>
             {!isFirst && (
-              <Link className={css.pageLink} to={prevPage} rel="prev">
-                ← Previous Page
-              </Link>
+              <div className={css.pageLink}>
+                <Button link={prevPage} rel="prev" text="← Previous Page" />
+              </div>
             )}
 
             {!isLast && (
-              <Link className={css.pageLink} to={nextPage} rel="next">
-                Next Page →
-              </Link>
+              <div className={css.pageLink}>
+                <Button link={nextPage} rel="next" text="Next Page →" />
+              </div>
             )}
           </div>
         </div>
