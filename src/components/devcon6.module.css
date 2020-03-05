@@ -1,9 +1,0 @@
-/* TODO Breakpoint needed for mobile text alignment */
-.devcon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background: gray;
-  margin-bottom: 8px;
-}
