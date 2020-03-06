@@ -8,11 +8,9 @@ import "../index.css";
 const Button = props => {
   const backgroundClass = css[`dc${props.devconNum}`];
   return (
-    <div className={`${css.button} ${backgroundClass}`}>
-      <a className={css.link} href={props.link}>
-        {props.children}
-      </a>
-    </div>
+    <a className={css.link} href={props.link}>
+      <div className={`${css.button} ${backgroundClass}`}>{props.children}</div>
+    </a>
   );
 };
 
