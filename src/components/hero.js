@@ -31,7 +31,7 @@ const Hero = () => {
       className={css.hero}
       Tag="section"
     >
-      <div>
+      <div className={css.logoDivider}>
         <LogoDevcon />
       </div>
       <p className={css.heroText}>
