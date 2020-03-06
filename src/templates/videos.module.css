@@ -1,3 +1,5 @@
+@import "../index.css";
+
 .filters {
   margin: 36px;
   text-align: right;
@@ -21,7 +23,7 @@
 }
 
 .videoGrid p {
-  margin: 0
+  margin: 0;
 }
 
 .title {
@@ -33,6 +35,7 @@
 }
 
 .pagination {
+  margin-top: 8px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -41,6 +44,15 @@
 
 .pageLink {
   margin: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px;
+  color: var(--dc6-hl-color);
+}
+
+.pageLink:hover {
+  text-decoration: underline;
 }
 
 .iframeContainer {
@@ -49,12 +61,12 @@
   position: relative;
   margin-bottom: 1em;
 }
- 
+
 .iframeContainer iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }

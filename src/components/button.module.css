@@ -1,12 +1,45 @@
 .button {
-  min-width: 280px;
-  height: 72px;
+  max-width: 248px;
   border-radius: 5px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  background-image: linear-gradient(102deg, #2ea4d8 4%, #0461b5 87%);
-  padding: 25px 53px 23px 53px;
+  padding: 20px 52px 16px 52px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   font-size: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-image: linear-gradient(102deg, #2ea4d8 4%, #0461b5 87%);
+}
+
+.link {
   color: #ffffff;
+  text-decoration: none;
+}
+
+.dc0 {
+  box-shadow: none;
+  background-image: linear-gradient(to bottom, #fa739c, #fd3673);
+}
+
+.dc1 {
+  box-shadow: none;
+  background-image: linear-gradient(to bottom, #f5714a, #f54814);
+}
+
+.dc2 {
+  box-shadow: none;
+  background-image: linear-gradient(to bottom, #f2c241, #e8aa04);
+}
+
+.dc3 {
+  box-shadow: none;
+  background-image: linear-gradient(to bottom, #7ddd51, #50ba1f);
+}
+
+.dc4 {
+  box-shadow: none;
+  background-image: linear-gradient(to bottom, #38dec5, #0accae);
+}
+
+.dc5 {
+  box-shadow: none;
+  background-image: linear-gradient(to bottom, #4bc3d9, #38adc3);
 }

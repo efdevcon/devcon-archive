@@ -9,10 +9,17 @@ body {
   line-height: 1.2;
 }
 
+/* Breakpoints */
+@custom-media --min-mobile (min-width: 400px);
+@custom-media --min-small (min-width: 550px);
+@custom-media --min-medium (min-width: 768px);
+@custom-media --min-large (min-width: 1024px);
+@custom-media --min-small-height (min-height: 450px);
+
 :root {
   /* TODO update DC6 values when you get the correct values */
   --dc6-bg-color: #76BAFF;
-  --dc6-hl-color: #76BAFF;
+  --dc6-hl-color: #00389B;
   --dc5-bg-color: #85E3F4;
   --dc5-hl-color: #38ADC3;
   --dc4-bg-color: #B3F5EB;

@@ -31,14 +31,16 @@ const Hero = () => {
       className={css.hero}
       Tag="section"
     >
-      <h1>
+      <div className={css.logoDivider}>
         <LogoDevcon />
-      </h1>
+      </div>
       <p className={css.heroText}>
         Annual conference for all Ethereum developers, researchers, thinkers,
         and makers
       </p>
-      <Button text="Devcon 6 Info »" />
+      <Button devconNum="default" link="https://devcon.org">
+        Devcon 6 Info »{" "}
+      </Button>
       {/* <p className={css.callToAction}>
         <a className={css.callToActionLink} href="#devcon-about">
           Read More
