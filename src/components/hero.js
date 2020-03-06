@@ -31,9 +31,9 @@ const Hero = () => {
       className={css.hero}
       Tag="section"
     >
-      <h1>
+      <div>
         <LogoDevcon />
-      </h1>
+      </div>
       <p className={css.heroText}>
         Annual conference for all Ethereum developers, researchers, thinkers,
         and makers
