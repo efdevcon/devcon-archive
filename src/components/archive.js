@@ -5,11 +5,12 @@ import css from "./archive.module.css";
 import "../index.css";
 
 /* Components */
-import Button from "./button";
 import Logo from "./logo";
 
 const Archive = props => {
   const backgroundClass = css[`dc${props.number}Background`];
+  const gradientClass = css[`dc${props.number}Gradient`];
+  const hoverClass = css[`dc${props.number}Hover`];
 
   return (
     <div className={`${css.archive} ${backgroundClass}`}>
@@ -25,20 +26,25 @@ const Archive = props => {
 
       <div className={css.archiveCol}>
         <p className={css.archiveText}>{props.text}</p>
-        <div className={css.buttonContainer}>
-          <Button
-            devconNum={props.number}
-            link={`./devcon-${props.number}/details`}
-          >
-            Details
-          </Button>
-
-          <Button
-            devconNum={props.number}
-            link={`./devcon-${props.number}/videos`}
-          >
-            Videos
-          </Button>
+        <ul className={`${css.archiveLinks} ${gradientClass}`}>
+          <li className={css.archiveLink}>
+            <a
+              className={`${hoverClass}`}
+              href={`./devcon-${props.number}/details`}
+            >
+              Details
+            </a>
+          </li>
+          <li className={css.archiveLink}>|</li>
+          <li className={css.archiveLink}>
+            <a
+              className={`${hoverClass}`}
+              href={`./devcon-${props.number}/videos`}
+            >
+              {" "}
+              Videos
+            </a>
+          </li>
           {/*
           <Link
             className={css.archiveLink}
@@ -46,7 +52,7 @@ const Archive = props => {
           >
             Supporters
           </Link> */}
-        </div>
+        </ul>
       </div>
     </div>
   );
