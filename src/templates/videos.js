@@ -67,13 +67,17 @@ const Videos = ({ pageContext }) => {
           <div className={css.pagination}>
             {!isFirst && (
               <div className={css.pageLink}>
-                <Button link={prevPage} rel="prev" text="← Previous Page" />
+                <Button link={prevPage} rel="prev">
+                  ← Previous Page
+                </Button>
               </div>
             )}
 
             {!isLast && (
               <div className={css.pageLink}>
-                <Button link={nextPage} rel="next" text="Next Page →" />
+                <Button link={nextPage} rel="next">
+                  Next Page →{" "}
+                </Button>
               </div>
             )}
           </div>
