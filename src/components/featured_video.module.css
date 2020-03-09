@@ -51,6 +51,18 @@
   position: relative;
   margin-bottom: 1em;
 }
+
+@media screen and (max-width: 550px) {
+  .iframeContainer {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .iframeContainer {
+    max-width: 300px;
+  }
+}
  
 .iframeContainer iframe {
    border: 0;
