@@ -16,6 +16,12 @@
   padding: 24px;
 }
 
+@media screen and (max-width: 320px) {
+  .hero {
+    height: 96vh;
+  }
+}
+
 .heroText {
   max-width: 40ch;
   font-weight: normal;

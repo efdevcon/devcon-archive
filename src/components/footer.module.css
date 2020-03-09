@@ -7,7 +7,12 @@
   justify-content: center;
   background: #26293b;
   color: white;
-  padding-top: 40px;
+}
+
+@media screen and (min-width: 550px) {
+  .footer {
+    padding-top: 40px;
+  }
 }
 
 .topRow {

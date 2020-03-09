@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 24px;
 }
 
 .header {
@@ -33,6 +34,12 @@
 
 .title {
   font-weight: 600;
+}
+
+@media screen and (max-width: 320px) {
+  .title, .speakers {
+    max-width: 300px;
+  }
 }
 
 .speakers {
