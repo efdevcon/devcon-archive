@@ -3,6 +3,10 @@
  * All class selected elements should be defined by CSS modules
  */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
   font-family: 'Work Sans', sans-serif;
