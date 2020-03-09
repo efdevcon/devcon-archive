@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 
 /* CSS */
 import css from "./archive.module.css";
@@ -6,14 +8,35 @@ import "../index.css";
 
 /* Components */
 import Logo from "./logo";
+import BackgroundImage from "gatsby-background-image";
+
+
 
 const Archive = props => {
+
   const backgroundClass = css[`dc${props.number}Background`];
   const gradientClass = css[`dc${props.number}Gradient`];
   const hoverClass = css[`dc${props.number}Hover`];
 
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "background-devcon0@3x.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `);
+
+  console.log(data)
+
   return (
-    <div className={`${css.archive} ${backgroundClass}`}>
+    <BackgroundImage
+      fluid={data.file.childImageSharp.fluid}
+      className={`${css.archive} ${backgroundClass}`}>
+        
       <div className={css.archiveCol}>
         <Logo />
       </div>
@@ -54,7 +77,7 @@ const Archive = props => {
           </Link> */}
         </ul>
       </div>
-    </div>
+    </BackgroundImage>
   );
 };
 
