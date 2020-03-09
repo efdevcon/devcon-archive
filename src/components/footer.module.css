@@ -19,6 +19,12 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 550px) {
+  .topRow {
+    flex-direction: column;
+  }
+}
+
 .copyright {
   padding-left: 24px;
   font-size: 12px;
@@ -29,13 +35,28 @@
   padding-right: 24px;
 }
 
+@media screen and (max-width: 550px) {
+  .link {
+    margin-left: 0;
+    padding-right: 0;
+  }
+}
+
 .footer-link {
   color: white;
   text-decoration: none;
+
 }
 
 .divider {
+  display: block;
   margin-right: 16px;
+}
+
+@media screen and (max-width: 550px) {
+  .divider {
+    display: none;
+  }
 }
 
 .twitterIcon {
