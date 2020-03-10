@@ -54,7 +54,7 @@ const FeaturedVideo = props => {
 
       <div className={css.videoLinksContainer}>
         <Button link={`/${props.devcon}/videos`} devconNum={props.devconNum}>
-          Check Out More Videos »
+          More Videos »
         </Button>
       </div>
     </div>
