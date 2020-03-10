@@ -14,7 +14,7 @@ const Navbar = props => {
     <nav className={`${backgroundClass} ${highlightClass}`}>
       <ul className={css.navbar}>
         <li className={css.navItem}>
-          <Link className={css.navLink} to='/'>
+          <Link className={css.navLink} to="/">
             Home
           </Link>
         </li>
