@@ -61,7 +61,7 @@ const Archive = props => {
       <div className={css.archiveCol}>
         <p className={css.archiveText}>{props.text}</p>
         <ul className={`${css.archiveLinks} ${gradientClass}`}>
-          <li className={css.archiveLink}>
+          <li>
             <a
               className={`${hoverClass}`}
               href={`./devcon-${props.number}/details`}
@@ -69,8 +69,8 @@ const Archive = props => {
               Details
             </a>
           </li>
-          <li className={css.archiveLink}>|</li>
-          <li className={css.archiveLink}>
+          <li>|</li>
+          <li>
             <a
               className={`${hoverClass}`}
               href={`./devcon-${props.number}/videos`}
