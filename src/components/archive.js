@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import { useStaticQuery, graphql } from "gatsby";
 
 /* CSS */
@@ -20,21 +20,31 @@ const Archive = props => {
 
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "background-devcon0@3x.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1200) {
-            ...GatsbyImageSharpFluid
+      allImageSharp {
+        edges {
+          node {
+            fluid(maxWidth: 1200) {
+              ...GatsbyImageSharpFluid
+              originalName
+            }
           }
         }
       }
-    }
-  `);
+    }`);
 
-  console.log(data)
+  const backgroundFluidMap = {}
+  
+  data.allImageSharp.edges.forEach(function(f) {
+    const filename = f.node.fluid.originalName
+    if (filename.startsWith('background-section-devcon') && filename.endsWith('@3x.png')) {
+      const edition = filename[25]
+      backgroundFluidMap[edition] = f.node.fluid
+    }
+  })
 
   return (
     <BackgroundImage
-      fluid={data.file.childImageSharp.fluid}
+      fluid={backgroundFluidMap[props.number]}
       className={`${css.archive} ${backgroundClass}`}>
         
       <div className={css.archiveCol}>
