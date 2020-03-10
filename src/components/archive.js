@@ -11,7 +11,6 @@ import Logo from "./logo";
 import BackgroundImage from "gatsby-background-image";
 
 
-
 const Archive = props => {
 
   const backgroundClass = css[`dc${props.number}Background`];
@@ -46,7 +45,9 @@ const Archive = props => {
     <BackgroundImage
       fluid={backgroundFluidMap[props.number]}
       className={`${css.archive} ${backgroundClass}`}>
-        
+
+      <div className={css.tint}></div>
+
       <div className={css.archiveCol}>
         <Logo />
       </div>

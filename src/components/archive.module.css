@@ -9,11 +9,38 @@
   scroll-margin-top: 1em;
   margin-bottom: 8px;
   flex-wrap: wrap;
-  color:#fff;
-
+  color: #26293b;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
+
+.archive .tint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  opacity: .8;
+  background-color: red;
+  transition: all 200ms linear;
+  z-index: -10;
+}
+
+.archive:hover {
+  color:#fff;
+}
+.archive:hover .tint {
+  opacity: 0;
+}
+  
+.dc0Background .tint { background-color: var(--dc0-bg-color); }
+.dc1Background .tint { background-color: var(--dc1-bg-color); }
+.dc2Background .tint { background-color: var(--dc2-bg-color); }
+.dc3Background .tint { background-color: var(--dc3-bg-color); }
+.dc4Background .tint { background-color: var(--dc4-bg-color); }
+.dc5Background .tint { background-color: var(--dc5-bg-color); }
+
 
 /* Devcon 5 */
 .dc5Background {
