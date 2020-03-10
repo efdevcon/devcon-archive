@@ -30,6 +30,13 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 320px) {
+  .title {
+    max-width: 300px;
+    margin: 8px;
+  }
+}
+
 .speakers {
   color: gray;
 }
@@ -60,6 +67,18 @@
   padding-top: 56.25%;
   position: relative;
   margin-bottom: 1em;
+}
+
+@media screen and (max-width: 550px) {
+  .iframeContainer {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .iframeContainer {
+    max-width: 300px;
+  }
 }
 
 .iframeContainer iframe {

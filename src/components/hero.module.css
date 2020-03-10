@@ -16,6 +16,12 @@
   padding: 24px;
 }
 
+@media screen and (max-width: 320px) {
+  .hero {
+    height: 96vh;
+  }
+}
+
 .heroText {
   max-width: 40ch;
   font-weight: normal;
@@ -23,4 +29,10 @@
   color: #26293b;
   font-size: 16px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .buttonContainer {
+    margin-bottom: 8px;
+  }
 }

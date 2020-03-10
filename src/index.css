@@ -3,18 +3,22 @@
  * All class selected elements should be defined by CSS modules
  */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
   font-family: 'Work Sans', sans-serif;
   line-height: 1.2;
 }
 
-/* Breakpoints */
-@custom-media --min-mobile (min-width: 400px);
-@custom-media --min-small (min-width: 550px);
-@custom-media --min-medium (min-width: 768px);
-@custom-media --min-large (min-width: 1024px);
-@custom-media --min-small-height (min-height: 450px);
+/* Breakpoints values
+--mobile (width: 400px);
+--small (width: 550px);
+--medium (width: 768px);
+--large (width: 1024px);
+--small-height (height: 450px); */
 
 :root {
   /* TODO update DC6 values when you get the correct values */
