@@ -19,17 +19,19 @@ const DetailsAbout = props => {
     }
   `);
 
+  const highlightClass = css[`dc${props.number}Highlight`];
+
   return (
     <div className={css.about}>
       <div className={css.aboutColumn}>
         <Img
           className={css.detailsImage}
           fluid={data.file.childImageSharp.fluid}
-          alt="Stock Devcon Photo"
+          alt={`${props.header} Photo`}
         />
       </div>
       <div className={css.aboutColumn}>
-        <h2 className={css.header}>{props.header}</h2>
+        <h2 className={`${css.header} ${highlightClass}`}>{props.header}</h2>
         <p className={css.aboutText}>{props.text}</p>
       </div>
     </div>

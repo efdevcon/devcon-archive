@@ -78,6 +78,7 @@ const Details = props => {
       <DetailsAbout
         header={devconData(`devcon-${props.number}`).header}
         text={devconData(`devcon-${props.number}`).copy}
+        number={props.number}
       />
       <FeaturedVideo
         devconNum={props.number}

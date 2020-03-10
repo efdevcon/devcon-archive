@@ -9,8 +9,28 @@
   padding-bottom: 24px;
 }
 
-.header {
+.dc0Highlight {
   color: var(--dc0-hl-color);
+}
+
+.dc1Highlight {
+  color: var(--dc1-hl-color);
+}
+
+.dc2Highlight {
+  color: var(--dc2-hl-color);
+}
+
+.dc3Highlight {
+  color: var(--dc3-hl-color);
+}
+
+.dc4Highlight {
+  color: var(--dc4-hl-color);
+}
+
+.dc5Highlight {
+  color: var(--dc5-hl-color);
 }
 
 .video {
