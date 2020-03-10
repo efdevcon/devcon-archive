@@ -4380,7 +4380,7 @@
       type: Talk
     - talk: null
       title: "Ethereum 2 0"
-      featured: true
+      featured: false
       description: N/A
       speakers: N/A
       bios: N/A
@@ -5378,3 +5378,13 @@
       day: "Day 3"
       room: Convention
       type: Talk
+    - talk: null
+      title: "Devcon5 Recap Video"
+      featured: true
+      description: N/A
+      speakers: N/A
+      bios: N/A
+      url: "https://youtube.com/embed/wNCKJtGuL5g"
+      day: N/A
+      room: N/A
+      type: N/A
