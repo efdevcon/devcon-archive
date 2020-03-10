@@ -13,6 +13,11 @@ const Navbar = props => {
   return (
     <nav className={`${backgroundClass} ${highlightClass}`}>
       <ul className={css.navbar}>
+        <li className={css.navItem}>
+          <Link className={css.navLink} to='/'>
+            Home
+          </Link>
+        </li>
         <li className={css.navitem}>
           <Link className={css.navlink} to={`${props.devcon}/details`}>
             Details
