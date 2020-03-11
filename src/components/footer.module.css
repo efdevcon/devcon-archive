@@ -32,7 +32,6 @@
 }
 
 .copyright {
-  padding-left: 24px;
   font-size: 12px;
 }
 
@@ -71,14 +70,11 @@
 .divider {
   display: block;
   margin-right: 16px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 550px) {
   .divider {
     display: none;
   }
-}
-
-.twitterIcon {
-  margin-left: 8px;
 }
