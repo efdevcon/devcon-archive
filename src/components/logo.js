@@ -12,7 +12,7 @@ const Logo = props => {
     fragment Logo on File {
       childImageSharp {
         fluid(maxWidth: 600) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
