@@ -1,5 +1,4 @@
 .archiveHero {
-  height: 75vh;
   background: lightgray;
   display: flex;
   flex-direction: column;
@@ -9,11 +8,10 @@
   text-shadow: 0 0 20px rgba(0,0,0,0.8);
   background-position: center;
   background-size: cover;
+  padding: 4rem 0;
 }
 
-@media screen and (min-width: 550px) {
-  .archiveHero {
-    flex-direction: row;
-    height: 60vh;
-  }
+.logoPaneContainer {
+  max-width: 620px;
+  width: 100%;
 }

@@ -12,7 +12,7 @@ const LogoDevcon = () => {
       file(relativePath: { eq: "dc_archive_logo.png" }) {
         childImageSharp {
           fluid(maxWidth: 400) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
