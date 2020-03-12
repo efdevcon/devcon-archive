@@ -19,16 +19,16 @@ const Archive = props => {
 
   const data = useStaticQuery(graphql`
     query {
-      allImageSharp {
-        edges {
-          node {
-            fluid(maxWidth: 1200) {
-              ...GatsbyImageSharpFluid_tracedSVG
-              originalName
-            }
+    allImageSharp(filter: {fluid: {originalName: {glob: "background-section-devcon*3x.png"}}}) {
+      edges {
+        node {
+          fluid(maxWidth: 1200) {
+            originalName
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
+    }
     }`);
 
   const backgroundFluidMap = {}
@@ -51,7 +51,12 @@ const Archive = props => {
       <div className={css.row}>
 
         <div className={css.col}>
-          <Logo number={props.number} />
+          <div className={css.logoContainerDark}>
+            <Logo number={props.number} />
+          </div>
+          <div className={css.logoContainerWhite}>
+            <Logo number={props.number} white />
+          </div>
         </div>
 
         <div className={css.col}>

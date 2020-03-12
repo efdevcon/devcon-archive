@@ -31,12 +31,12 @@ const ArchiveHero = props => {
       fluid={data.file.childImageSharp.fluid}
       className={css.archiveHero}
     >
-      <Logo />
-      <div>
+      <Logo number={props.number} white />
+      {/* <div>
         <h1>Devcon {props.number}</h1>
         <h2>{props.location}</h2>
         <h4>{props.date}</h4>
-      </div>
+      </div> */}
     </BackgroundImage>
   );
 };

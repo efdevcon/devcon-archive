@@ -10,9 +10,8 @@
   margin-bottom: 8px;
   flex-wrap: wrap;
   color: #26293b;
-  background-size: cover;
-  background-position: center;
   overflow: hidden;
+  padding: 4rem 0 3rem;
 }
 
 .archive .tint {
@@ -33,9 +32,13 @@
 .archive:hover .tint {
   opacity: 0;
 }
-.archive:hover img {
-  filter: brightness(100)
-}
+
+.logoContainerWhite { display: none }
+.logoContainerDark { display: block }
+
+.archive:hover .logoContainerWhite { display: block }
+.archive:hover .logoContainerDark { display: none }
+
   
 .dc0Background .tint { background-color: var(--dc0-bg-color); }
 .dc1Background .tint { background-color: var(--dc1-bg-color); }
@@ -112,6 +115,7 @@
   max-width: 65ch;
   padding-top: 12px;
   font-weight: normal;
+  line-height: 1.625rem;
 }
 
 .archiveLinks {
