@@ -40,7 +40,7 @@ const Hero = () => {
       </p>
       <div className={css.buttonContainer}>
         <Button devconNum="default" link="https://devcon.org">
-          Devcon 6 Info »{" "}
+          Devcon6 Info »{" "}
         </Button>
       </div>
       {/* <p className={css.callToAction}>

@@ -22,6 +22,7 @@
   align-items: center;
   font-size: 20px;
   font-weight: 600;
+  list-style-type: none;
 }
 
 @media screen and (max-width: 550px) {
@@ -31,13 +32,26 @@
 }
 
 .copyright {
-  padding-left: 24px;
   font-size: 12px;
 }
 
 .link {
   margin-left: auto;
   padding-right: 24px;
+}
+
+.iconTwitter {
+  padding: 2.5rem;
+  background: no-repeat url(../images/twitter_icon/twitter_icon.png) left;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: left;
+    background-position-center: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url("../images/twitter_icon/twitter_icon.png");
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
 }
 
 @media screen and (max-width: 550px) {
@@ -56,14 +70,11 @@
 .divider {
   display: block;
   margin-right: 16px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 550px) {
   .divider {
     display: none;
   }
-}
-
-.twitterIcon {
-  margin-left: 8px;
 }

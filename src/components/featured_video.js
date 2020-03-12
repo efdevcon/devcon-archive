@@ -28,10 +28,11 @@ const FeaturedVideo = props => {
   `);
   const videoData = data.allVideosYaml.edges[props.devconNum];
   const featuredData = videoData.node.data.filter(video => !!video.featured);
+  const highlightClass = css[`dc${props.devconNum}Highlight`];
 
   return (
     <div className={css.featuredVideo}>
-      <h2 className={css.header}>Featured Videos</h2>
+      <h2 className={`${css.header} ${highlightClass}`}>Featured Videos</h2>
       <div className={css.videoGrid}>
         {featuredData.map((video, index) => (
           <div className={css.videoCard} key={index}>
@@ -54,7 +55,7 @@ const FeaturedVideo = props => {
 
       <div className={css.videoLinksContainer}>
         <Button link={`/${props.devcon}/videos`} devconNum={props.devconNum}>
-          Check Out More Videos »
+          More Videos »
         </Button>
       </div>
     </div>

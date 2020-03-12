@@ -119,10 +119,6 @@
   text-decoration: none;
 }
 
-.archiveLink:hover {
-  text-decoration: underline black;
-}
-
 .archiveLinks {
   display: flex;
   flex-direction: row;
