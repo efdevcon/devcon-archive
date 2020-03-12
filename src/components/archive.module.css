@@ -118,6 +118,11 @@
   line-height: 1.625rem;
 }
 
+.archiveLink {
+  color: black;
+  text-decoration: none;
+}
+
 .archiveLinks {
   display: inline-block;
   list-style: none;
