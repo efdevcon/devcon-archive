@@ -8,13 +8,20 @@
   align-items: center;
 }
 
+@media screen and (min-width: 1350px) {
+  .about {
+    margin: 60px 0 60px 0;
+  }
+}
+
 .aboutColumn {
   margin: 24px;
 }
 
 .aboutText {
   max-width: 60ch;
-  color: gray;
+  color: #26293b;
+  line-height: 1.6;
 }
 
 .dc0Highlight {
@@ -43,5 +50,10 @@
 
 .detailsImage {
   min-width: 300px;
-  max-width: 400px;
+}
+
+@media screen and (min-width: 600px) {
+  .detailsImage {
+    min-width: 540px;
+  }
 }
