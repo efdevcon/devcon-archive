@@ -28,6 +28,16 @@ const Header = props => {
           alt="Ethereum Foundation Logo"
         />
       </div> */}
+      <div className={`${css.headerItem} ${css.homeLink}`}>
+        <a
+          className={`${css.headerLink} ${
+            props.color === "white" ? css.colorWhite : css.colorBlack
+          }`}
+          href="/"
+        >
+          Devcon Archive
+        </a>
+      </div>
       <div className={css.headerItem}>
         <a
           className={`${css.headerLink} ${
