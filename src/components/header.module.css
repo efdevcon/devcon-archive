@@ -17,6 +17,16 @@
   margin-right: 32px;
 }
 
+.homeLink {
+  margin-right: auto;
+}
+
+@media screen and (max-width: 550px) {
+  .homeLink {
+    display: none;
+  }
+}
+
 .headerLink {
   color: black;
   text-decoration: none;

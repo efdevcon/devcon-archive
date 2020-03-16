@@ -9,15 +9,28 @@ import "../index.css";
 const DetailsAbout = props => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "devcon1-background.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 400) {
-            ...GatsbyImageSharpFluid
+      allImageSharp(
+        filter: { fluid: { originalName: { glob: "devcon*_details@3x*" } } }
+      ) {
+        edges {
+          node {
+            fluid {
+              originalName
+              ...GatsbyImageSharpFluid
+            }
           }
         }
       }
     }
   `);
+
+  const detailsFluidMap = {};
+
+  data.allImageSharp.edges.forEach(function(f) {
+    const filename = f.node.fluid.originalName;
+    const edition = filename[6];
+    detailsFluidMap[edition] = f.node.fluid;
+  });
 
   const highlightClass = css[`dc${props.number}Highlight`];
 
@@ -26,7 +39,7 @@ const DetailsAbout = props => {
       <div className={css.aboutColumn}>
         <Img
           className={css.detailsImage}
-          fluid={data.file.childImageSharp.fluid}
+          fluid={detailsFluidMap[props.number]}
           alt={`${props.header} Photo`}
         />
       </div>
