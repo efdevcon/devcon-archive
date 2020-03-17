@@ -60,7 +60,9 @@ const Videos = ({ pageContext }) => {
                   />
                 </div>
                 <p className={css.title}>{video.title}</p>
-                <p className={css.speakers}>By {video.speakers}</p>
+                {video.speakers !== "N/A" && (
+                  <p className={css.speakers}>By {video.speakers}</p>
+                )}
               </div>
             ))}
           </div>
