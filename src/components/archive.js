@@ -10,46 +10,51 @@ import "../index.css";
 import Logo from "./logo";
 import BackgroundImage from "gatsby-background-image";
 
-
 const Archive = props => {
-
   const backgroundClass = css[`dc${props.number}Background`];
   const gradientClass = css[`dc${props.number}Gradient`];
   const hoverClass = css[`dc${props.number}Hover`];
 
   const data = useStaticQuery(graphql`
     query {
-    allImageSharp(filter: {fluid: {originalName: {glob: "background-section-devcon*3x.png"}}}) {
-      edges {
-        node {
-          fluid(maxWidth: 1200) {
-            originalName
-            ...GatsbyImageSharpFluid_tracedSVG
+      allImageSharp(
+        filter: {
+          fluid: { originalName: { glob: "background-section-devcon*3x.png" } }
+        }
+      ) {
+        edges {
+          node {
+            fluid(maxWidth: 1200) {
+              originalName
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
           }
         }
       }
     }
-    }`);
+  `);
 
-  const backgroundFluidMap = {}
-  
+  const backgroundFluidMap = {};
+
   data.allImageSharp.edges.forEach(function(f) {
-    const filename = f.node.fluid.originalName
-    if (filename.startsWith('background-section-devcon') && filename.endsWith('@3x.png')) {
-      const edition = filename[25]
-      backgroundFluidMap[edition] = f.node.fluid
+    const filename = f.node.fluid.originalName;
+    if (
+      filename.startsWith("background-section-devcon") &&
+      filename.endsWith("@3x.png")
+    ) {
+      const edition = filename[25];
+      backgroundFluidMap[edition] = f.node.fluid;
     }
-  })
+  });
 
   return (
     <BackgroundImage
       fluid={backgroundFluidMap[props.number]}
-      className={`${css.archive} ${backgroundClass}`}>
-
+      className={`${css.archive} ${backgroundClass}`}
+    >
       <div className={css.tint}></div>
 
       <div className={css.row}>
-
         <div className={css.col}>
           <div className={css.logoContainerDark}>
             <Logo number={props.number} />
@@ -63,8 +68,10 @@ const Archive = props => {
           <p className={css.archiveText}>{props.text}</p>
           <ul className={`${css.archiveLinks} ${gradientClass}`}>
             <li>
-              <a className={`${hoverClass}`}
-                 href={`./devcon-${props.number}/details`}>
+              <a
+                className={`${hoverClass}`}
+                href={`./devcon-${props.number}/details`}
+              >
                 Details
               </a>
             </li>
@@ -72,7 +79,8 @@ const Archive = props => {
             <li>
               <a
                 className={`${hoverClass}`}
-                href={`./devcon-${props.number}/videos`}>
+                href={`./devcon-${props.number}/videos`}
+              >
                 Videos
               </a>
             </li>
