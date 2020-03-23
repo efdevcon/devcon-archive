@@ -24,7 +24,7 @@ const Videos = ({ pageContext }) => {
   const currentPage = pageContext.currentPage;
   const limit = pageContext.limit;
   const pagination = [];
-  for (let i=1; i <= pageContext.numPages; i++) {
+  for (let i = 1; i <= pageContext.numPages; i++) {
     pagination.push(i);
   }
 
@@ -36,7 +36,7 @@ const Videos = ({ pageContext }) => {
   );
 
   return (
-    <div>
+    <div className={css.videoPage}>
       {console.log(pageContext)}
       <Header color="white" />
       <ArchiveHero
@@ -77,8 +77,13 @@ const Videos = ({ pageContext }) => {
                 ← Previous Page
               </Link>
             )}
-            {pagination.map((num) => (
-              <Link className={`${css.pageLink} ${css.pages}`} to={`${pageContext.slug}/${num}`}>{num}</Link>
+            {pagination.map(num => (
+              <Link
+                className={`${css.pageLink} ${css.pages}`}
+                to={`${pageContext.slug}/${num}`}
+              >
+                {num}
+              </Link>
             ))}
             {!isLast && (
               <Link className={`${css.pageLink}`} to={nextPage} rel="next">
