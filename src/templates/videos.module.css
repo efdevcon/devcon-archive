@@ -62,23 +62,22 @@
   text-decoration: underline;
 }
 
+@media screen and (max-width: 550px) {
+  .pageLink {
+    font-size: 16px;
+    margin: 12px;
+  }
+}
+
+.pages {
+  margin: 0px;
+}
+
 .iframeContainer {
   overflow: hidden;
   padding-top: 56.25%;
   position: relative;
   margin-bottom: 1em;
-}
-
-@media screen and (max-width: 550px) {
-  .iframeContainer {
-    margin-right: 8px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .iframeContainer {
-    max-width: 300px;
-  }
 }
 
 .iframeContainer iframe {
@@ -88,4 +87,26 @@
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .iframeContainer {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .iframeContainer {
+    max-width: 300px;
+  }
+  .speakers,
+  .title {
+    max-width: 280px;
+  }
+  .pageLink {
+    margin: 0;
+  }
+  .videoPage {
+    max-width: 100%;
+  }
 }

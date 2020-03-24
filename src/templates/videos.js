@@ -23,6 +23,10 @@ const Videos = ({ pageContext }) => {
     1}`.toString();
   const currentPage = pageContext.currentPage;
   const limit = pageContext.limit;
+  const pagination = [];
+  for (let i = 1; i <= pageContext.numPages; i++) {
+    pagination.push(i);
+  }
 
   /* Data from pageContext object */
   const data = pageContext.devcon;
@@ -30,9 +34,12 @@ const Videos = ({ pageContext }) => {
     (video, index) =>
       index < currentPage * limit && index > (currentPage - 1) * limit - 1
   );
+  const days = pageContext.days;
+  const rooms = pageContext.rooms;
 
   return (
-    <div>
+    <div className={css.videoPage}>
+      {console.log(pageContext)}
       <Header color="white" />
       <ArchiveHero
         number={pageContext.devconNum}
@@ -41,9 +48,22 @@ const Videos = ({ pageContext }) => {
       />
       <Navbar devcon={`devcon-${pageContext.devconNum}`} />
       <main>
-        {/* TODO Implement filters <div className={css.filters}>
-          All | Main Stage | Second Stage | Breakout Rooms
-        </div> */}
+        <div className={css.filters}>
+          <div>
+            <span>Days: </span>
+            <span>All </span>
+            {days.map(day => (
+              <span> | {day}</span>
+            ))}
+          </div>
+          <div>
+            <span>Rooms: </span>
+            <span>All </span>
+            {rooms.map(room => (
+              <span> | {room}</span>
+            ))}
+          </div>
+        </div>
         <div className={css.videos}>
           <div className={css.videoGrid}>
             {pagedData.map((video, index) => (
@@ -72,7 +92,14 @@ const Videos = ({ pageContext }) => {
                 ← Previous Page
               </Link>
             )}
-
+            {pagination.map(num => (
+              <Link
+                className={`${css.pageLink} ${css.pages}`}
+                to={`${pageContext.slug}/${num}`}
+              >
+                {num}
+              </Link>
+            ))}
             {!isLast && (
               <Link className={`${css.pageLink}`} to={nextPage} rel="next">
                 Next Page →{" "}
