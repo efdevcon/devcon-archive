@@ -38,32 +38,32 @@ exports.createPages = ({ graphql, actions }) => {
     if (result.errors) {
       throw result.errors;
     }
-    
-    /* 
+
+    /*
      * Sets are an easy way to provide data for the UI filter where you only
      * want one of each category. However passing Sets to the pageContext
      * object returns an empty object, so instead we convert them to an array.
      */
 
-    const createDays = (data) => {
+    const createDays = data => {
       const daysSet = new Set();
       for (let i of data) {
         daysSet.add(i.day);
       }
       daysSet.delete("N/A");
       return [...daysSet];
-    }
+    };
 
-    const createRooms = (data) => {
+    const createRooms = data => {
       const roomsSet = new Set();
       for (let i of data) {
         roomsSet.add(i.room);
       }
       roomsSet.delete("N/A");
       return [...roomsSet];
-    }
+    };
 
-    /* 
+    /*
      * The nomenclature for `devcon{n}Videos` and `devcon{n}` variables is
      * not great. Essentially though the videos variables iterate through
      * the video yaml content, whereas the devcon{n} variables are created
@@ -135,7 +135,7 @@ exports.createPages = ({ graphql, actions }) => {
           location: devcon0.location,
           conferenceDates: devcon0.conferenceDates,
           days: devcon0Days,
-          rooms: devcon0Rooms
+          rooms: devcon0Rooms,
         },
       });
     });
@@ -161,7 +161,7 @@ exports.createPages = ({ graphql, actions }) => {
           location: devcon1.location,
           conferenceDates: devcon1.conferenceDates,
           days: devcon1Days,
-          rooms: devcon1Rooms
+          rooms: devcon1Rooms,
         },
       });
     });
@@ -187,7 +187,7 @@ exports.createPages = ({ graphql, actions }) => {
           location: devcon2.location,
           conferenceDates: devcon2.conferenceDates,
           days: devcon2Days,
-          rooms: devcon2Rooms
+          rooms: devcon2Rooms,
         },
       });
     });
@@ -213,7 +213,7 @@ exports.createPages = ({ graphql, actions }) => {
           location: devcon3.location,
           conferenceDates: devcon3.conferenceDates,
           days: devcon3Days,
-          rooms: devcon3Rooms
+          rooms: devcon3Rooms,
         },
       });
     });
@@ -239,7 +239,7 @@ exports.createPages = ({ graphql, actions }) => {
           location: devcon4.location,
           conferenceDates: devcon4.conferenceDates,
           days: devcon4Days,
-          rooms: devcon4Rooms
+          rooms: devcon4Rooms,
         },
       });
     });
@@ -265,7 +265,7 @@ exports.createPages = ({ graphql, actions }) => {
           location: devcon5.location,
           conferenceDates: devcon5.conferenceDates,
           days: devcon5Days,
-          rooms: devcon5Rooms
+          rooms: devcon5Rooms,
         },
       });
     });

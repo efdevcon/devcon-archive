@@ -52,17 +52,17 @@ const Videos = ({ pageContext }) => {
           <div>
             <span>Days: </span>
             <span>All </span>
-            {days.map((day) => (
+            {days.map(day => (
               <span> | {day}</span>
             ))}
           </div>
           <div>
             <span>Rooms: </span>
             <span>All </span>
-            {rooms.map((room) => (
+            {rooms.map(room => (
               <span> | {room}</span>
             ))}
-          </div>  
+          </div>
         </div>
         <div className={css.videos}>
           <div className={css.videoGrid}>
