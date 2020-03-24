@@ -26,6 +26,8 @@ exports.createPages = ({ graphql, actions }) => {
                 title
                 speakers
                 url
+                day
+                room
               }
             }
           }
@@ -36,18 +38,72 @@ exports.createPages = ({ graphql, actions }) => {
     if (result.errors) {
       throw result.errors;
     }
+    
+    /* 
+     * Sets are an easy way to provide data for the UI filter where you only
+     * want one of each category. However passing Sets to the pageContext
+     * object returns an empty object, so instead we convert them to an array.
+     */
 
+    const createDays = (data) => {
+      const daysSet = new Set();
+      for (let i of data) {
+        daysSet.add(i.day);
+      }
+      daysSet.delete("N/A");
+      return [...daysSet];
+    }
+
+    const createRooms = (data) => {
+      const roomsSet = new Set();
+      for (let i of data) {
+        roomsSet.add(i.room);
+      }
+      roomsSet.delete("N/A");
+      return [...roomsSet];
+    }
+
+    /* 
+     * The nomenclature for `devcon{n}Videos` and `devcon{n}` variables is
+     * not great. Essentially though the videos variables iterate through
+     * the video yaml content, whereas the devcon{n} variables are created
+     * just to fetch the name.
+     */
+
+    // Devcon0 Page Data
     const devcon0Videos = result.data.allVideosYaml.edges[0].node.data;
+    const devcon0Days = createDays(devcon0Videos);
+    const devcon0Rooms = createRooms(devcon0Videos);
     const devcon0 = result.data.allVideosYaml.edges[0].node;
+
+    // Devcon1 Page Data
     const devcon1Videos = result.data.allVideosYaml.edges[1].node.data;
+    const devcon1Days = createDays(devcon1Videos);
+    const devcon1Rooms = createRooms(devcon1Videos);
     const devcon1 = result.data.allVideosYaml.edges[1].node;
+
+    // Devcon2 Page Data
     const devcon2Videos = result.data.allVideosYaml.edges[2].node.data;
+    const devcon2Days = createDays(devcon2Videos);
+    const devcon2Rooms = createRooms(devcon2Videos);
     const devcon2 = result.data.allVideosYaml.edges[2].node;
+
+    // Devcon3 Page Data
     const devcon3Videos = result.data.allVideosYaml.edges[3].node.data;
+    const devcon3Days = createDays(devcon3Videos);
+    const devcon3Rooms = createRooms(devcon3Videos);
     const devcon3 = result.data.allVideosYaml.edges[3].node;
+
+    // Devcon4 Page Data
     const devcon4Videos = result.data.allVideosYaml.edges[4].node.data;
+    const devcon4Days = createDays(devcon4Videos);
+    const devcon4Rooms = createRooms(devcon4Videos);
     const devcon4 = result.data.allVideosYaml.edges[4].node;
+
+    // Devcon5 Page Data
     const devcon5Videos = result.data.allVideosYaml.edges[5].node.data;
+    const devcon5Days = createDays(devcon5Videos);
+    const devcon5Rooms = createRooms(devcon5Videos);
     const devcon5 = result.data.allVideosYaml.edges[5].node;
 
     const postsPerPage = 20;
@@ -78,6 +134,8 @@ exports.createPages = ({ graphql, actions }) => {
           devconNum: devcon0.devconNum,
           location: devcon0.location,
           conferenceDates: devcon0.conferenceDates,
+          days: devcon0Days,
+          rooms: devcon0Rooms
         },
       });
     });
@@ -102,6 +160,8 @@ exports.createPages = ({ graphql, actions }) => {
           devconNum: devcon1.devconNum,
           location: devcon1.location,
           conferenceDates: devcon1.conferenceDates,
+          days: devcon1Days,
+          rooms: devcon1Rooms
         },
       });
     });
@@ -126,6 +186,8 @@ exports.createPages = ({ graphql, actions }) => {
           devconNum: devcon2.devconNum,
           location: devcon2.location,
           conferenceDates: devcon2.conferenceDates,
+          days: devcon2Days,
+          rooms: devcon2Rooms
         },
       });
     });
@@ -150,6 +212,8 @@ exports.createPages = ({ graphql, actions }) => {
           devconNum: devcon3.devconNum,
           location: devcon3.location,
           conferenceDates: devcon3.conferenceDates,
+          days: devcon3Days,
+          rooms: devcon3Rooms
         },
       });
     });
@@ -174,6 +238,8 @@ exports.createPages = ({ graphql, actions }) => {
           devconNum: devcon4.devconNum,
           location: devcon4.location,
           conferenceDates: devcon4.conferenceDates,
+          days: devcon4Days,
+          rooms: devcon4Rooms
         },
       });
     });
@@ -198,6 +264,8 @@ exports.createPages = ({ graphql, actions }) => {
           devconNum: devcon5.devconNum,
           location: devcon5.location,
           conferenceDates: devcon5.conferenceDates,
+          days: devcon5Days,
+          rooms: devcon5Rooms
         },
       });
     });

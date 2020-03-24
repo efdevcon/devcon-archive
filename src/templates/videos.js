@@ -34,6 +34,8 @@ const Videos = ({ pageContext }) => {
     (video, index) =>
       index < currentPage * limit && index > (currentPage - 1) * limit - 1
   );
+  const days = pageContext.days;
+  const rooms = pageContext.rooms;
 
   return (
     <div className={css.videoPage}>
@@ -46,9 +48,22 @@ const Videos = ({ pageContext }) => {
       />
       <Navbar devcon={`devcon-${pageContext.devconNum}`} />
       <main>
-        {/* TODO Implement filters <div className={css.filters}>
-          All | Main Stage | Second Stage | Breakout Rooms
-        </div> */}
+        <div className={css.filters}>
+          <div>
+            <span>Days: </span>
+            <span>All </span>
+            {days.map((day) => (
+              <span> | {day}</span>
+            ))}
+          </div>
+          <div>
+            <span>Rooms: </span>
+            <span>All </span>
+            {rooms.map((room) => (
+              <span> | {room}</span>
+            ))}
+          </div>  
+        </div>
         <div className={css.videos}>
           <div className={css.videoGrid}>
             {pagedData.map((video, index) => (
