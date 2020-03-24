@@ -9,7 +9,7 @@ import "../index.css";
 import BackgroundImage from "gatsby-background-image";
 
 /* Components */
-import Button from "./button";
+// import Button from "./button";
 import LogoDevcon from "./logo-devcon";
 
 const Hero = () => {
@@ -35,19 +35,14 @@ const Hero = () => {
         <LogoDevcon />
       </div>
       <p className={css.heroText}>
-        Annual conference for all Ethereum developers, researchers, thinkers,
-        and makers
+        The annual conference for all Ethereum developers, researchers,
+        thinkers, and makers.
       </p>
       {/* <div className={css.buttonContainer}>
         <Button devconNum="default" link="https://devcon.org">
           Devcon6 Info »{" "}
         </Button>
       </div> */}
-      {/* <p className={css.callToAction}>
-        <a className={css.callToActionLink} href="#devcon-about">
-          Read More
-        </a>
-      </p> */}
     </BackgroundImage>
   );
 };
