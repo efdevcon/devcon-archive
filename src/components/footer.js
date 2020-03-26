@@ -13,7 +13,7 @@ const Footer = () => (
           Devcon
         </a>
       </li>
-      <li className={css.divider}>|</li>
+
       <li className={css.link}>
         <a
           className={css.footerLink}
@@ -22,12 +22,9 @@ const Footer = () => (
           Blog
         </a>
       </li>
-      <li className={css.divider}>|</li>
+
       <li className={css.link}>
-        <a
-          className={`${css.footerLink} ${css.iconTwitter}`}
-          href="https://twitter.com/EFDevcon"
-        >
+        <a className={`${css.footerLink}`} href="https://twitter.com/EFDevcon">
           Twitter
         </a>
       </li>
@@ -43,7 +40,7 @@ const Footer = () => (
           Cookie Policy
         </a>
       </li>
-      <li className={css.divider}>|</li>
+
       <li className={css.link}>
         <a
           className={css.footerLink}
@@ -52,7 +49,7 @@ const Footer = () => (
           Privacy Policy
         </a>
       </li>
-      <li className={css.divider}>|</li>
+
       <li className={css.link}>
         <a className={css.footerLink} href="https://ethereum.org/terms-of-use/">
           Terms of Use
