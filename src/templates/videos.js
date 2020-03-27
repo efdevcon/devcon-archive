@@ -60,7 +60,6 @@ const Videos = ({ pageContext }) => {
 
   return (
     <div className={css.videoPage}>
-      {console.log(pageContext)}
       <Header color="white" />
       <ArchiveHero
         number={pageContext.devconNum}
