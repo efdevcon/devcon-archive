@@ -84,6 +84,33 @@ const Videos = ({ pageContext }) => {
             ))}
           </div>
         </div> */}
+          <div className={css.pagination}>
+            {!isFirst && (
+              <Link className={`${css.pageLink}`} to={prevPage} rel="prev">
+                ← Previous Page
+              </Link>
+            )}
+
+            {multiPages &&
+              pagination.map(num => {
+                return num === "..." ? (
+                  <span>...</span>
+                ) : (
+                  <Link
+                    className={`${css.pageLink} ${css.pages}`}
+                    to={`${pageContext.slug}/${num}`}
+                  >
+                    {num}
+                  </Link>
+                );
+              })}
+
+            {!isLast && (
+              <Link className={`${css.pageLink}`} to={nextPage} rel="next">
+                Next Page →{" "}
+              </Link>
+            )}
+          </div>
         <div className={css.videos}>
           <div className={css.videoGrid}>
             {pagedData.map((video, index) => (
