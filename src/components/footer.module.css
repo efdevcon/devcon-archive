@@ -27,7 +27,12 @@
 
 .link {
   padding: 8px;
+  margin: 4px;
   border-left: 1px solid white;
+}
+
+.footerLink {
+  margin: 0 2ch;
 }
 
 .link:first-of-type {
@@ -41,11 +46,13 @@
 
   .link {
     border-left: none;
+    font-size: 16px;
   }
 }
 
 .copyright {
   font-size: 12px;
+  margin-left: 32px;
 }
 
 .iconTwitter {
