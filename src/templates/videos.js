@@ -30,10 +30,14 @@ const Videos = ({ pageContext }) => {
       pagination.push(i);
     }
     if (i >= pageContext.currentPage - 2 && i <= pageContext.currentPage + 2) {
-      pagination.push(i);
+      if (!pagination.includes(i)) {
+        pagination.push(i);
+      }
     }
     if (i === pageContext.numPages) {
-      pagination.push(i);
+      if (!pagination.includes(i)) {
+        pagination.push(i);
+      }
     }
   }
   /* Add ellipses to pagination */
