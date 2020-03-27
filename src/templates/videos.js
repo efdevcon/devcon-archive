@@ -15,6 +15,7 @@ const Videos = ({ pageContext }) => {
   /* Pagination logic */
   const isFirst = pageContext.currentPage === 1;
   const isLast = pageContext.currentPage === pageContext.numPages;
+  const multiPages = pageContext.numPages > 1;
   const prevPage =
     pageContext.currentPage - 1 === 1
       ? pageContext.slug
@@ -25,7 +26,23 @@ const Videos = ({ pageContext }) => {
   const limit = pageContext.limit;
   const pagination = [];
   for (let i = 1; i <= pageContext.numPages; i++) {
-    pagination.push(i);
+    if (i === 1) {
+      pagination.push(i);
+    }
+    if (i >= pageContext.currentPage - 2 && i <= pageContext.currentPage + 2) {
+      pagination.push(i);
+    }
+    if (i === pageContext.numPages) {
+      pagination.push(i);
+    }
+  }
+  /* Add ellipses to pagination */
+  let prevPointer = pagination[0];
+  for (let i = 1; i < pagination.length; i++) {
+    if (pagination[i] - prevPointer > 1) {
+      pagination.splice(i, 0, "...");
+    }
+    prevPointer = pagination[i];
   }
 
   /* Data from pageContext object */
@@ -48,7 +65,7 @@ const Videos = ({ pageContext }) => {
       />
       <Navbar devcon={`devcon-${pageContext.devconNum}`} />
       <main>
-        <div className={css.filters}>
+        {/*<div className={css.filters}>
           <div>
             <span>Days: </span>
             <span>All </span>
@@ -63,7 +80,7 @@ const Videos = ({ pageContext }) => {
               <span> | {room}</span>
             ))}
           </div>
-        </div>
+        </div> */}
         <div className={css.videos}>
           <div className={css.videoGrid}>
             {pagedData.map((video, index) => (
@@ -92,14 +109,21 @@ const Videos = ({ pageContext }) => {
                 ← Previous Page
               </Link>
             )}
-            {pagination.map(num => (
-              <Link
-                className={`${css.pageLink} ${css.pages}`}
-                to={`${pageContext.slug}/${num}`}
-              >
-                {num}
-              </Link>
-            ))}
+
+            {multiPages &&
+              pagination.map(num => {
+                return num === "..." ? (
+                  <span>...</span>
+                ) : (
+                  <Link
+                    className={`${css.pageLink} ${css.pages}`}
+                    to={`${pageContext.slug}/${num}`}
+                  >
+                    {num}
+                  </Link>
+                );
+              })}
+
             {!isLast && (
               <Link className={`${css.pageLink}`} to={nextPage} rel="next">
                 Next Page →{" "}
