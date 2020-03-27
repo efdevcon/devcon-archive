@@ -106,7 +106,7 @@ exports.createPages = ({ graphql, actions }) => {
     const devcon5Rooms = createRooms(devcon5Videos);
     const devcon5 = result.data.allVideosYaml.edges[5].node;
 
-    const postsPerPage = 20;
+    const postsPerPage = 21;
     const numPages0 = Math.ceil(devcon0Videos.length / postsPerPage);
     const numPages1 = Math.ceil(devcon1Videos.length / postsPerPage);
     const numPages2 = Math.ceil(devcon2Videos.length / postsPerPage);

@@ -15,7 +15,7 @@
   }
 }
 
-.topRow {
+.row {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -25,19 +25,27 @@
   list-style-type: none;
 }
 
+.link {
+  padding: 8px;
+  border-left: 1px solid white;
+}
+
+.link:first-of-type {
+  border-left: none;
+}
+
 @media screen and (max-width: 550px) {
-  .topRow {
+  .row {
     flex-direction: column;
+  }
+
+  .link {
+    border-left: none;
   }
 }
 
 .copyright {
   font-size: 12px;
-}
-
-.link {
-  margin-left: auto;
-  padding-right: 24px;
 }
 
 .iconTwitter {
@@ -54,27 +62,8 @@
     background-clip: border-box;
 }
 
-@media screen and (max-width: 550px) {
-  .link {
-    margin-left: 0;
-    padding-right: 0;
-  }
-}
-
 .footer-link {
   color: white;
   text-decoration: none;
 
-}
-
-.divider {
-  display: block;
-  margin-right: 16px;
-  font-weight: 400;
-}
-
-@media screen and (max-width: 550px) {
-  .divider {
-    display: none;
-  }
 }
