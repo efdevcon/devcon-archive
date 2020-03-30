@@ -379,6 +379,16 @@
       room: "Main Stage"
       type: Talk
     - talk: null
+      title: "Building a DApp: Writing contracts"
+      featured: false
+      description: "Ethereum's Dr. Christian Reitwiessner presents on Solidity (https://github.com/ethereum/solidity) and writing smart contracts for Ethereum."
+      speakers: "Dr. Christian Reitwiessner"
+      bios: N/A
+      url: "https://www.youtube.com/embed/seU7DykOxfc"
+      day: "Day 2"
+      room: "Main Stage"
+      type: Talk
+    - talk: null
       title: "Building a DApp: Design Principles for Dapp developers"
       featured: false
       description: "Ethereum's Alex Van de Sande presents on Design Principles for Dapp developers from a UX perspective"
