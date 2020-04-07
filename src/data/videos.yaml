@@ -4,6 +4,16 @@
   conferenceDates: "Nov 24 - 28, 2014"
   data:
     - talk: null
+      title: "Welcome! Our mission: ÐApps"
+      featured: false
+      description: "In this first video from the ÐΞVCON 0 series, Gavin Wood introduces the ΞTHÐΞV team and our mission: ÐApps, decentralized applications."
+      speakers: "Gavin Wood"
+      bios: N/A
+      url: "https://www.youtube.com/embed/_BvvUlKDqp0"
+      day: "Day 1"
+      room: "Main Room"
+      type: Talk
+    - talk: null
       title: "How to Sell Ideas"
       featured: true
       description: "Vinay Gupta delivers a talk on the importance of the way one presents an idea."
@@ -1633,7 +1643,7 @@
       featured: false
       description: "Ethereum Foundation ED, Ming Chan introduces Ethereum team leads, who give a brief summary of the projects and efforts they work on."
       speakers: "Ming Chan, Vitalik Buterin, Dr. Christian Reitwiessner, Peter Szilagyi, Fabian Vogelsteller, Viktor Tron"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/Ckv9XMi_EWs"
       day: "Day 1"
       room: "Main Hall"
@@ -1661,7 +1671,7 @@
     - talk: null
       title: "Methods for deterministic parallelizing message processing"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Martin Becze"
       bios: "ewasm and EthereumJS"
       url: "https://www.youtube.com/embed/xS5sW6gJIEM"
@@ -1683,7 +1693,7 @@
       featured: false
       description: "I will present the Parity Light Client, summarize the protocol, and provide DApp development guidelines. I will also discuss light client use-cases in the mobile and IoT space, particularly when coupled with other key web3 ecosystem components like Whisper."
       speakers: "Robert Habermeier"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/lQAoA_BJaSM"
       day: "Day 1"
       room: "Main Hall"
@@ -1731,9 +1741,9 @@
     - talk: null
       title: "Programmable Incentives: Intro to Cryptoeconomics"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Karl Floersch"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/-alrVUv6E24"
       day: "Day 1"
       room: "Main Hall"
@@ -1741,7 +1751,7 @@
     - talk: null
       title: "Casper the Friendly GHOST: A correct-by-construction blockchain"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Vlad Zamfir"
       bios: Ethereum
       url: "https://www.youtube.com/embed/z3sY8zZRPtw"
@@ -1751,9 +1761,9 @@
     - talk: null
       title: "Casper and Consensus"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Emin Gün Sirer, Peter Czaban, Vitalik Buterin, Vlad Zamfir, Elaine Shi"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/2r2k6awEJr8"
       day: "Day 1"
       room: "Main Hall"
@@ -1763,7 +1773,7 @@
       featured: false
       description: "This talk will focus the economic and architectural mechanics behind TrueBit, a trustless, general purpose computer which obliterates Ethereum’s gas limit. By wrapping the new TrueBit Virtual Machine (TVM) inside a novel incentive structure, smart contracts achieve secure, scalable, and affordable computation. Decentralized big data applications loom on the horizon."
       speakers: "Jason Teutsch"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/kwe_C_ei0hQ"
       day: "Day 1"
       room: "Main Hall"
@@ -1773,7 +1783,7 @@
       featured: false
       description: "Ethereum faces both opportunities and challenges around scaling smart contracts, a proposed method using EVM contracts and a description of what changes to Ethereum are needed for optimal performance is proposed."
       speakers: "Joseph Poon"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/yjySP0t6lYo"
       day: "Day 1"
       room: "Main Hall"
@@ -1791,7 +1801,7 @@
     - talk: null
       title: "A Modest Proposal for Ethereum 2.0"
       featured: true
-      description: N/A
+      description: "N/A"
       speakers: "Vitalik Buterin"
       bios: "Co-founder of Ethereum"
       url: "https://www.youtube.com/embed/hAhUfCjjkXc"
@@ -1801,7 +1811,7 @@
     - talk: null
       title: "Intro to Casper Implementation"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Chang-Wu Chen"
       bios: "Ethereum – Casper researcher"
       url: "https://www.youtube.com/embed/N2bVwKx8XS0"
@@ -1813,7 +1823,7 @@
       featured: false
       description: "Elaine Shi is an Associate Professor at Cornell University. Elaine’s research creates platforms and tools that aids non-expert programmers in creating systems that are “secure by design” and “secure by default”."
       speakers: "Elaine Shi"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/eWhaJxQpaBw"
       day: "Day 1"
       room: "Breakout Hall"
@@ -1841,7 +1851,7 @@
     - talk: null
       title: "Show and Tell"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Virgil Griffith"
       bios: "Ethereum Researcher"
       url: "https://www.youtube.com/embed/3pkxd7vUY14"
@@ -1881,7 +1891,7 @@
     - talk: null
       title: "Ethereum Protocol Testing"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Dimitry Khokhlov"
       bios: "Ethereum Foundation – Testing"
       url: "https://www.youtube.com/embed/5c4suAq7j0A"
@@ -1913,7 +1923,7 @@
       featured: false
       description: "J.P. Morgan and Amis discuss Quorum’s latest consensus mechanism option. Istanbul Byzantine Fault Tolerance (IBFT) is a native Practical Byzantine Fault Tolerance (PBFT). This integration continues Quorum’s tradition of partnering with the community to produce innovations that bolster Ethereum."
       speakers: "Tyrone Lobban, Yu-Te Lin"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/7PpQS4hQP9A"
       day: "Day 2"
       room: "Breakout Hall"
@@ -1923,7 +1933,7 @@
       featured: false
       description: "Mainstream adoption of blockchain technology in the enterprise ecosystem has been impeded due to inherent limitations of scaling individual blockchain networks. We are introducing AION – a multi-tiered blockchain system designed to address some of these core challenges. Core to our hypothesis is the idea that many blockchains will be created to solve unique business challenges, within unique industries. As such, the AION Network is designed to support many custom blockchain architectures, while providing a trustless mechanism for cross-chain interoperability. By utilizing our concept of “bridges”, this multi-tiered blockchain model will allow the creation of layers of connecting blockchain networks that are able to communicate and transact among each other."
       speakers: "Matt Spoke"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/RELXo6tm2h0"
       day: "Day 2"
       room: "Breakout Hall"
@@ -2101,7 +2111,7 @@
     - talk: null
       title: "Developers, Developers, Developers – Ethereum for all your networks!"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Péter Szilágyi"
       bios: "Go Ethereum Lead"
       url: "https://www.youtube.com/embed/T5RcjYPTG9g"
@@ -2131,7 +2141,7 @@
     - talk: null
       title: "Evolving devp2p"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Felix Lange"
       bios: "Ethereum – Go core developer"
       url: "https://www.youtube.com/embed/YqGncHRtshM"
@@ -2141,7 +2151,7 @@
     - talk: null
       title: "EVM-C: Portable API for Ethereum Virtual Machines"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Pawel Bylica"
       bios: "Ethereum – C++ developer"
       url: "https://www.youtube.com/embed/fps6cSoJxpQ"
@@ -2151,7 +2161,7 @@
     - talk: null
       title: "The EVM: Leaner, Meaner, and Closer to the Metal"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Dr. Greg Colvin"
       bios: "Ethereum Virtual Machine (EVM) and C++ developer"
       url: "https://www.youtube.com/embed/ArR2W4v5evk"
@@ -2163,7 +2173,7 @@
       featured: false
       description: "A discussion focusing on the evolution of the Ethereum Virtual Machine (EVM)."
       speakers: "Martin Becze, Alex Beregszaszi, Pawel Bylica, Dr. Greg Colvin, Dr. Christian Reitwiessner,  Casey Detrio"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/txBl6ekcZXY"
       day: "Day 2"
       room: "Main Hall"
@@ -2171,7 +2181,7 @@
     - talk: null
       title: "Ethereum Security"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Martin Swende"
       bios: "Ethereum Foundation Security Lead"
       url: "https://www.youtube.com/embed/nyMuBUgf8fQ"
@@ -2183,7 +2193,7 @@
       featured: false
       description: "An Update on the Swarm project. Current status, upcoming changes, roadmap; introducing project PSS, the FUSE driver, the Network Testing Framework, updates on encryption and encoding. Previews for the p2p breakout session on Saturday."
       speakers: "Viktor Trón, Daniel Nagy, Aron Fischer, Louis Holbrook"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/kT7BgOH49Sk"
       day: "Day 2"
       room: "Main Hall"
@@ -2191,7 +2201,7 @@
     - talk: null
       title: "Scalable Responsive Đapps with Swarm and ENS"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Daniel Nagy"
       bios: "Ethereum – senior swarm developer"
       url: "https://www.youtube.com/embed/y01YJ_e5oHw"
@@ -2231,9 +2241,9 @@
     - talk: null
       title: "USCC – The Underhanded Solidity Coding Contest"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "João Gabriel Carvalho, Richard Moore, Martin Swende, Nick Johnson"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/gAVKO6iTbOQ"
       day: "Day 2"
       room: "Main Hall"
@@ -2241,9 +2251,9 @@
     - talk: null
       title: "Formal Verification"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Phil Daian, Everett Hildenbrandt, Yoichi Hirai, Loi Luu, Reto Trinkler"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/DrDIcirrhWM"
       day: "Day 2"
       room: "Main Hall"
@@ -2263,7 +2273,7 @@
       featured: false
       description: "Raiden is a payment channel technology for fast, cheap, scalable off- chain token transfers. Introduction for developers planning to prototype applications on top of the Raiden Network testnet as well as μRaiden."
       speakers: "Augusto Hack, Loredana Cirstea"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/yx0__aFvjzk"
       day: "Day 2"
       room: "Main Hall"
@@ -2271,7 +2281,7 @@
     - talk: null
       title: "Towards a Permanent ENS Registrar"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Nick Johnson"
       bios: "ENS architect, Ethereum Go core developer"
       url: "https://www.youtube.com/embed/R-fE51sQdtY"
@@ -2281,7 +2291,7 @@
     - talk: null
       title: "Intro to Solidity 2017 Edition"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Hudson Jameson"
       bios: "DevOps @ Ethereum Foundation"
       url: "https://www.youtube.com/embed/KkN1O8TChbM"
@@ -2311,9 +2321,9 @@
     - talk: null
       title: "Dapp Development using Remix, Mist, and Geth"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Yann Levreau, Rob Stupay"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/HE4oREd1y20"
       day: "Day 3"
       room: "Main Hall"
@@ -2341,9 +2351,9 @@
     - talk: null
       title: "MetaMask: Dissecting the fox"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Aaron Davis, Frankie Pangilinan"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/P6Bosg9QKnw"
       day: "Day 3"
       room: "Main Hall"
@@ -2351,7 +2361,7 @@
     - talk: null
       title: "Web3.js 1.0"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Fabian Vogelsteller"
       bios: "Ethereum / LUKSO"
       url: "https://www.youtube.com/embed/92pdrRH_VGA"
@@ -2381,9 +2391,9 @@
     - talk: null
       title: "Development Frameworks"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Andy Milenius, Conor Svensson, Yann Levreau, Jack Peterson, Piper Merriam, Nick Dodson, Iuri Matias"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/oWFUT29BhBk"
       day: "Day 3"
       room: "Main Hall"
@@ -2393,7 +2403,7 @@
       featured: false
       description: "Exploring how private keys can be securely managed for multiple identities with an intuitive mobile user interface like the uPort app. In addition, we explore the notion of how identities can communicate and transact across multiple chains with varying consensus systems."
       speakers: "Michael Sena, Rouven Heck, Pelle Braendgaard"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/XuGFPlkoJtY"
       day: "Day 3"
       room: "Main Hall"
@@ -2403,7 +2413,7 @@
       featured: false
       description: "Thomson Reuters distributes 2.5m financial instrument price updates per second; data that is used to price over $3tn in assets each day. Blockchains rely on trusted sources of data and trusted mechanisms for data delivery, without which many of the use cases for smart contracts cannot be realized. This presentation will cover a range of active use cases that include Thomson Reuters data on people, organizations and tradable instruments being applied within financial services as well as other industries such as commodities and energy. It will introduce the complexities of having data as part of your value proposition, and look at current and future approaches for data commercialization on blockchains and DLTs. All of these key learnings have been developed through the use of the Thomson Reuters oracle, BlockOne IQ, that was designed specifically for Ethereum."
       speakers: "Tim Nugent, Sam Chadwick"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/DVj3uMwohSQ"
       day: "Day 3"
       room: "Main Hall"
@@ -2541,7 +2551,7 @@
     - talk: null
       title: "Whisper: Achieving Darkness"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Vlad Gluhovsky, Guillaume Ballet"
       bios: "Vlad Gluhovsky : Ethereum – Whisper lead developer, Guillaume Ballet: Ethereum – Whisper developer"
       url: "https://www.youtube.com/embed/koZizelOUeI"
@@ -2583,7 +2593,7 @@
       featured: false
       description: "Many temporary laborers throughout the USA suffer under gouging charges for check cashing and money transmission back to their families in Latin America and elsewhere. The current process isn’t just expensive, it wastes valuable time and results in delays for families in need."
       speakers: "Gregg Dourgarian"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/tpjAGDFvI9s"
       day: "Day 4"
       room: "Main Hall"
@@ -2603,7 +2613,7 @@
       featured: false
       description: "IDbox (www.idbox.io) is a cost efficient device that enables people to create a unique identity where is no internet or grid-electricity. People can then use their analog phone to access land registry, healthcare, remittance, electricity, etc."
       speakers: "Julien Bouteloup"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/h1Oz3oEtZxE"
       day: "Day 4"
       room: "Main Hall"
@@ -2613,7 +2623,7 @@
       featured: false
       description: "Alice is a decentralised social impact network built on Ethereum. It incentivises social organisations to run their projects transparently, so that funders can identify and scale those that are truly effective. We will share our experience (and the challenges) of getting our first application – a hyper transparent donation platform aimed at a mass/non-crypto audience – into production. We’ll also present the work we’re doing with large financial institutions and charities, and the future of the Alice network."
       speakers: "Raphaël Mazet, Jakub Wojciechowski"
-      bios: N/A
+      bios: "N/A"
       url: "https://www.youtube.com/embed/1bjLwYOkGPU"
       day: "Day 4"
       room: "Main Hall"
@@ -2681,7 +2691,7 @@
     - talk: null
       title: "Designing IoT Frameworks Using Ethereum"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Shuang Liang, John Gerryts"
       bios: "Shuang Liang, CTO of Oaken Innovations John Gerryts, CEO of Oaken Innovations"
       url: "https://www.youtube.com/embed/QhLEkuP2TIo"
@@ -2701,7 +2711,7 @@
     - talk: null
       title: "Protecting your Privacy within the Blockchain Ecosystem"
       featured: false
-      description: N/A
+      description: "N/A"
       speakers: "Robertas Visinskis"
       bios: "Mysterium Network, Founder"
       url: "https://www.youtube.com/embed/1WrdRbsCEAA"
@@ -2747,6 +2757,336 @@
       url: "https://www.youtube.com/embed/tx_07shaB9w"
       day: "Day 4"
       room: "Breakout Hall"
+      type: Talk
+    - talk: null
+      title: "Panel: Casper and Consensus"
+      featured: false
+      description: "Panelists: Emin Gün Sirer, Peter Czaban, Vitalik Buterin, Vlad Zamfir\n\nModerator: Elaine Shi"
+      speakers: "N/A"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/2r2k6awEJr8"
+      day: "N/A"
+      room: "N/A"
+      type: Panel
+    - talk: null
+      title: "The Future of Token Contracts: MiniMe, Governance, LiquidPledging & ERC223"
+      featured: false
+      description: "The standard vanilla ERC-20 token has been heavily used in the Ethereum ecosystem, but the innovative application of tokens has not been explored nearly enough.\n\nIn this talk i will explore:\n\n– The MiniMe token and its many applications, especially in decentralized governance.\n\n– The current status in the ERC223 token standard and my opinion on the path forward.\n\n– LiquidPledging, an innovative solution for fund management."
+      speakers: "Jordi Baylina"
+      bios: "– Currently developing smart contracts for the non-profit Giveth.io platform. Promoting the the DAO-ification of society.\n\n– WHG leader (secured 10% of ether’s totalSupply in TheDAO hack & 210 million dollars worth of ether & tokens in the Parity Multisig Hack)\n\n– Author of the MiniMe Token, Liquid Pledging, Liquid Democracy for TheDAO, and other widely used smart contracts."
+      url: "https://www.youtube.com/embed/1MjcsFRvXVM"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Panel:  USCC – The Underhanded Solidity Coding Contest"
+      featured: false
+      description: "Panelists: João Gabriel Carvalho, Richard Moore, Martin Swende\n\nModerator: Nick Johnson"
+      speakers: "N/A"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/gAVKO6iTbOQ"
+      day: "N/A"
+      room: "N/A"
+      type: Panel
+    - talk: null
+      title: "Panel: Formal Verification"
+      featured: false
+      description: "Panelists: Phil Daian, Everett Hildenbrandt, Yoichi Hirai, Loi Luu\nModerator: Reto Trinkler"
+      speakers: "N/A"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/DrDIcirrhWM"
+      day: "N/A"
+      room: "N/A"
+      type: Panel
+    - talk: null
+      title: "Dapp Development using Remix, Mist, and Geth"
+      featured: false
+      description: ""
+      speakers: "Yann Levreau, Rob Stupay"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/HE4oREd1y20"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Panel: Development Frameworks"
+      featured: false
+      description: "Panelists: Andy Milenius, Conor Svensson, Yann Levreau, Jack Peterson, Piper Merriam, Nick Dodson\n\nModerator: Iuri Matias"
+      speakers: "N/A"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/oWFUT29BhBk"
+      day: "N/A"
+      room: "N/A"
+      type: Panel
+    - talk: null
+      title: "Welcome & Team Introduction"
+      featured: false
+      description: "Ethereum Foundation ED, Ming Chan introduces Ethereum team leads, who give a brief summary of the projects and efforts they work on."
+      speakers: "N/A"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/Ckv9XMi_EWs"
+      day: "Day 1"
+      room: "N/A"
+      type: "N/A"
+    - talk: null
+      title: "Ethereum in 25 Minutes, Version MMXVII"
+      featured: false
+      description: "So what are all of the different moving parts of the Ethereum blockchain? What are uncles, how do contracts call other contracts, who runs them? What is the role of proof of work and proof of stake, and what exactly is gas? What will EIP86 do for you? Vitalik Buterin provides a 25-minute technical overview of the ethereum blockchain, start to finish, and explain many of these concepts in detail."
+      speakers: "Vitalik Buterin"
+      bios: "Vitalik is the creator of Ethereum. He first discovered blockchain and cryptocurrency technologies through Bitcoin in 2011, and was immediately excited by the technology and its potential. He cofounded Bitcoin Magazine in September 2011, and after two and a half years looking at what the existing blockchain technology and applications had to offer, wrote the Ethereum white paper in November 2013. He now leads Ethereum's research team, working on future versions of the Ethereum protocol."
+      url: "https://www.youtube.com/embed/mCzyDLanA7s"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Trustlines Network: Open Protocol for Decentralized, IOU-based Currency Networks"
+      featured: false
+      description: "The Trustlines Network targets the problem of fair access to money by implementing money as peer-to-peer issued IOUs on the Ethereum blockchain. We present the basics of the protocol, as well as the prototype of the mobile app, which aims to provide a seamless onboarding experience to the Ethereum ecosystem."
+      speakers: "Bernd Bohmeier, Kristoffer Nærland"
+      bios: "Bernd Bohmeier\nDeveloper – Trustlines Network\n\nKristoffer Nærland\nBusiness Development – Trustlines Network"
+      url: "https://www.youtube.com/embed/qOiHT6zLMBg"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Developers, Developers, Developers – Ethereum for all your networks!"
+      featured: false
+      description: ""
+      speakers: "Péter Szilágyi"
+      bios: "Ethereum Foundation Go team lead"
+      url: "https://www.youtube.com/embed/T5RcjYPTG9g"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "The EVM: Leaner, Meaner, and Closer to the Metal"
+      featured: false
+      description: ""
+      speakers: "Dr. Greg Colvin"
+      bios: "Ethereum Virtual Machine (EVM) and C++ developer"
+      url: "https://www.youtube.com/embed/ArR2W4v5evk"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Panel: Evolving the EVM"
+      featured: false
+      description: "A discussion focusing on the evolution of the Ethereum Virtual Machine (EVM).\n\nPanelists: Martin Becze, Alex Beregszaszi, Pawel Bylica, Dr. Greg Colvin, Dr. Christian Reitwiessner"
+      speakers: "N/A"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/txBl6ekcZXY"
+      day: "N/A"
+      room: "N/A"
+      type: Panel
+    - talk: null
+      title: "0x: an open protocol for trustless, low friction exchange of ERC20 tokens"
+      featured: false
+      description: "In the two years that have passed since the Ethereum blockchain’s genesis block, numerous decentralized applications (dApps) have created Ethereum smart contracts for peer-to-peer exchange. Rapid iteration and a lack of best practices have left the blockchain scattered with proprietary and application-specific implementations. As a result, end users are exposed to numerous smart contracts of varying quality and security, with unique configuration processes and learning curves, all of which implement the same functionality. This approach imposes unnecessary costs on the network by fragmenting end users according to the particular dApp each user happens to be using, destroying valuable network effects around liquidity. We present 0x: an open protocol and shared settlement layer for trustless, low friction exchange of ERC20 tokens."
+      speakers: "Will Warren"
+      bios: "Will Warren is Co-founder at 0x where he is developing public infrastructure for peer-to-peer exchange on the Ethereum blockchain. After receiving a B.S. in Mechanical Engineering from UC San Diego, Will worked as a graduate research assistant at Los Alamos National Laboratory conducting applied physics research. Will spent two years in UC San Diego’s Structural Engineering doctoral program before dropping out to pursue an interest in Ethereum full time."
+      url: "https://www.youtube.com/embed/9d019RycObk"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "iExec: Allowing Scalable, Efficient and Virtualized Off-chain Execution for Arbitrary Applications"
+      featured: false
+      description: "This presentation is a follow-up to Devcon2 and EDCON. We’ll introduce the iExec SDK that allows to execute any legacy applications from Ethereum smart contracts. Using a set of simple CLI tools, developers can register, deploy and administrate their applications in the iExec distributed Cloud. We’ll present examples that explain the solidity smart contract API and illustrate off-chain computations."
+      speakers: "Gilles Fedak"
+      bios: "Gilles Fedak is the leader and co-founder of the iExec project, which aims at building the first blockchain-based decentralized Cloud platform. Before that, Gilles has been researcher in parallel and distributed systems at Inria, France, where he co-authored more than 80 scientific papers."
+      url: "https://www.youtube.com/embed/-lAHW97ps5I"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Introduction to SNARKs"
+      featured: false
+      description: "Blockchains are a hostile world were all information is public and computations are expensive. A technology called zkSNARKs is coming to the rescue: It allows both a tremendous speedup in verifying the correctness of a computation while at the same time it hides the private details from prying eyes. This talk tries to give an idea about how and why it works."
+      speakers: "Christian Reitwiessner"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/jr95o_k_SwI"
+      day: "N/A"
+      room: "N/A"
+      type: Breakout
+    - talk: null
+      title: "Democratizing zk-SNARKs: Improved setup, performance and security"
+      featured: false
+      description: "An overview of the next generation of zk-SNARKs, including a new multi-party computation protocol, new elliptic curves, and the tools for bringing zk-SNARKs into production software."
+      speakers: "Sean Bowe"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/7BxoyEw6LUY"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Parameter Generation"
+      featured: false
+      description: ""
+      speakers: "Andrew Miller"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/3hK2CKEeIMU"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "How does one use a SNARK for something (DSL's/toolsets)"
+      featured: false
+      description: ""
+      speakers: "Jacob Eberhardt"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/lQ7tpus_zZ8"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Scalable, Transparent and Post-quantum Secure Computationaql Integrity ..."
+      featured: false
+      description: "Scalable, Transparent and Post-quantum Secure Computational Integrity, with applications to Crypto-currencies\n\nZero Knowledge (ZK) proofs are currently used to enhance privacy and fungibility in Zcash, and could potentially be used to solve crypto-currency scalability problems.\n\nThis talk describes recent progress towards, and applications of, scalable and transparent zero knowledge proofs, whose setup requires only a public random string."
+      speakers: "Prof. Ben-Sasson Eli"
+      bios: "Prof. Ben-Sasson Eli, Technion Israel Institute of Technology, Faculty of Computer Science\n\nJoint work with Iddo Bentov, Ynon Horesh and Michael Riabzev"
+      url: "https://www.youtube.com/embed/bhUXa0C8Ybc"
+      day: "N/A"
+      room: "N/A"
+      type: Breakout
+    - talk: null
+      title: "Secure Decentralized Oracles: Applying Intel SGX and TownCrier to external data..."
+      featured: false
+      description: "We will cover the need for secure and maximally decentralized oracles for Ethereum smart contracts. The focus of the presentation will be on how allowing data providers, payment providers, and various API-based services to be accessed by Ethereum smart contracts through a decentralized oracle network can greatly expand functionality, while maintaining the key security guarantees of smart contracts. We’ll focus on how TownCrier’s approach to implementing Intel SGX enables third party oracles to be provably secure, as is already being done on production using the currently live TownCrier implementation. We’ll also look at how oracle operations and off-chain computation can be written in solidity to be run entirely in an SGX Enclave, allowing provable off-chain computation and retrieval of external resources. Smart contracts need to retain a high level of security in both the network they run on, and the inputs/outputs they rely on, we aim to show how decentralized oracle networks, TownCrier’s approach to using Intel SGX for secure external access , and off-chain computation using solidity in Intel SGX can together allow smart contracts to remain secure as they access key resources outside the Ethereum network."
+      speakers: "Sergey Nazarov"
+      bios: "CEO of SmartContract.com and the ChainLink Network"
+      url: "https://www.youtube.com/embed/Zu6uZ1PnRU4"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Snopes Meets mechanical Turk on a Blockchain: Reality Keys, On-chain Truth Verification and Subjectivocracy"
+      featured: false
+      description: "The next-generation smart contract oracle platform by Reality Keys crowd-sources the process of data gathering and fact checking with an incentive-based system on the Ethereum blockchain. Our system is designed allow contract authors to fetch arbitrary structured or unstructured factual data, without relying on a pre-existing trusted off-chain data source."
+      speakers: "Edmund Edgar"
+      bios: "Founder, Reality Keys"
+      url: "https://www.youtube.com/embed/I_69IxjIgqU"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Breakout Session on P2P Technologies Introductory Remarks"
+      featured: false
+      description: "This special breakout session allows us to go more in-depth, investigating the interplay of blockchains and p2p communications. We begin with talks about Swarm’s accounting system used to incentivise generic service networks, Swarm’s routing network used for direct node-to-node communication and we will have a demonstration of the swarm network used for p2p live video streaming. We will address questions of scalability, of on-chain vs off-chain service provision and we will outline a general development roadmap for these types of services as we work towards realising the web3 vision."
+      speakers: "N/A"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/taVNa1fq83c"
+      day: "N/A"
+      room: Breakout
+      type: Breakout
+    - talk: null
+      title: "Swap, Swear and Swindle Games"
+      featured: false
+      description: "Inspired by state channels, SWARM introduces a secure and scalable off-chain framework to support generic incentive systems playfully called ‘swap, swear and swindle’ games. The system relies on three pillars: communication, registration, and enforcement. (1) Peers engage in a local exchange (p2p communication) of data, promises, payments, messages, requests, deliveries etc. (swap) Peers will relay data between remote non-connected nodes to extend the scope of the network.(2) Participants pay a security deposit to a smart contract to back their promise of delivery and quality guarantees (swear). (3) Rules of service provision are enforced by a courtroom making nodes accountable in case of non-compliance (swindle)."
+      speakers: "N/A"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/9Cgyhsjsfbg"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "How Truebit Can Leverage PoW + PoA"
+      featured: false
+      description: "The proof-of-work blockchain was the first practical solution to the double-spend problem of decentralized money. The biggest issue since has been scalability. It is possible for a new kind of architecture to use Ethereum mainnet to define transaction ordering while transacting on a separate proof-of-authority Database. Truebit ensures correctness by creating the threat of mainnet validation."
+      speakers: "N/A"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/QSpaN0i8lQ4"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Web3 Goes Live -- Livestreaming Video on the Peer-to-Peer Internet"
+      featured: false
+      description: "The web3 stack offers solutions for payment, computation, identity, and storage, but the live media layer is missing. Built on top of Swarm and an open media server called LPMS, the Livepeer project incentivizes live video transcoding and distribution in a fully decentralized way. This enables any user to send a live stream into the network and ensure it can reach all the devices on the planet at any connection speed. This talk will cover the incentives for running nodes, and the solution for scalable verification of transcoding work designed to be built on top of Truebit."
+      speakers: "N/A"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/X4sK2hqz5kU"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Streamr stack for P2P data transport and off-chain analytics"
+      featured: false
+      description: "This talk is a technical overview of the Streamr decentralized stack which makes it possible for machines and connected devices to share and monetize real-time data. The stack is built on top of Ethereum smart contracts which are used for access control, permissioning, and secure licensing payments. Data transport is implemented by a P2P network where nodes are incentivized by payments in DATAcoin, the native token of the project. The network implements scalable, robust and low-latency pub/sub messaging infrastructure for data delivery. The layer above consists of data market where data streams can be showcased and shared between producers and consumers who transact using DATAcoin. Streamr Engine is an event processing and analytics layer capable of reacting to incoming real-time data and taking action. Finally, there is a graphical a visual programming environment where users can easily create data processing systems by connecting modules in a drag-and-drop fashion. There’s a number of interesting technical questions on how to achieve sufficient throughput and scalability and how to ensure node coordination in the P2P network."
+      speakers: "Henri Pihkala"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/40TWO0xL0BA"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Self-sovereign BigchainDB data injection in smart contracts through the Jolocom Identity Gateway"
+      featured: false
+      description: "We’ll be exploring integrations of a decentralized datastore such as BigchainDB in Ethereum. Using the Jolocom gateway data is oraclized from the Interplanetary Database (IPDB/BigchainDB) into smart contracts. Trust is enforced by token curated whitelisting of the oracle sources."
+      speakers: "Dimitri De Jonghe, Eugeniu Rusu"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/8K-BDlsx8KQ"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "PSS  -  Node to node Communication Over Swarm"
+      featured: false
+      description: "Swarm provides a generic node-to-node messaging protocol, called PSS. It uses the Ethereum peer to peer networking stack offering authenticated, encrypted RLP-serialised transport. It relies on swarm’s kademlia overlay topology for efficient routing. PSS uses whisper envelopes (cryptography subsystem) to offer end-to-end encryption for privacy and allows partial addressing to allow client configurable recipient anonymity. By virtue of message relaying, it offers full sender anonymity. PSS provides a way for protocols to be mounted over arbitrary subset of non-directly connected nodes and allows UDP-like protocols running on such sub-networks."
+      speakers: "Louis Holbrook"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/fNlO5XJv9mI"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Workplace Messaging Using PSS"
+      featured: false
+      description: "Workplace messaging today presents various trade-offs. Companies want their communications to be secure, convenient and real-time while retaining control of their own data, without having to rely on any third party infrastructure or proprietary software. Beyond mere encryption, companies also want stronger protection against surveillance by government or competitors. Mainframe is developing an open-source messaging platform that leverages swarm/pss to allow companies to achieve these goals. We will briefly discuss the challenges and opportunities of decentralized messaging in the workplace and then present a demonstration of cross-platform group chat over pss."
+      speakers: "Shane Howley, Carl Youngblood"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/ZG9Ql0Ms9wE"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "Flying Carpet : P2P Decentralised Autonomous Transportation Network."
+      featured: false
+      description: "A Swarm transportation system that everyone can use, no one can control or shut it down."
+      speakers: "Julien Bouteloup"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/ofIRWYw360s"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "How to design Auditable Offchain computations via Oraclize"
+      featured: false
+      description: "While implementing complex blockchain applications, developers have to face a variety of scalability limitations proper of decentralized networks. Delegating some executions to a provably-secure offchain context helps to address some of them. The Oraclize auditable computation datasource is a way to execute any piece of code in a provably fully locked down environment. Thanks to various sandboxing techniques (i.e.: those used by the authenticity proofs), it becomes possible to execute the code one and to verify its output easily later on, even straight on the EVM."
+      speakers: "Thomas Bertani"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/T7g8UcLlNm4"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "POT and Databases in Swarm"
+      featured: false
+      description: ""
+      speakers: "Viktor Tron"
+      bios: "N/A"
+      url: "https://www.youtube.com/embed/YH-5fpUlqNs"
+      day: "N/A"
+      room: "N/A"
+      type: Talk
+    - talk: null
+      title: "The Colony Reputation Protocol: a verifiable"
+      featured: false
+      description: "Colony relies on a broad reputation system to facilitate governance and decision making. The reputation system we are building is far more complex than anything that could be done in a smart contract alone. Instead the system overcomes scalability/gas cost limitations with off-chain computation of the reputation scores which are provable on-chain to the contract. In this talk we will describe how this off-chain calculation with on-chain verifiability is designed and game theoretically secured. We will also describe what kind of actions in a Colony will earn you reputation, and how reputation is used in our collective decision making process."
+      speakers: "Aron Fischer"
+      bios: "Swarm team R&D"
+      url: "https://www.youtube.com/embed/pdK5fTo0N90"
+      day: "N/A"
+      room: "N/A"
       type: Talk
 - devcon: devcon-4
   devconNum: 4
