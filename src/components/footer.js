@@ -28,6 +28,12 @@ const Footer = () => (
           Twitter
         </a>
       </li>
+
+      <li className={css.link}>
+        <a className={css.footerLink} href="https://ethereum.foundation">
+          EF
+        </a>
+      </li>
     </ul>
 
     {/* Legal */}
