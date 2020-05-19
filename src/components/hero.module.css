@@ -9,12 +9,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: lightgray;
   height: 85vh;
-  background-position: center;
-  background-size: cover;
   padding: 24px;
   margin-bottom: 8px;
+}
+
+.announcement {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .announcement {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 320px) {

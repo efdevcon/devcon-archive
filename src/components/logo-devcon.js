@@ -9,9 +9,9 @@ import "../index.css";
 const LogoDevcon = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "dc_archive_logo.png" }) {
+      file(relativePath: { eq: "dc6.png" }) {
         childImageSharp {
-          fluid(maxWidth: 400) {
+          fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
