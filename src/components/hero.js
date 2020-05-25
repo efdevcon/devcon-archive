@@ -54,10 +54,10 @@ const Hero = () => {
   ];
 
   const getBackgroundPosition = isMobile
-    ? "center 10%, bottom center, 100% bottom"
+    ? `50% top, bottom center, 100% bottom`
     : "bottom 100%, top center, bottom";
   const getBackgroundSize = isMobile
-    ? "cover, cover, cover"
+    ? "200%, cover, cover"
     : "cover, 140%, 100%";
 
   return (
@@ -75,11 +75,12 @@ const Hero = () => {
       <div className={css.logoDivider}>
         <LogoDevcon />
       </div>
+      <h3 className={css.announcement}>COLOMBIA 2021</h3>
       <p className={css.heroText}>
         The annual conference for all Ethereum developers, researchers,
         thinkers, and makers.
       </p>
-      <h3 className={css.announcement}>COLOMBIA 2021</h3>
+
       {/* <div className={css.buttonContainer}>
         <Button devconNum="default" link="https://devcon.org">
           Devcon6 Info »{" "}

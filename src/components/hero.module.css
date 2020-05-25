@@ -1,35 +1,19 @@
 @import "../index.css";
 
-.logoDivider {
-  margin-top: 60px;
-}
-
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 85vh;
-  padding: 24px;
+  padding: 8px;
   margin-bottom: 8px;
 }
 
 .announcement {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: 300;
   text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-  .announcement {
-    font-size: 3rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .hero {
-    height: 96vh;
-  }
 }
 
 .heroText {
@@ -38,11 +22,24 @@
   text-align: center;
   color: #26293b;
   font-size: 16px;
-  margin-bottom: 20px;
 }
 
-@media screen and (max-width: 320px) {
-  .buttonContainer {
-    margin-bottom: 8px;
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 55vh;
+  }
+
+  .announcement {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .hero {
+    height: 75vh;
+  }
+
+  .announcement {
+    font-size: 2rem;
   }
 }
