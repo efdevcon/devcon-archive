@@ -1,28 +1,17 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+
+import Logo from "../images/dc6_logo.svg";
 
 /* CSS */
 import css from "./logo-devcon.module.css";
 import "../index.css";
 
 const LogoDevcon = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "dc6.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 800) {
-            ...GatsbyImageSharpFluid_tracedSVG
-          }
-        }
-      }
-    }
-  `);
   return (
     <div className={css.logoContainer}>
-      <Img
+      <img
         className={css.logo}
-        fluid={data.file.childImageSharp.fluid}
+        src={Logo}
         alt="Devcon Logo"
       />
     </div>
