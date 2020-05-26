@@ -81,7 +81,7 @@ const Hero = () => {
         thinkers, and makers.
       </p>
       <p className={css.heroText}>
-        See recent updates on our <a href="#">blog</a>
+        See recent updates on our <a href="#">Devcon blog</a>
       </p>
 
       {/* <div className={css.buttonContainer}>
