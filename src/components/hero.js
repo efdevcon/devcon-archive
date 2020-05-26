@@ -80,6 +80,9 @@ const Hero = () => {
         The annual conference for all Ethereum developers, researchers,
         thinkers, and makers.
       </p>
+      <p className={css.heroText}>
+        See recent updates on our <a href="#">blog</a>
+      </p>
 
       {/* <div className={css.buttonContainer}>
         <Button devconNum="default" link="https://devcon.org">
