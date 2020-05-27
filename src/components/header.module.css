@@ -3,44 +3,45 @@
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px;
   position: absolute;
   top: 0;
   background: rgba(0, 0, 0, 0); 
   z-index: 2;
-  width: 96%;
-}
-
-.headerItem {
-  margin-right: 32px;
-}
-
-.homeLink {
-  margin-right: auto;
-}
-
-@media screen and (max-width: 550px) {
-  .homeLink {
-    display: none;
-  }
+  width: 90%;
 }
 
 .headerLink {
   color: #26293B;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: .9rem;
+  cursor: pointer;
 }
 
 .logoContainer {
-  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  font-size: .9rem;
+  font-weight: 600;
 }
 
 .efLogo {
-  min-width: 160px;
-  margin: auto 2em; 
+  float: left;
+  width: 40px;
+  padding: 8px;
+}
+
+@media screen and (min-width: 411px) {
+  .headerLink {
+    font-size: 1.1rem;
+  }
+  .logoContainer {
+    font-size: 1.1rem;
+  }
 }
 
 .colorWhite {
