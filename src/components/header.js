@@ -11,7 +11,7 @@ const Header = props => {
       <a
         className={`${css.headerLink} ${
           props.color === "white" ? css.colorWhite : css.colorBlack
-        }`}
+        } ${css.headerLogo}`}
         href="https://archive.devcon.org"
       >
         <div className={css.logoContainer}>
@@ -23,7 +23,7 @@ const Header = props => {
         <a
           className={`${css.headerLink} ${
             props.color === "white" ? css.colorWhite : css.colorBlack
-          }`}
+          } ${css.ethereumLink}`}
           href="https://ethereum.org"
         >
           Ethereum.org
@@ -33,7 +33,7 @@ const Header = props => {
         <a
           className={`${css.headerLink} ${
             props.color === "white" ? css.colorWhite : css.colorBlack
-          }`}
+          } ${css.blogLink}`}
           href="https://blog.ethereum.org/category/devcon/"
         >
           Blog

@@ -35,6 +35,11 @@
   padding: 8px;
 }
 
+.colorWhite {
+  color: white;
+  text-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
 @media screen and (min-width: 411px) {
   .headerLink {
     font-size: 1.1rem;
@@ -44,7 +49,17 @@
   }
 }
 
-.colorWhite {
-  color: white;
-  text-shadow: 0 0 20px rgba(0,0,0,0.8);
+@media screen and (min-width: 768px) {
+  .header {
+    justify-content: flex-end;
+  }
+  .headerLogo {
+    margin-right: auto;
+  }
+  .ethereumLink {
+    margin-right: 16px;
+  }
+  .blogLink {
+    margin-left: 16px;
+  }
 }

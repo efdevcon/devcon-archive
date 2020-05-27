@@ -7,6 +7,14 @@
   box-sizing: border-box;
 }
 
+/* Unavailable in Safari, and results in buggy scroll behavior,
+ * so we use a support query */
+@supports (scroll-behavior: smooth) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 body {
   margin: 0 auto;
   font-family: 'Work Sans', sans-serif;

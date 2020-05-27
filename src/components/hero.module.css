@@ -5,9 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  min-height: 65vh;
   padding: 8px;
-  margin-bottom: 8px;
 }
 
 .heroText {
@@ -20,16 +19,21 @@
 
 .blogLink {
   color: #1962AE;
+  text-decoration: none;
 }
 
-@media screen and (min-width: 411px) {
+.blogLink:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
   .hero {
-    height: 60vh;
+    min-height: 90vh;
   }
 }
 
 @media screen and (min-width: 1080px) {
   .hero {
-    height: 75vh;
+    min-height: 80vh;
   }
 }

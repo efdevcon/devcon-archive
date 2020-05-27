@@ -1,0 +1,27 @@
+@import "../index.css";
+
+.anchorLink {
+  text-decoration: none;
+}
+
+.anchorLink:active {
+  text-decoration: none;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #26293b;
+  margin-bottom: 8px;
+}
+
+.arrow {
+  width: 48px;
+  padding-right: 27px;
+}
+
+.dividerText {
+  color: white;
+}
