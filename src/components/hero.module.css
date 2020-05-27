@@ -10,37 +10,22 @@
   margin-bottom: 8px;
 }
 
-.announcement {
-  font-size: 1.3rem;
-  font-weight: 300;
-  text-align: center;
-  color: #25293b;
-}
-
 .heroText {
   max-width: 40ch;
-  font-weight: normal;
+  font-weight: 500;
   text-align: center;
   color: #26293b;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 411px) {
   .hero {
-    height: 55vh;
-  }
-
-  .announcement {
-    font-size: 1.6rem;
+    height: 60vh;
   }
 }
 
 @media screen and (min-width: 1080px) {
   .hero {
     height: 75vh;
-  }
-
-  .announcement {
-    font-size: 2rem;
   }
 }
