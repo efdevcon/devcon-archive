@@ -8,9 +8,11 @@ import Divider from "../components/divider";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Hero from "../components/hero";
+import SEO from "../components/SEO";
 
 const Index = () => (
   <div className="home">
+    <SEO title="Home" />
     <Header />
 
     <Hero />
