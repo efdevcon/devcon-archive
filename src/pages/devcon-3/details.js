@@ -11,7 +11,7 @@ import SEO from "../../components/SEO";
 
 const Devcon3Details = () => (
   <div>
-    <SEO title="Devcon 3 Details"/>
+    <SEO title="Devcon 3 Details" />
     <Details number="3" location="Cancún, Mexico" date="Nov 1 - 4, 2017" />
   </div>
 );
