@@ -8,12 +8,6 @@ const Footer = () => (
   <footer className={css.footer}>
     {/* EF Links */}
     <ul className={css.row}>
-      {/*<li className={css.link}>
-        <a className={css.footerLink} href="https://devcon.org">
-          Devcon
-        </a>
-      </li> */}
-
       <li className={css.link}>
         <a
           className={css.footerLink}

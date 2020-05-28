@@ -9,15 +9,16 @@ import "../index.css";
 import BackgroundImage from "gatsby-background-image";
 
 /* Components */
-// import Button from "./button";
 import LogoDevcon from "./logo-devcon";
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "devcon_archive_hero_background.jpeg" }) {
+      file(
+        relativePath: { eq: "devcon-bogota-section-design-background.jpg" }
+      ) {
         childImageSharp {
-          fluid(maxWidth: 1200) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -30,6 +31,11 @@ const Hero = () => {
       fluid={data.file.childImageSharp.fluid}
       className={css.hero}
       Tag="section"
+      style={{
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "0 100%",
+        backgroundSize: "cover",
+      }}
     >
       <div className={css.logoDivider}>
         <LogoDevcon />
@@ -38,11 +44,9 @@ const Hero = () => {
         The annual conference for all Ethereum developers, researchers,
         thinkers, and makers.
       </p>
-      {/* <div className={css.buttonContainer}>
-        <Button devconNum="default" link="https://devcon.org">
-          Devcon6 Info »{" "}
-        </Button>
-      </div> */}
+      <p className={css.heroText}>
+        See recent updates on our <a href="https://blog.ethereum.org/2020/05/28/devcon-hacia-colombia-en-2021" className={css.blogLink}>Devcon blog</a>
+      </p>
     </BackgroundImage>
   );
 };

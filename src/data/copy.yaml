@@ -6,22 +6,22 @@ devcon0:
   copy: 'It all began in Berlin. Long prior to the launch of Ethereum, the earliest builders and co-founders gathered in Kreuzberg in late November of 2014 to outline their work and designs for the future of Ethereum at a meetup called "ÐΞVcon-0".'
   readMoreLink: 'https://blog.ethereum.org/2014/12/05/dξvcon-0-recap/'
 devcon1: 
-  header: "DΞVCON1"
+  header: "DΞVCON 1"
   location: "London, United Kingdom"
   date: "Nov 9 - 13, 2015"
-  copy: "Only a few months after Ethereum came to life, DΞVCON1 was held in London in November of 2015. Presenters remained hard at work on each piece of the original Ethereum roadmap, early dApp teams took the stage, and supporters teased the early industry adoption that was to arrive soon."
+  copy: "Only a few months after Ethereum came to life, DΞVCON 1 was held in London in November of 2015. Presenters remained hard at work on each piece of the original Ethereum roadmap, early dApp teams took the stage, and supporters teased the early industry adoption that was to arrive soon."
   readMoreLink: ''
 devcon2: 
-  header: "Devcon2"
+  header: "Devcon 2"
   location: "Shanghai, China"
   date: "Sep 19 - 21, 2016"
-  copy: "The start of Devcon2 came alongside one of the most (in)famous moments in Ethereum's early history as a set of Denial of Service attacks were launched against the network just hours before the event was set to begin. With many of the most formidable builders in the ecosystem gathered together in Shanghai, China in September of 2016, they planned emergency upgrades backstage to restore full functionality to the network, before stepping forward only minutes and hours later to speak to the future of the network on stage."
+  copy: "The start of Devcon 2 came alongside one of the most (in)famous moments in Ethereum's early history as a set of Denial of Service attacks were launched against the network just hours before the event was set to begin. With many of the most formidable builders in the ecosystem gathered together in Shanghai, China in September of 2016, they planned emergency upgrades backstage to restore full functionality to the network, before stepping forward only minutes and hours later to speak to the future of the network on stage."
   readMoreLink: ''
 devcon3:
-  header: "Devcon3"
+  header: "Devcon 3"
   location: "Cancún, Mexico"
   date: "Nov 1 - 4, 2017"
-  copy: 'In many ways, Devcon3 was a celebration held around "Dio de Los Muertos" and Halloween in Cancun, Mexico in October of 2016. It was the largest ever Ethereum gathering at the time, with just under 2000 attending in a year of unprecedented growth in terms of network use, adoption and progress.'
+  copy: 'In many ways, Devcon 3 was a celebration held around "Dio de Los Muertos" and Halloween in Cancun, Mexico in October of 2016. It was the largest ever Ethereum gathering at the time, with just under 2000 attending in a year of unprecedented growth in terms of network use, adoption and progress.'
   readMoreLink: ''
 devcon4:
   header: "Devcon iv."
@@ -30,8 +30,8 @@ devcon4:
   copy: "Devcon iv brought Ethereum's ecosystem and family back to Europe with a 2018 event at the Prague Convention Center in the Czech Republic (Czechia). With 3,000 strong in attendance, Devcon iv was filled with talks, experiences, teams from a matured application ecosystem, and more enterprise support than ever before. The week's expansive content, which was featured across on 5+ stages, can be found here."
   readMoreLink: ''
 devcon5:
-  header: "Devcon5"
+  header: "Devcon V"
   location: "Osaka, Japan"
   date: "Oct 8 - 11, 2019"
-  copy: "Welcome to Osaka! Devcon was a unique and large gathering in Japan in October of 2019 that featured more content than ever before as the Ethereum ecosystem closed in on the launch of Eth2. In addition to the conference talks, Devcon featured the event's first outdoor stage and experiential Devcon Park area, a powerful open from the City of Osaka, a celebrity appearance by the world’s most well-known dog, Kabosu (the original “Doge”) and so much more."
+  copy: "Welcome to Osaka! Devcon V was a unique and large gathering in Japan in October of 2019 that featured more content than ever before as the Ethereum ecosystem closed in on the launch of Eth2. In addition to the conference talks, Devcon featured the event's first outdoor stage and experiential Devcon Park area, a powerful open from the City of Osaka, a celebrity appearance by the world’s most well-known dog, Kabosu (the original “Doge”) and so much more."
   readMoreLink: ''

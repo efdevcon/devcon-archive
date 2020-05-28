@@ -51,6 +51,9 @@ const Archive = props => {
     <BackgroundImage
       fluid={backgroundFluidMap[props.number]}
       className={`${css.archive} ${backgroundClass}`}
+      style={{
+        backgroundSize: "cover",
+      }}
     >
       <div className={css.tint}></div>
 

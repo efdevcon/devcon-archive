@@ -3,5 +3,11 @@
 }
 
 .logo {
-  min-width: 280px;
+  min-width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    min-width: 600px;
+  }
 }
