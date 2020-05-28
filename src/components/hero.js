@@ -45,7 +45,7 @@ const Hero = () => {
         thinkers, and makers.
       </p>
       <p className={css.heroText}>
-        See recent updates on our <a href="#" className={css.blogLink}>Devcon blog</a>
+        See recent updates on our <a href="https://blog.ethereum.org/2020/05/28/devcon-hacia-colombia-en-2021" className={css.blogLink}>Devcon blog</a>
       </p>
     </BackgroundImage>
   );

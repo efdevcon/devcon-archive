@@ -12,11 +12,11 @@ const Header = props => {
         className={`${css.headerLink} ${
           props.color === "white" ? css.colorWhite : css.colorBlack
         } ${css.headerLogo}`}
-        href="https://archive.devcon.org"
+        href="/"
       >
         <div className={css.logoContainer}>
           <img className={css.efLogo} src={Logo} alt="Eth Logo" />
-          <span className="logoText">Devcon</span>
+          <span className="logoText">Devcon Archive</span>
         </div>
       </a>
       <div className={css.headerItem}>

@@ -1,6 +1,6 @@
 [build]
   base = "/"
-  publish = "public"
+  publish = "public/"
   command = "gatsby build"
 
 [[plugins]]
