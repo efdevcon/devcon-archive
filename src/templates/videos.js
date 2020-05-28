@@ -10,6 +10,7 @@ import ArchiveHero from "../components/archive_hero";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Navbar from "../components/navbar";
+import SEO from "../components/SEO";
 
 const Videos = ({ pageContext }) => {
   /* Pagination logic */
@@ -60,6 +61,8 @@ const Videos = ({ pageContext }) => {
 
   return (
     <div className={css.videoPage}>
+      {/* TODO Specify Devcon */}
+      <SEO title="Devcon Videos" />
       <Header color="white" />
       <ArchiveHero
         number={pageContext.devconNum}
