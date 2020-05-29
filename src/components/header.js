@@ -16,7 +16,7 @@ const Header = props => {
       >
         <div className={css.logoContainer}>
           <img className={css.efLogo} src={Logo} alt="Eth Logo" />
-          <span className="logoText">Devcon Archive</span>
+          <span className="logoText">Devcon</span>
         </div>
       </a>
       <div className={css.headerItem}>
