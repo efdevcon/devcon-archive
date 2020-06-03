@@ -3,6 +3,7 @@ module.exports = {
     title: `Devcon Archive`,
     description: `The Devcon Archive serves as a collection of videos of keynotes, workshops, and other experiences available in one place`,
     author: `@pauljickling, @ev`,
+    image: 'https://archive.devcon.org/images/seo_image.jpg',
   },
   plugins: [
     `gatsby-transformer-sharp`,
