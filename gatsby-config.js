@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Devcon Archive`,
-    description: `The Devcon Archive serves as a collection of videos of keynotes, workshops, and other experiences all into playlists that are available in one place`,
+    description: `The Devcon Archive serves as a collection of videos of keynotes, workshops, and other experiences available in one place`,
     author: `@pauljickling, @ev`,
   },
   plugins: [
