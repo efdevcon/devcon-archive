@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
 
 /* CSS */
@@ -59,6 +59,24 @@ const Videos = ({ pageContext }) => {
   const days = pageContext.days;
   const rooms = pageContext.rooms;
 
+  /* State */
+  // TODO Update pages based on current filters
+  // const [pages, setCurrentPages] = useState(pageContext.numPages);
+  const [filteredVideos, setFilteredVideos] = useState(pagedData);
+
+  /* Filter Function */
+  function applyFilter(filterType, filter) {
+    if (filter) {
+      let filteredData = [];
+      for (let i of data) {
+        if (i[filterType] === filter) {
+          filteredData.push(i);
+        }
+      }
+      setFilteredVideos(filteredData);
+    }
+  };
+
   return (
     <div className={css.videoPage}>
       {/* TODO Specify Devcon */}
@@ -71,52 +89,85 @@ const Videos = ({ pageContext }) => {
       />
       <Navbar devcon={`devcon-${pageContext.devconNum}`} />
       <main>
-        {/*<div className={css.filters}>
+        <div className={css.filters}>
           <div>
             <span>Days: </span>
-            <span>All </span>
-            {days.map(day => (
-              <span> | {day}</span>
+            <span>
+              <button
+                onClick={() => applyFilter("day", "")}
+                className={css.filterButton}
+              >
+                All{" "}
+              </button>
+            </span>
+            {days.map((day, index) => (
+              <span key={index}>
+                {" "}
+                |{" "}
+                <button
+                  onClick={() => applyFilter("day", day)}
+                  className={css.filterButton}
+                >
+                  {day}
+                </button>
+              </span>
             ))}
           </div>
           <div>
             <span>Rooms: </span>
-            <span>All </span>
-            {rooms.map(room => (
-              <span> | {room}</span>
+            <span>
+              <button
+                onClick={() => applyFilter("room", "")}
+                className={css.filterButton}
+              >
+                All{" "}
+              </button>
+            </span>
+            {rooms.map((room, index) => (
+              <span key={index}>
+                {" "}
+                |{" "}
+                <button
+                  onClick={() => applyFilter("room", room)}
+                  className={css.filterButton}
+                >
+                  {room}
+                </button>
+              </span>
             ))}
           </div>
-        </div> */}
-          <div className={css.pagination}>
-            {!isFirst && (
-              <Link className={`${css.pageLink}`} to={prevPage} rel="prev">
-                ← Previous Page
-              </Link>
-            )}
+        </div>
+        <div className={css.pagination}>
+          {!isFirst && (
+            <Link className={`${css.pageLink}`} to={prevPage} rel="prev">
+              ← Previous Page
+            </Link>
+          )}
 
-            {multiPages &&
-              pagination.map(num => {
-                return num === "..." ? (
-                  <span>...</span>
-                ) : (
-                  <Link
-                    className={`${css.pageLink} ${css.pages}`}
-                    to={`${pageContext.slug}/${num}`}
-                  >
-                    {num}
-                  </Link>
-                );
-              })}
+          {multiPages &&
+            pagination.map(num => {
+              return num === "..." ? (
+                <span key="ellipsis">...</span>
+              ) : (
+                <Link
+                  key={num}
+                  className={`${css.pageLink} ${css.pages}`}
+                  to={`${pageContext.slug}/${num}`}
+                >
+                  {num}
+                </Link>
+              );
+            })}
 
-            {!isLast && (
-              <Link className={`${css.pageLink}`} to={nextPage} rel="next">
-                Next Page →{" "}
-              </Link>
-            )}
-          </div>
+          {!isLast && (
+            <Link className={`${css.pageLink}`} to={nextPage} rel="next">
+              Next Page →{" "}
+            </Link>
+          )}
+        </div>
         <div className={css.videos}>
           <div className={css.videoGrid}>
-            {pagedData.map((video, index) => (
+            {filteredVideos.map((video, index) => (
               <div className={css.videoCard} key={index}>
                 <div className={css.iframeContainer}>
                   <iframe
@@ -146,9 +197,10 @@ const Videos = ({ pageContext }) => {
             {multiPages &&
               pagination.map(num => {
                 return num === "..." ? (
-                  <span>...</span>
+                  <span key="ellipsis">...</span>
                 ) : (
                   <Link
+                    key={num}
                     className={`${css.pageLink} ${css.pages}`}
                     to={`${pageContext.slug}/${num}`}
                   >
