@@ -79,8 +79,7 @@ const Videos = ({ pageContext }) => {
 
   return (
     <div className={css.videoPage}>
-      {/* TODO Specify Devcon */}
-      <SEO title="Devcon Videos" />
+      <SEO title={`Devcon ${pageContext.devconNum} Videos`} />
       <Header color="white" />
       <ArchiveHero
         number={pageContext.devconNum}
