@@ -56,8 +56,8 @@ const Videos = ({ pageContext }) => {
     (video, index) =>
       index < currentPage * limit && index > (currentPage - 1) * limit - 1
   );
-  const days = pageContext.days;
-  const rooms = pageContext.rooms;
+  const days = pageContext.days.sort();
+  const rooms = pageContext.rooms.sort();
 
   /* State */
   // TODO Update pages based on current filters
@@ -79,6 +79,8 @@ const Videos = ({ pageContext }) => {
 
   return (
     <div className={css.videoPage}>
+      {console.log(days)}
+      {console.log(rooms)}
       <SEO title={`Devcon ${pageContext.devconNum} Videos`} />
       <Header color="white" />
       <ArchiveHero
