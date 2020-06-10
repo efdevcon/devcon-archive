@@ -16,7 +16,7 @@ const Videos = ({ pageContext }) => {
   /* Pagination logic */
   const isFirst = pageContext.currentPage === 1;
   const isLast = pageContext.currentPage === pageContext.numPages;
-  const multiPages = pageContext.numPages > 1;
+  const isMultiPages = pageContext.numPages > 1;
   const prevPage =
     pageContext.currentPage - 1 === 1
       ? pageContext.slug
@@ -50,37 +50,37 @@ const Videos = ({ pageContext }) => {
     prevPointer = pagination[i];
   }
 
-  /* Data from pageContext object */
-  const data = pageContext.devcon;
-  const pagedData = data.filter(
+  /* State */
+  // const [pages, setCurrentPages] = useState(pageContext.numPages);
+  const [filteredVideos, setFilteredVideos] = useState(pageContext.devcon);
+  const [appliedFilters, setAppliedFilters] = useState([]);
+
+  /* filter categories and page filter */
+  const pagedData = filteredVideos.filter(
     (video, index) =>
       index < currentPage * limit && index > (currentPage - 1) * limit - 1
   );
   const days = pageContext.days.sort();
   const rooms = pageContext.rooms.sort();
 
-  /* State */
-  // TODO Update pages based on current filters
-  // const [pages, setCurrentPages] = useState(pageContext.numPages);
-  const [filteredVideos, setFilteredVideos] = useState(pagedData);
 
   /* Filter Function */
-  function applyFilter(filterType, filter) {
+  function updateFilter(filterType, filter) {
     if (filter) {
       let filteredData = [];
-      for (let i of data) {
+      
+      for (let i of filteredVideos) {
         if (i[filterType] === filter) {
           filteredData.push(i);
         }
       }
+
       setFilteredVideos(filteredData);
     }
   };
 
   return (
     <div className={css.videoPage}>
-      {console.log(days)}
-      {console.log(rooms)}
       <SEO title={`Devcon ${pageContext.devconNum} Videos`} />
       <Header color="white" />
       <ArchiveHero
@@ -95,7 +95,7 @@ const Videos = ({ pageContext }) => {
             <span>Days: </span>
             <span>
               <button
-                onClick={() => applyFilter("day", "")}
+                onClick={() => updateFilter("day", "")}
                 className={css.filterButton}
               >
                 All{" "}
@@ -106,7 +106,7 @@ const Videos = ({ pageContext }) => {
                 {" "}
                 |{" "}
                 <button
-                  onClick={() => applyFilter("day", day)}
+                  onClick={() => updateFilter("day", day)}
                   className={css.filterButton}
                 >
                   {day}
@@ -118,7 +118,7 @@ const Videos = ({ pageContext }) => {
             <span>Rooms: </span>
             <span>
               <button
-                onClick={() => applyFilter("room", "")}
+                onClick={() => updateFilter("room", "")}
                 className={css.filterButton}
               >
                 All{" "}
@@ -129,7 +129,7 @@ const Videos = ({ pageContext }) => {
                 {" "}
                 |{" "}
                 <button
-                  onClick={() => applyFilter("room", room)}
+                  onClick={() => updateFilter("room", room)}
                   className={css.filterButton}
                 >
                   {room}
@@ -145,7 +145,7 @@ const Videos = ({ pageContext }) => {
             </Link>
           )}
 
-          {multiPages &&
+          {isMultiPages &&
             pagination.map(num => {
               return num === "..." ? (
                 <span key="ellipsis">...</span>
@@ -168,7 +168,7 @@ const Videos = ({ pageContext }) => {
         </div>
         <div className={css.videos}>
           <div className={css.videoGrid}>
-            {filteredVideos.map((video, index) => (
+            {pagedData.map((video, index) => (
               <div className={css.videoCard} key={index}>
                 <div className={css.iframeContainer}>
                   <iframe
@@ -195,7 +195,7 @@ const Videos = ({ pageContext }) => {
               </Link>
             )}
 
-            {multiPages &&
+            {isMultiPages &&
               pagination.map(num => {
                 return num === "..." ? (
                   <span key="ellipsis">...</span>
