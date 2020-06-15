@@ -114,3 +114,7 @@ The `src` directory is divided into two sub-directories `components` and `pages`
 ### Learning Gatsby
 
 Documentation for Gatsby can be found [here](https://www.gatsbyjs.org/docs/). If you have never used Gatsby before [the tutorial is recommended](https://www.gatsbyjs.org/tutorial/). Also heavily recommended is learning how to use the [image plugin](https://www.gatsbyjs.org/tutorial/gatsby-image-tutorial/)
+
+## Known Issues
+
+The URL route `/devcon-3/videos/1` redirects to `/devcon-3/videos/`. However this redirect is handled via the Netlify `_redirects` file. This means that in development builds going to the old route will result in a 404 error.
