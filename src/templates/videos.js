@@ -50,7 +50,9 @@ const Videos = ({ pageContext }) => {
     prevPointer = pagination[i];
   }
 
-  /* State */
+  /* Params, State */
+  // TODO Make params have possible null value (fails in production otherwise)
+  const params = (new URL(document.location)).searchParams;
   // const [pages, setCurrentPages] = useState(pageContext.numPages);
   const [filteredVideos, setFilteredVideos] = useState(pageContext.devcon);
   const [appliedFilters, setAppliedFilters] = useState([]);
@@ -63,10 +65,13 @@ const Videos = ({ pageContext }) => {
   const days = pageContext.days.sort();
   const rooms = pageContext.rooms.sort();
 
-
   /* Filter Function */
   function updateFilter(filterType, filter) {
     if (filter) {
+      if (appliedFilters.includes(filter) === false) {
+        let newFilter = appliedFilters.concat(filter);
+        setAppliedFilters(newFilter);
+      }
       let filteredData = [];
       
       for (let i of filteredVideos) {
@@ -90,6 +95,7 @@ const Videos = ({ pageContext }) => {
       />
       <Navbar devcon={`devcon-${pageContext.devconNum}`} />
       <main>
+        {/* TODO Create separate filter button components for managing CSS state */}
         <div className={css.filters}>
           <div>
             <span>Days: </span>
@@ -107,7 +113,7 @@ const Videos = ({ pageContext }) => {
                 |{" "}
                 <button
                   onClick={() => updateFilter("day", day)}
-                  className={css.filterButton}
+                  className={`${css.filterButton}`}
                 >
                   {day}
                 </button>
