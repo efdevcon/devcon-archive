@@ -14,7 +14,7 @@ const Header = () => {
       <div>
         <ul className={css.topnav}>
           <li><a href="https://devcon.org">Devcon.org</a></li>
-          <li><a href="mailto:sponsorships@ethereum.org">Sponsorships</a></li>
+          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeRoyRNFIZpccwkPjxDb7xn3l_ditreQb4R5N2IEHCkIKEo1w/viewform">Sponsorships</a></li>
           <li><a href="https://forum.devcon.org/">Forum</a></li>
           <li><a href="https://blog.ethereum.org/category/devcon/">Blog</a></li>
         </ul>
