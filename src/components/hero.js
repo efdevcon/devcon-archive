@@ -1,15 +1,9 @@
 import React from "react";
+import BackgroundImage from "gatsby-background-image";
 import { useStaticQuery, graphql } from "gatsby";
-
-/* CSS */
 import css from "./hero.module.css";
 import "../index.css";
 
-/* HTML */
-import BackgroundImage from "gatsby-background-image";
-
-/* Components */
-import LogoDevcon from "./logo-devcon";
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
@@ -37,16 +31,7 @@ const Hero = () => {
         backgroundSize: "cover",
       }}
     >
-      <div className={css.logoDivider}>
-        <LogoDevcon />
-      </div>
-      <p className={css.heroText}>
-        The annual conference for all Ethereum developers, researchers,
-        thinkers, and makers.
-      </p>
-      <p className={css.heroText}>
-        See recent updates on our <a href="https://blog.ethereum.org/2020/05/28/devcon-hacia-colombia-en-2021" className={css.blogLink}>Devcon blog</a>
-      </p>
+      <h1 className={css.title}>Devcon<br/>Archive</h1>
     </BackgroundImage>
   );
 };

@@ -1,43 +1,23 @@
 import React from "react";
-import Logo from "../images/eth_logo_icon.svg";
+import DevconLogo from "../images/devcon-logo.svg";
 
 /* CSS */
 import css from "./header.module.css";
 import "../index.css";
 
-const Header = props => {
+const Header = () => {
   return (
     <header className={css.header}>
-      <a
-        className={`${css.headerLink} ${
-          props.color === "white" ? css.colorWhite : css.colorBlack
-        } ${css.headerLogo}`}
-        href="/"
-      >
-        <div className={css.logoContainer}>
-          <img className={css.efLogo} src={Logo} alt="Eth Logo" />
-          <span className="logoText">Devcon Archive</span>
-        </div>
+      <a className={`${css.headerLink}`} href="/">
+        <img className={css.logo} src={DevconLogo} alt="Devcon logo" />
       </a>
-      <div className={css.headerItem}>
-        <a
-          className={`${css.headerLink} ${
-            props.color === "white" ? css.colorWhite : css.colorBlack
-          } ${css.ethereumLink}`}
-          href="https://ethereum.org"
-        >
-          Ethereum.org
-        </a>
-      </div>
-      <div className={css.headerItem}>
-        <a
-          className={`${css.headerLink} ${
-            props.color === "white" ? css.colorWhite : css.colorBlack
-          } ${css.blogLink}`}
-          href="https://blog.ethereum.org/category/devcon/"
-        >
-          Blog
-        </a>
+      <div>
+        <ul className={css.topnav}>
+          <li><a href="https://devcon.org">Devcon.org</a></li>
+          <li><a href="mailto:sponsorships@ethereum.org">Sponsorships</a></li>
+          <li><a href="https://forum.devcon.org/">Forum</a></li>
+          <li><a href="https://blog.ethereum.org/category/devcon/">Blog</a></li>
+        </ul>
       </div>
     </header>
   );
