@@ -55,7 +55,7 @@ const Archive = props => {
         backgroundSize: "cover",
       }}
     >
-      <div className={css.tint}></div>
+      <div id={`dc-${props.number}`} className={css.tint}></div>
 
       <div className={css.row}>
         <div className={css.col}>

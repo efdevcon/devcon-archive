@@ -5,61 +5,59 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  top: 0;
-  background: rgba(0, 0, 0, 0); 
-  z-index: 2;
-  width: 90%;
+  width: 100%;
+  background: #fff;
+  padding: 20px 60px;
 }
 
-.headerLink {
-  color: #26293B;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: .9rem;
-  cursor: pointer;
-}
-
-.logoContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 16px;
-  font-size: .9rem;
-  font-weight: 600;
-}
-
-.efLogo {
-  float: left;
-  width: 40px;
-  padding: 8px;
-}
-
-.colorWhite {
-  color: white;
-  text-shadow: 0 0 20px rgba(0,0,0,0.8);
-}
-
-@media screen and (min-width: 411px) {
-  .headerLink {
-    font-size: 1.1rem;
-  }
-  .logoContainer {
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
+@media (max-width: 768px) {
   .header {
-    justify-content: flex-end;
+    padding: 20px 30px;
   }
-  .headerLogo {
-    margin-right: auto;
+}
+
+@media (max-width: 640px) {
+  .header {
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
   }
-  .ethereumLink {
-    margin-right: 16px;
+}
+
+.topnav { 
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.topnav li { 
+  display: inline-flex;
+  margin-right: 36px;
+}
+
+.topnav li:last-child {
+  margin-right: 0;
+}
+
+.topnav li a { 
+  font-size: .9rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.topnav li a:hover { 
+  color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+  .topnav li {
+    margin-right: 24px;
   }
-  .blogLink {
-    margin-left: 16px;
+}
+
+@media (max-width: 640px) {
+  .topnav li {
+    margin-top: 12px;
   }
 }

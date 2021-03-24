@@ -1,28 +1,53 @@
 @import "../index.css";
 
-.anchorLink {
-  text-decoration: none;
-}
-
-.anchorLink:active {
-  text-decoration: none;
-}
-
 .divider {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background-color: #26293b;
-  margin-bottom: 8px;
-  padding: 8px;
+  width: 100%;
+  background: #fff;
+  border-bottom: 2px solid #C4C4C4;
 }
 
-.arrow {
-  width: 48px;
-  padding-right: 27px;
+.tabs { 
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  margin-left: 60px;
 }
 
-.dividerText {
-  color: white;
+@media (max-width: 768px) {
+  .tabs {
+    margin-left: 16px;
+  }
+}
+
+.tabs li { 
+  display: inline-flex;
+  margin-right: 36px;
+}
+
+.tabs li:hover { 
+  -webkit-box-shadow: inset 0px -2px 0px 0px #30354b;
+  -moz-box-shadow: inset 0px -2px 0px 0px #30354b;
+  box-shadow: inset 0px -2px 0px 0px #30354b;
+}
+
+.tabs li:last-child {
+  margin-right: 0;
+}
+
+.tabs li a { 
+  display: block;
+  font-size: .9rem;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .tabs li {
+    margin-right: 24px;
+  }
 }
